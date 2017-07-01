@@ -1,2 +1,2 @@
 # FE
-Just for a job
+Just for a job. HTML+JS+CSS
