@@ -1,21 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test</title>
+	<title>个人项目经验介绍</title>
 	<link href="//cdn.bootcss.com/tether/1.3.6/css/tether.min.css" rel="stylesheet">
         <script src="//cdn.bootcss.com/tether/1.3.6/js/tether.min.js"></script>
 	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
 	<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<style>
+		
+		ul.nav-tabs{
+        width: 140px;
+        margin-top: 20px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+	    }
+	    ul.nav-tabs li{
+	        margin: 0;
+	        border-top: 1px solid #ddd;
+	    }
+	    ul.nav-tabs li:first-child{
+	        border-top: none;
+	    }
+	    ul.nav-tabs li a{
+	        margin: 0;
+	        padding: 8px 16px;
+	        border-radius: 0;
+	    }
+	    ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+	        color: #fff;
+	        background: #0088cc;
+	        border: 1px solid #0088cc;
+	    }
+	    ul.nav-tabs li:first-child a{
+	        border-radius: 4px 4px 0 0;
+	    }
+	    ul.nav-tabs li:last-child a{
+	        border-radius: 0 0 4px 4px;
+	    }
+	    ul.nav-tabs.affix{
+	        top: 30px; 
+	    }
+	   
+	</style>
 </head>
-<body>
-	<button class="btn btn-info">Hello World!</button>
-	<h1>H1标题</h1>
-	<h2>H2标题</h2>
-	<span class="h1">span H1</span>
-	<h2>H2标题<small>副标题</small></h2>
-	<a href="README.md">Read Me</a>
-	<div class="upercase"><mark>东方饭</mark>店对方对方的v从v从vvcvc</div>
-	<p class="text-right text-capitalize">dfd<p>
+<body data-spy="scroll" data-target="#myScrollspy">
+	<div class="container">
+		<div class="jumbotron">
+			<h1>个人项目经验介绍</h1>
+		</div>
+		<div class="row">
+			<div class="col-xs-3" id="myScrollspy">
+				<ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="120">
+					<li class="active"><a href="#sec-one">简介</a></li>
+					<li><a href="#sec-two">蔚蓝网</a></li>
+					<li><a href="#sec-three">耳朵旅行</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-9">	
+				<h2 id="sec-one">个人简介</h2>		
+				<p>
+					个人简介Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elemeLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odiLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.o in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.ntum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
+				</p>
+				<h2  id="sec-two">蔚蓝网</h2>		
+				<p>
+					蔚蓝网Lorem ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum sceleLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.risque non non purus. SuLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.spendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula. dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
+				</p>
+				<h2  id="sec-three">耳朵旅行</h2>		
+				<p>
+					耳朵旅行Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
+				</p>
+			</div>
+			
+		</div>
+	</div>
 </body>
 </html>
