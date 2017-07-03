@@ -1,0 +1,170 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head> 
+<meta charset="utf-8" />  
+<title></title> 
+<link rel="stylesheet" href="./css/reset.css" type="text/css" /> 
+<link rel="stylesheet" href="./css/earJourney.css" type="text/css" /> 
+</head>
+<body>
+
+<header class="headerWrapper">
+	<!--top nav start-->
+	<nav class="navWrapper secondHeader">
+		<div class="nvaInner">
+			<a class="logo" href="./index.html"></a>
+			<a class="indexLink" href="./index.html"></a>
+			<a class="diaryLink" href="./dairy.html"></a>
+			<a class="bookLink" href="book.html"></a>
+			<a class="sinaLink" href="http://weibo.com/earjourney"></a>
+			<span class="linkGap"></span>
+			<a class="weixinLink" href="javascript:;"></a>
+			<!--登录成功如下代码 --
+			<a class="selfHeadLink" href="javascript:;"><img src="./img/temp/user.jpg" /></a>			
+			<span class="selfName">Super Jnlie</span>
+			<form action="" method="post">
+				<input class="searchInput sucSearchInput" type="text" value="输入关键字" />
+				<input class="searchBtn sucSearchBtn" type="submit" value="">
+			</form>
+			-->
+			
+			<!--未登录时如下代码 start-->
+			<form action="" method="post">
+				<input class="searchInput" type="text" value="输入关键字" />
+				<input class="searchBtn" type="submit" value="">
+			</form>
+			<a class="register" href="javascript:;"></a>
+			<a class="login" href="javascript:;"></a>
+			<!--未登录时如下代码 end-->
+			
+		</div>
+	</nav>
+	<!--top nva start-->
+	<div class="maskLayer">	<div>
+</header>
+<!--login dialog start-->
+<div class="loginWrapper">
+	<div class="closeBtn"></div>
+	<div class="page-login">
+		<div class="site-logo">耳朵旅行</div>
+		<div id="login-container">
+			<div class="connection" id="connection">
+				<ul class="openplatform clearfix">
+					<li class="weibo">
+					<a href="#">微博登录</a></li>
+					<li class="qq"><a href="#">QQ登录</a></li>
+				</ul>
+				<div class="tip">使用以上合作网站帐号登录</div>
+				<a class="switch" href="#" onclick="$('#login-container').animate({scrollTop:240},200,function(){$('#user_email').focus()});return false;">用邮箱帐号登录</a>
+			</div>
+			<div id="emaillogin">
+				<form accept-charset="UTF-8" action="/users/sign_in" class="new_user" id="new_user" method="post">
+					<div class="input-row inset-shadow">
+						<label class="email" for="user_email">邮箱</label>
+						<input size="30" type="email">
+					</div>
+					<div class="input-row inset-shadow">
+						<label class="password" for="user_password">密码</label>
+						<input size="30" type="password">
+					</div>
+					<div class="row">
+						<input checked="checked" name="remember" style="margin-right: 5px" type="checkbox" >
+						<label for="user_remember_me">记住登录</label>
+						<input class="btn" name="commit" type="submit" value="登录">
+					</div>
+				</form>
+				<a class="switch" href="#" onclick="$('#login-container').animate({scrollTop:0}	,200);return false;">用社交网站帐号登录</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--login dialog end-->
+
+
+<!--content start-->
+	<div class="joinOutWrapper">
+		<section class="joinUs">
+			<h2 class="joinUsTitle">招贤纳士</h2>
+			<p class="joinUsText">耳朵旅行是一款智能的旅行移动应用。在路上，“耳朵”能根据您的需要为您及时推送各类旅行资讯，让您无需提前做功课、
+			不用再为预定而苦恼，让旅行说走就走。“耳朵”让您可以在观光赏景的同时聆听当地历史人文内涵，打造边听边赏的全新出行体验。带着耳朵去旅行，
+			实现您的极致旅行的全新体验。
+			</p>
+		</section>
+		<section class="joinJob">
+			<h2 class="joinJobTitle">招聘职位</h2>
+			<p class="joinJodText">
+				我们的办公地点在成都市府城大道西段399号，如有兴趣加入，请发简历至<span class="emailColor">ear@beev.cn</span>，并注明招聘职位。
+			</p>
+			<div class="jobLists">
+				<section class="oneJobSection">
+					<h3 class="oneJobTitle">自由撰稿人</h3>
+					<ul class="oneJobUl">
+						穷游？过时了！您旅行，我买单！
+						<li>1.自由撰稿，您认为好的旅行类游记都可以投稿，无其他限制</li>
+						<li>2.游记不低于500字，相关图片不少于10张；按效果计费</li>
+						<li>3.旅行区域优选中国西部地区，其他地区也可以</li>
+						<li>4.如果您足够优秀，您的稿件足够受欢迎，有机会成为我们的签约旅行专栏作家。</li>
+					</ul>
+					<ul class="oneJobUl">
+						待遇：
+						<li>1. 稿酬每件50元起，每次结算。</li>
+						<li>2. 稿件按照阅读量和转发量额外支付稿费50-1000元。</li>
+						<li>应聘请关注微信订阅号：ear-journey</li>
+					</ul>
+				</section>
+				<section class="oneJobSection">
+					<h3 class="oneJobTitle">总编助理</h3>
+					<ul class="oneJobUl">
+						<li>1、能够独立完成资料查阅、采编、选题调研</li>
+						<li>2、能独立完成稿件编辑、配图、终审、修改和校对等工作；</li>
+						<li>3、能够独立完成稿件最终输出，并生成HTML页面</li>
+						<li>4、协助总编辑处理日常工作；</li>
+						<li>5、如果您是微信、新浪微博或其它社交网站的资深用户，有大量粉丝/好友，我们将优先考虑，并提供额外待遇。</li>
+					</ul>
+					<ul class="oneJobUl">
+						待遇：
+						<li>1. 月薪按约稿要求1500-4000元不等，周薪制。</li>
+						<li>2. 稿件按照阅读量额外支付稿费。</li>
+						<li>应聘请联系总编：微信号ear_journey。</li>
+					</ul>
+				</section>
+				<section class="oneJobSection">
+					<h3 class="oneJobTitle">旅行专栏作家</h3>
+					<ul class="oneJobUl">
+						<li>1. 热爱旅行，拥有丰富的自助旅行经验，拥有独立的看法；谈及出游，你是朋友中的意见领袖。</li>
+						<li>2. 热爱创作，对书写有追求，重视细节，渴望创造的内容感动他人。</li>
+						<li>3. 好动也好静，既有团队合作的精神，又有独自深耕细作的韧性是微信、新浪微博或其它社交网站的资深用户，有大量粉丝/好友，善于与人沟通。</li>
+					</ul>
+					<ul class="oneJobUl">
+						待遇：
+						<li>1. 稿费按照约稿要求200-5000元不等，每周至少3次约稿。</li>
+						<li>2. 稿件按照阅读量和转发量额外支付稿费。</li>
+						<li>3. 优秀的作家我们给予充分的创作空间，我们将配备美编、摄影师、创意设计师等团队提供充分支撑。</li>
+						<li>4. 对于好的连载作品，我们可以包装出书，版税提成。</li>
+						<li>应聘请联系总编：微信号ear_journey。</li>
+
+					</ul>
+				</section>
+			</div>
+		</section>
+	</div>
+<!--content end-->
+<footer class="footerWrapper">
+	<div class="footerInner">
+		<div class="footerLink">
+			<a href="./download.html">手机应用</a>|
+			<a href="./templete.html">合作伙伴</a>|
+			<a href="./contactus.html">联系我们</a>|
+			<a href="./guanyu.html">关于我们</a>|
+			<a href="./templete.html">条款</a>|
+			<a href="./joinus.html">招募</a>
+		</div>
+		<p class="copyRight">BEEV Copyright(c)  蜀ICP备14006872号</p>
+	</div>
+</footer>
+</body>
+<script src="./js/jquery-1.11.1.min.js"></script>
+<script src="./js/functions.js"></script>
+<script type="text/javascrīpt">
+</script> 
+</html>

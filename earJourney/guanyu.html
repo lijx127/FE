@@ -1,0 +1,132 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head> 
+<meta charset="utf-8" />  
+<title></title> 
+<link rel="stylesheet" href="./css/reset.css" type="text/css" /> 
+<link rel="stylesheet" href="./css/earJourney.css" type="text/css" /> 
+</head>
+<body>
+
+<header class="headerWrapper">
+	<!--top nav start-->
+	<nav class="navWrapper secondHeader">
+		<div class="nvaInner">
+			<a class="logo" href="./index.html"></a>
+			<a class="indexLink" href="./index.html"></a>
+			<a class="diaryLink" href="./dairy.html"></a>
+			<a class="bookLink" href="book.html"></a>
+			<a class="sinaLink" href="http://weibo.com/earjourney"></a>
+			<span class="linkGap"></span>
+			<a class="weixinLink" href="javascript:;"></a>
+			<img class="twoCode" src="./img/twocode.jpg" />
+			<!--登录成功如下代码 --
+			<a class="selfHeadLink" href="javascript:;"><img src="./img/temp/user.jpg" /></a>			
+			<span class="selfName">Super Jnlie</span>
+			<form action="" method="post">
+				<input class="searchInput sucSearchInput" type="text" value="输入关键字" />
+				<input class="searchBtn sucSearchBtn" type="submit" value="">
+			</form>
+			-->
+			
+			<!--未登录时如下代码 start-->
+			<form action="" method="post">
+				<input class="searchInput" type="text" value="输入关键字" />
+				<input class="searchBtn" type="submit" value="">
+			</form>
+			<a class="register" href="javascript:;"></a>
+			<a class="login" href="javascript:;"></a>
+			<!--未登录时如下代码 end-->
+			
+		</div>
+	</nav>
+	<!--top nva start-->
+	<div class="maskLayer">	<div>
+</header>
+<!--login dialog start-->
+<div class="loginWrapper">
+	<div class="closeBtn"></div>
+	<div class="page-login">
+		<div class="site-logo">耳朵旅行</div>
+		<div id="login-container">
+			<div class="connection" id="connection">
+				<ul class="openplatform clearfix">
+					<li class="weibo">
+					<a href="#">微博登录</a></li>
+					<li class="qq"><a href="#">QQ登录</a></li>
+				</ul>
+				<div class="tip">使用以上合作网站帐号登录</div>
+				<a id="J_emailLogin" class="switch" href="#">用邮箱帐号登录</a>
+			</div>
+			<div id="emaillogin">
+				<form accept-charset="UTF-8" action="/users/sign_in" class="new_user" id="new_user" method="post">
+					<div class="input-row inset-shadow">
+						<label class="email" for="user_email">邮箱</label>
+						<input size="30" type="email">
+					</div>
+					<div class="input-row inset-shadow">
+						<label class="password" for="user_password">密码</label>
+						<input size="30" type="password">
+					</div>
+					<div class="row">
+						<input checked="checked" name="remember" style="margin-right: 5px" type="checkbox" >
+						<label for="user_remember_me">记住登录</label>
+						<input class="btn" name="commit" type="submit" value="登录">
+					</div>
+				</form>
+				<a id="J_socialLogin" class="switch" href="#">用社交网站帐号登录</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--login dialog end-->
+
+
+<!--content start-->
+	<section class="aboutSection">
+		<h2 class="aboutTitle">关于耳朵旅行</h2>
+		<h3 class="aboutSmallTitle">听无界 , 行无疆 , 带着耳朵去旅行.</a></h3>
+		<div class="aboutLogoWrapper">
+			<div class="aboutLogo"></div>
+			<p class="aboutFirstP">生活是一场修行，短的是旅行，长的是人生。 旅行，能让你看到更好的自己。 出发吧，一个人或和
+			朋友、伴侣，去探索这个世界，带着你的故事回来。 在路上，请聆听我们的声音，我们是你忠实的引路人。</p>
+			<p class="aboutSecondP">耳朵旅行，用声音记录，分享，体验你最美的旅行。无论你开车，徒步，还是骑行，都可以来一次声色飞扬的另类旅行。 
+			</br>
+			带着耳朵去旅行，用声音诉说当地俚味十足、谐趣横生的市井文化，听南人与北人的各式性情张扬。 
+			</br>
+			带着耳朵去旅行，记录你探索世界的轨迹，分享旅途中的点点滴滴，在这里串成最美的记忆，照耀日后荒芜的岁月。
+			</br></br>
+			耳朵旅行是一款智能的旅行移动应用。在路上，“耳朵”能根据您的需要为您及时推送各类旅行资讯，让您无需提前做功课、不用再为预定而苦恼，
+			让旅行说走就走。“耳朵”让您可以在观光赏景的同时聆听当地历史人文内涵，打造边听边赏的全新出行体验。带着耳朵去旅行，实现您的极致旅行的
+			全新体验。</P>
+		</div>
+		<div class="aboutTeam">
+			<div class="aboutTeamLogo"></div>
+			<p class="aboutThirdP">
+				旅行家，造梦者，玩乐派。</br>
+				我们，是一群追求极致旅行体验的极客。 在路上，是我们的标签； 成就您说走就走的旅行，是我们的梦想。 为了远方，我们披星戴月，在所不辞。
+				跟着我们，行万里路，听万卷书。</br>
+				每个人，都是耳朵旅行家。 
+			</p>
+		</div>
+	</section>
+<!--content end-->
+<footer class="footerWrapper">
+	<div class="footerInner">
+		<div class="footerLink">
+			<a href="./download.html">手机应用</a>|
+			<a href="./templete.html">合作伙伴</a>|
+			<a href="./contactus.html">联系我们</a>|
+			<a href="./guanyu.html">关于我们</a>|
+			<a href="./templete.html">条款</a>|
+			<a href="./joinus.html">招募</a>
+		</div>
+		<p class="copyRight">BEEV Copyright(c)  蜀ICP备14006872号</p>
+	</div>
+</footer>
+</body>
+<script src="./js/jquery-1.11.1.min.js"></script>
+<script src="./js/functions.js"></script>
+<script type="text/javascrīpt">
+</script> 
+</html>

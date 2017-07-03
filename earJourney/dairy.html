@@ -1,0 +1,168 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head> 
+<meta charset="utf-8" />  
+<title></title> 
+<link rel="stylesheet" href="./css/reset.css" type="text/css" /> 
+<link rel="stylesheet" href="./css/earJourney.css" type="text/css" /> 
+</head>
+<body>
+
+<header class="headerWrapper">
+	<!--top nav start-->
+	<nav class="navWrapper secondHeader">
+		<div class="nvaInner">
+			<a class="logo" href="./index.html"></a>
+			<a class="indexLink" href="./index.html"></a>
+			<a class="diaryLink" href="./dairy.html"></a>
+			<a class="bookLink" href="book.html"></a>
+			<a class="sinaLink" href="http://weibo.com/earjourney"></a>
+			<span class="linkGap"></span>
+			<a class="weixinLink" href="javascript:;"></a>
+			<img class="twoCode" src="./img/twocode.jpg" />
+			<!--登录成功如下代码 --
+			<a class="selfHeadLink" href="javascript:;"><img src="./img/temp/user.jpg" /></a>			
+			<span class="selfName">Super Jnlie</span>
+			<form action="" method="post">
+				<input class="searchInput sucSearchInput" type="text" value="输入关键字" />
+				<input class="searchBtn sucSearchBtn" type="submit" value="">
+			</form>
+			-->
+			
+			<!--未登录时如下代码 start-->
+			<form action="" method="post">
+				<input class="searchInput" type="text" value="输入关键字" />
+				<input class="searchBtn" type="submit" value="">
+			</form>
+			<a class="register" href="javascript:;"></a>
+			<a class="login" href="javascript:;"></a>
+			<!--未登录时如下代码 end-->
+			
+		</div>
+	</nav>
+	<!--top nva start-->
+	<div class="maskLayer">	<div>
+</header>
+<!--login dialog start-->
+<div class="loginWrapper">
+	<div class="closeBtn"></div>
+	<div class="page-login">
+		<div class="site-logo">耳朵旅行</div>
+		<div id="login-container">
+			<div class="connection" id="connection">
+				<ul class="openplatform clearfix">
+					<li class="weibo">
+					<a href="#">微博登录</a></li>
+					<li class="qq"><a href="#">QQ登录</a></li>
+				</ul>
+				<div class="tip">使用以上合作网站帐号登录</div>
+				<a id="J_emailLogin" class="switch" href="#">用邮箱帐号登录</a>
+			</div>
+			<div id="emaillogin">
+				<form accept-charset="UTF-8" action="/users/sign_in" class="new_user" id="new_user" method="post">
+					<div class="input-row inset-shadow">
+						<label class="email" for="user_email">邮箱</label>
+						<input size="30" type="email">
+					</div>
+					<div class="input-row inset-shadow">
+						<label class="password" for="user_password">密码</label>
+						<input size="30" type="password">
+					</div>
+					<div class="row">
+						<input checked="checked" name="remember" style="margin-right: 5px" type="checkbox" >
+						<label for="user_remember_me">记住登录</label>
+						<input class="btn" name="commit" type="submit" value="登录">
+					</div>
+				</form>
+				<a id="J_socialLogin" class="switch" href="#">用社交网站帐号登录</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--login dialog end-->
+
+
+<!--content start-->
+	<section class="hotDairySection dairyPageSection">
+		<h2 class="hotDairyTitle dairyPageTitle"></h2>
+		<!--left tags start-->
+		<div class="leftTagsWrapper">
+			<div class="tagsWrapper">
+				<a index="1" class="tagsLink lsLink currentLink" href="javascript:;"><span class="tagsLinkText">历史</span></a>
+				<a index="2" class="tagsLink dlLink" href="javascript:;"><span class="tagsLinkText">地理</span></a>
+				<a index="3" class="tagsLink rwLink" href="javascript:;"><span class="tagsLinkText">人文</span></a>
+				<a index="4" class="tagsLink msLink" href="javascript:;"><span class="tagsLinkText">美食</span></a>
+				<a index="5" class="tagsLink jdLink" href="javascript:;"><span class="tagsLinkText">景点</span></a>
+				<a index="6" class="tagsLink gwLink" href="javascript:;"><span class="tagsLinkText">购物</span></a>
+				<a index="7" class="tagsLink jiudLink" href="javascript:;"><span class="tagsLinkText">酒店</span></a>
+				<a index="8" class="tagsLink zjLink" href="javascript:;"><span class="tagsLinkText">宗教</span></a>
+			</div>
+			<div class="tagsWrapper">
+				<a index="9" class="tagsLink syLink" href="javascript:;"><span class="tagsLinkText">摄影</span></a>
+				<a index="10" class="tagsLink lyLink" href="javascript:;"><span class="tagsLinkText">露营</span></a>
+				<a index="11" class="tagsLink tbLink" href="javascript:;"><span class="tagsLinkText">徒步</span></a>
+				<a index="12" class="tagsLink qcLink" href="javascript:;"><span class="tagsLinkText">骑车</span></a>
+				<a index="13" class="tagsLink xxLink" href="javascript:;"><span class="tagsLinkText">休闲</span></a>
+				<a index="14" class="tagsLink ycLink" href="javascript:;"><span class="tagsLinkText">野餐</span></a>
+				<a index="15" class="tagsLink xiuxLink" href="javascript:;"><span class="tagsLinkText">修行</span></a>
+			</div>
+			<div class="tagsWrapper noBorder">
+				<a index="16" class="tagsLink gkLink" href="javascript:;"><span class="tagsLinkText">公开</span></a>
+				<a index="17" class="tagsLink fxLink" href="javascript:;"><span class="tagsLinkText">分享</span></a>
+				<a index="18" class="tagsLink srLink" href="javascript:;"><span class="tagsLinkText">私人</span></a>
+			</div>
+		</div>
+		<!--left tags end-->
+		
+		<!--dariy templete start-->
+		<script id="templete" type="text/html">
+				{{each list as value i}}
+					<li class="hotDairyLi">
+						<a href="javascript:;">
+							<img class="hotDairyImg" src="{{value.imgUrl}}" />
+						</a>
+						<div class="threeItemsDairy">
+							<span class="visit">&nbsp;</span>
+							<span class="peopleNum">{{value.visit}}</span>
+							<span class="comment">&nbsp;</span>
+							<span class="peopleNum">{{value.comment}}</span>
+							<span class="love">&nbsp;</span>
+							<span class="peopleNum">{{value.love}}</span>
+						</div>
+						<div class="userInfoWrapper">
+							<a class="userHeadLink" href="javascript:;"><img src="{{value.userPhoto}}" /></a>
+							<span class="userName">{{value.userName}}</span>
+						</div>				
+					</li>
+				{{/each}}
+		</script>
+		<!--dariy templete start-->
+		<ul id="renderId" class="hotDairyUl dairyPageUl">
+		</ul>
+		<br clear="both" />
+	</section>
+<!--content end-->
+<footer class="footerWrapper">
+	<div class="footerInner">
+		<div class="footerLink">
+			<a href="./download.html">手机应用</a>|
+			<a href="./templete.html">合作伙伴</a>|
+			<a href="./contactus.html">联系我们</a>|
+			<a href="./guanyu.html">关于我们</a>|
+			<a href="./templete.html">条款</a>|
+			<a href="./joinus.html">招募</a>
+		</div>
+		<p class="copyRight">BEEV Copyright(c)  蜀ICP备14006872号</p>
+	</div>
+</footer>
+</body>
+<script src="./js/jquery-1.11.1.min.js"></script>
+<script src="./js/functions.js"></script>
+<script src="./js/template.js"></script>
+<script type="text/javascript">
+//点击不同按钮发送不同的"tagesType"值（对应按钮的index值1-18）
+	dairyRefresh({
+		dairyPage: "./js/dairyData.json"
+	});//日志页面
+</script> 
+</html>

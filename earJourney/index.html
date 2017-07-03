@@ -1,0 +1,198 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head> 
+<meta charset="utf-8" />  
+<title></title> 
+<link rel="stylesheet" href="./css/reset.css" type="text/css" /> 
+<link rel="stylesheet" href="./css/earJourney.css" type="text/css" /> 
+</head>
+<body>
+
+<header class="headerWrapper">
+	<!--top nav start-->
+	<nav class="navWrapper">
+		<div class="nvaInner">
+			<a class="logo" href="./index.html"></a>
+			<a class="indexLink" href="./index.html"></a>
+			<a class="diaryLink" href="./dairy.html"></a>
+			<a class="bookLink" href="book.html"></a>
+			<a class="sinaLink" href="http://weibo.com/earjourney"></a>
+			<span class="linkGap"></span>
+			<a class="weixinLink" href="javascript:;"></a>
+			<img class="twoCode" src="./img/twocode.jpg" />
+			<!--登录成功如下代码 start-->
+			<a class="selfHeadLink" href="javascript:;"><img src="./img/temp/user.jpg" /></a>			
+			<span class="selfName">Super Jnlie</span>
+			<form action="" method="post">
+				<input class="searchInput sucSearchInput" type="text" value="输入关键字" />
+				<input class="searchBtn sucSearchBtn" type="submit" value="">
+			</form>
+			<ul class="successClickUl">
+				<li><a href="">关于我</a></li>
+				<li><a href="">登&nbsp;&nbsp;出</a></li>
+			</ul>
+			<!--登录成功如下代码 end-->
+			
+			<!--
+			未登录时如下代码
+			<form action="" method="post">
+				<input class="searchInput" type="text" value="输入关键字" />
+				<input class="searchBtn" type="submit" value="">
+			</form>
+			<a class="register" href="javascript:;"></a>
+			<a class="login" href="javascript:;"></a>
+			-->
+		</div>
+	</nav>
+	<!--top nva start-->
+	
+	<!--slide images start-->
+	<section class="slideSection">
+		<img class="slideImgS" src="./img/banner/1.jpg" />
+		<img class="slideImgH" src="./img/banner/2.jpg" />
+		<img class="slideImgH" src="./img/banner/3.jpg" />
+		<img class="slideImgH" src="./img/banner/4.jpg" />
+		<div class="prev"></div>
+		<div class="next"></div>
+	</section>
+	<!--slide images end-->
+	
+	<div class="maskLayer">	<div>
+</header>
+
+<!--login dialog start-->
+<div class="loginWrapper">
+	<div class="closeBtn"></div>
+	<div class="page-login">
+		<div class="site-logo">耳朵旅行</div>
+		<div id="login-container">
+			<div class="connection" id="connection">
+				<ul class="openplatform clearfix">
+					<li class="weibo">
+					<a href="#">微博登录</a></li>
+					<li class="qq"><a href="#">QQ登录</a></li>
+				</ul>
+				<div class="tip">使用以上合作网站帐号登录</div>
+				<a id="J_emailLogin" class="switch" href="#">用邮箱帐号登录</a>
+			</div>
+			<div id="emaillogin">
+				<form accept-charset="UTF-8" action="/users/sign_in" class="new_user" id="new_user" method="post">
+					<div class="input-row inset-shadow">
+						<label class="email" for="user_email">邮箱</label>
+						<input size="30" type="email">
+					</div>
+					<div class="input-row inset-shadow">
+						<label class="password" for="user_password">密码</label>
+						<input size="30" type="password">
+					</div>
+					<div class="row">
+						<input checked="checked" name="remember" style="margin-right: 5px" type="checkbox" >
+						<label for="user_remember_me">记住登录</label>
+						<input class="btn" name="commit" type="submit" value="登录">
+					</div>
+				</form>
+				<a id="J_socialLogin" class="switch" href="#">用社交网站帐号登录</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--login dialog end-->
+
+<!--content start-->
+<div class="contentWrapper">
+	<section class="hotDairySection">
+	
+		<!--dariy templete start-->
+		<script id="dairyTemplete" type="text/html">
+				{{each list as value i}}
+					<li class="hotDairyLi">
+						<a href="javascript:;">
+							<img class="hotDairyImg" src="{{value.imgUrl}}" />
+						</a>
+						<div class="threeItemsDairy">
+							<span class="visit">&nbsp;</span>
+							<span class="peopleNum">{{value.visit}}</span>
+							<span class="comment">&nbsp;</span>
+							<span class="peopleNum">{{value.comment}}</span>
+							{{if value.loved}}
+								<span class="love loveRed">&nbsp;</span>
+							{{/if}}
+							{{if !value.loved}}
+								<span class="love">&nbsp;</span>
+							{{/if}}
+							<span class="peopleNum">{{value.love}}</span>
+						</div>
+						<div class="userInfoWrapper">
+							<a class="userHeadLink" href="javascript:;"><img src="{{value.userPhoto}}" /></a>
+							<span class="userName">{{value.userName}}</span>
+						</div>				
+					</li>
+				{{/each}}
+		</script>
+		<!--dariy templete end-->
+		
+		<h2 class="hotDairyTitle"></h2>
+		<ul id="dairyId" class="hotDairyUl">
+		</ul>
+		<br clear="both" />
+	</section>
+	<section class="hotBookSection">
+	
+		<!--book templete start-->
+		<script id="bookTemplete" type="text/html">
+		{{each list as value i}}
+			<li class="hotBookLi">
+			<a href="javascript:;">
+				<img class="hotBookImg" src="{{value.imgUrl}}" />
+			</a>
+			<div class="threeItemsBook">
+				<span class="onTheWay">&nbsp;</span>
+				<span class="bookRightText">在路上({{value.way}})</span>
+				<span class="gone">&nbsp;</span>
+				<span class="bookRightText">去过({{value.gone}})</span>
+				<span class="wantGo">&nbsp;</span>
+				<span class="bookRightText">想去({{value.want}})</span>
+			</div>
+			<div class="hotBookInfoWrapper">
+				<a class="userHeadLink" href="javascript:;"><img src="{{value.userPhoto}}" /></a>
+				<span class="userNameBook">{{value.userName}}</span>
+				<span class="bookName">{{value.bookName}}</span>
+				<span class="bookIntroduce">{{value.info}}</span>
+			</div>	
+		</li>
+		{{/each}}
+		</script>
+		<!--book templete end-->
+		
+		<h2 class="hotBookTitle"></h2>
+		<ul id="bookId" class="hotBookUl">
+		</ul>
+		<br clear="both" />
+	</section>
+</div>
+<!--content end-->
+
+<footer class="footerWrapper">
+	<div class="footerInner">
+		<div class="footerLink">
+			<a href="./download.html">手机应用</a>|
+			<a href="./templete.html">合作伙伴</a>|
+			<a href="./contactus.html">联系我们</a>|
+			<a href="./guanyu.html">关于我们</a>|
+			<a href="./templete.html">条款</a>|
+			<a href="./joinus.html">招募</a>
+		</div>
+		<p class="copyRight">BEEV Copyright(c)  蜀ICP备14006872号</p>
+	</div>
+</footer>
+</body>
+<script src="./js/jquery-1.11.1.min.js"></script>
+<script src="./js/template.js"></script>
+<script src="./js/functions.js"></script>
+<script type="text/javascript">
+	indexFunctions({
+		dairyIndex: "./js/dairyData.json",
+		bookIndex: "./js/bookData.json"
+	}); //首页
+</script> 
+</html>

@@ -1,0 +1,123 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head> 
+<meta charset="utf-8" />  
+<title></title> 
+<link rel="stylesheet" href="./css/reset.css" type="text/css" /> 
+<link rel="stylesheet" href="./css/earJourney.css" type="text/css" /> 
+</head>
+<body>
+
+<header class="headerWrapper">
+	<!--top nav start-->
+	<nav class="navWrapper secondHeader">
+		<div class="nvaInner">
+			<a class="logo" href="./index.html"></a>
+			<a class="indexLink" href="./index.html"></a>
+			<a class="diaryLink" href="./dairy.html"></a>
+			<a class="bookLink" href="book.html"></a>
+			<a class="sinaLink" href="http://weibo.com/earjourney"></a>
+			<span class="linkGap"></span>
+			<a class="weixinLink" href="javascript:;"></a>
+			<img class="twoCode" src="./img/twocode.jpg" />
+			<!--登录成功如下代码 --
+			<a class="selfHeadLink" href="javascript:;"><img src="./img/temp/user.jpg" /></a>			
+			<span class="selfName">Super Jnlie</span>
+			<form action="" method="post">
+				<input class="searchInput sucSearchInput" type="text" value="输入关键字" />
+				<input class="searchBtn sucSearchBtn" type="submit" value="">
+			</form>
+			-->
+			
+			<!--未登录时如下代码 start-->
+			<form action="" method="post">
+				<input class="searchInput" type="text" value="输入关键字" />
+				<input class="searchBtn" type="submit" value="">
+			</form>
+			<a class="register" href="javascript:;"></a>
+			<a class="login" href="javascript:;"></a>
+			<!--未登录时如下代码 end-->
+			
+		</div>
+	</nav>
+	<!--top nva start-->
+	<div class="maskLayer">	<div>
+</header>
+<!--login dialog start-->
+<div class="loginWrapper">
+	<div class="closeBtn"></div>
+	<div class="page-login">
+		<div class="site-logo">耳朵旅行</div>
+		<div id="login-container">
+			<div class="connection" id="connection">
+				<ul class="openplatform clearfix">
+					<li class="weibo">
+					<a href="#">微博登录</a></li>
+					<li class="qq"><a href="#">QQ登录</a></li>
+				</ul>
+				<div class="tip">使用以上合作网站帐号登录</div>
+				<a id="J_emailLogin" class="switch" href="#">用邮箱帐号登录</a>
+			</div>
+			<div id="emaillogin">
+				<form accept-charset="UTF-8" action="/users/sign_in" class="new_user" id="new_user" method="post">
+					<div class="input-row inset-shadow">
+						<label class="email" for="user_email">邮箱</label>
+						<input size="30" type="email">
+					</div>
+					<div class="input-row inset-shadow">
+						<label class="password" for="user_password">密码</label>
+						<input size="30" type="password">
+					</div>
+					<div class="row">
+						<input checked="checked" name="remember" style="margin-right: 5px" type="checkbox" >
+						<label for="user_remember_me">记住登录</label>
+						<input class="btn" name="commit" type="submit" value="登录">
+					</div>
+				</form>
+				<a id="J_socialLogin" class="switch" href="#">用社交网站帐号登录</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--login dialog end-->
+
+
+<!--content start-->
+<div class="downloadWrapper">
+	<img class="downloadBgImg" src="./img/beijing 0.png" />
+	<div class="dlContentWrapper">
+		<img class="downloadPhoneImg" src="./img/shouji.png" />
+		<div class="dlTextOne">耳朵旅行</div>
+		<div class="dlTextTwo">
+		听无界，行无疆，带着耳朵去旅行<br/>
+		让耳畔传来的声波带你阅尽山色湖光
+		</div>
+		<a class="appDownload" href="javascript:;"><img src="./img/app xiazai.png" /></a>
+		<a class="androidDownload" href="javascript:;"><img src="./img/android xiazai.png" /></a>
+	</div>
+</div>
+<div class="downloadTextBelow">
+耳朵旅行是一款智能的旅行移动应用。在路上，"耳朵"能根据您的需要为您及时推送各类旅行资讯，让您无需提前做功课、
+不用再为预定而苦恼，让旅行说走就走。"耳朵"让您可以在观光赏景的同时聆听当地历史人文内涵，打造边听边赏的全新出
+行体验。带着耳朵去旅行，实现您的极致旅行的全新体验。
+</div>
+<!--content end-->
+<footer class="footerWrapper">
+	<div class="footerInner">
+		<div class="footerLink">
+			<a href="./download.html">手机应用</a>|
+			<a href="./templete.html">合作伙伴</a>|
+			<a href="./contactus.html">联系我们</a>|
+			<a href="./guanyu.html">关于我们</a>|
+			<a href="./templete.html">条款</a>|
+			<a href="./joinus.html">招募</a>
+		</div>
+		<p class="copyRight">BEEV Copyright(c)  蜀ICP备14006872号</p>
+	</div>
+</footer>
+</body>
+<script src="./js/jquery-1.11.1.min.js"></script>
+<script src="./js/functions.js"></script>
+<script type="text/javascrīpt">
+</script> 
+</html>

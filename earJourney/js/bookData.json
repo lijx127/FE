@@ -1,0 +1,9 @@
+﻿{
+    "title": "tt",
+    "list": [
+		{"imgUrl":"./img/temp/photo4.jpg", "way":123, "gone":12, "want":12, "userPhoto":"./img/temp/user.jpg", "userName":"Super jnlie","bookName":"三十年代度假别墅","info":"三十年代度假别墅，这么好的别墅，你住过吗，可以来试试呀，都是些什么呢，就是为了凑够字数而已"},
+		{"imgUrl":"./img/temp/photo5.jpg", "way":123, "gone":132, "want":12, "userPhoto":"./img/temp/user2.jpg", "userName":"Super jnlie","bookName":"三十年代度假别墅","info":"三十年代度假别墅，这么好的别墅，你住过吗，可以来试试呀，都是些什么呢，就是为了凑够字数而已"},
+		{"imgUrl":"./img/temp/photo4.jpg", "way":123, "gone":12, "want":12, "userPhoto":"./img/temp/user.jpg", "userName":"Super jnlie","bookName":"三十年代度假别墅","info":"三十年代度假别墅，这么好的别墅，你住过吗，可以来试试呀，都是些什么呢，就是为了凑够字数而已"},
+		{"imgUrl":"./img/temp/photo5.jpg", "way":123, "gone":132, "want":12, "userPhoto":"./img/temp/user2.jpg", "userName":"Super jnlie","bookName":"三十年代度假别墅","info":"三十年代度假别墅，这么好的别墅，你住过吗，可以来试试呀，都是些什么呢，就是为了凑够字数而已"}
+	]
+}
