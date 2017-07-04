@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/*组件1:恋爱通告欢迎页面介绍*/
+#Container_LatgAppIntroduce{
+	position:absolute;
+	width:450px;
+	height:250px;
+	left:200px;
+	top:200px;
+	background:url(../../images/welcome/welcomeBg.png) no-repeat;
+	overflow:hidden;
+}
+#Container_LatgAppIntroduce p{font-size:12px; line-height:20px; width:90%; margin:0 auto; font-weight:bold; font-family:"微软雅黑" ,"宋体"; color:#666;}
+#Container_LatgAppIntroduce p.first{padding-top:40px;}
+
+/*组件2:圆形提示框*/
+.noticeCircle{width:173px; height:163px; background:url(../../images/common/notice.png) left top no-repeat; position:relative;}
+.noticeCircle p{text-align:center; font-size:16px; font-weight:bold; font-family:"微软雅黑","宋体"; position:relative; top:66px; left:10px; width:140px; margin:0 auto;}
+.noticleCircleClose{position:absolute; left:0px; top:0px; width:64px; height:64px; cursor:pointer;}
+
+
+/*组件3:好友筛选*/
+.friendsChoose_link{height:41px; line-height:41px; font-size:20px; font-family:"微软雅黑","宋体"; display:block; overflow:hidden;}
+.friendsChoose_link img{float:left; position:relative; left:10px; width:35px; height:35px; top:3px;}
+.friendsChoose_link_od{background:rgb(250, 203, 205);}
+#friendsChoose_searchContainer{width:261px; border:none; height:50px; background:url(../../images/search.png) top no-repeat;}
+.friendsChoose_input{position:relative; border:0px; top:12px; width:145px; height:20px; left:-15px; }
+#friendsChooseName{font-size:18px; color:rgb(233, 61, 59); font-weight:bold; height:30px; line-height:30px; position:relative; left:-26px;}
+#friendsChooseType{font-size:18px; color:rgb(233, 61, 59); font-weight:bold; height:30px; line-height:30px; position:relative; left:-26px;}
+/*组件4：通告确认弹出页面*/
+#biaobaiConfirm_container{width:370px; height:335px; background:url(../../images/biaobaiConfirm.png) -100px 0px no-repeat; position:relative; overflow:hidden;}
+.Textarea_biaobai_update{border:0;background:none;font-size:10px;color:#221e1f;width:170px; height:160px; position:absolute; left:100px; top:85px;}
+.biaobaiConfirm_submit{display:block; width:70px; height:70px; background:url(../../images/biaobaiConfirm.png) 0px -80px no-repeat; position:absolute; bottom: 60px; right:20px; cursor:pointer;}
+
+/*组件5:邀请好友页面*/
+.friendsChoose_Container_invite{position:absolute; top:200px; left:280px;}
+/*邀请列表容器*/
+#inviteListContainer{position:absolute; top:250px; left:220px; width:400px; height:180px !important; border:4px rgb(238,56,57) solid; overflow-x:hidden; *overflow-y:scroll;}
+#inviteListContainer ul{width:400px; overflow:hidden;}
+#inviteListContainer ul img{vertical-align:middle; width:35px; height:35px; position:relative; top:3px; left:5px;}
+#inviteListContainer ul li{float:left; width:120px; height:40px; margin:5px; text-align:left;}
+#inviteListContainer ul li .a_inviteList{width:120px; height:40px; display:block;}
+.a_inviteList:hover{background:url(../../images/lijx/inviteListHover.png) left top no-repeat; color:#fff;}
+#inviteListContainer ul li .a_inviteList span{left:5px; position:relative;}
+#inviteListContainer ul .a_inviteList:hover img{border:1px solid #fafafa; position:relative; left:4px; top:2px;}
+#inviteListContainer ul li .selected{background:url(../../images/lijx/inviteListSelected.png) left top no-repeat;}
+.friendsChoose_invite{width:261px; border:none; height:50px; background:url(../../images/search.png) top no-repeat; top:200px; left:400px; position:absolute;}/*好友筛选*/
+/*邀请好友操作*/
+.friendsChoose_op{position:absolute; width:200px; height:42px; top:200px; left:215px; overflow:hidden;}
+.a_friendsChoose_op{width:42px; height:42px; display:block; float:left; margin:0px 3px; border:0px;}
+.fCop_all{background:url(../../images/inviteOp.png) -3px 0px no-repeat;}
+.fCop_anti{background:url(../../images/inviteOp.png) -52px 0px no-repeat;}
+.fCop_cancel{background:url(../../images/inviteOp.png) -104px 0px no-repeat;}
+.fCop_submit{background:url(../../images/inviteOp.png) -155px 0px no-repeat;}
+
+/*组件6：message页面*/
+#pop_message{width:520px; height:194px; background:url(../../images/message.png) left top no-repeat; position:relative;}
+#pop_message p{position:absolute; text-align:center; font-size:20px; font-weight:bold; font-family:"微软雅黑","宋体"; top:70px; left:10px; width:500px; margin:0 auto; color:rgb(238,56,57);}
+#pop_messageClose{position:absolute; width:35px; height:35px; top:0px; right:10px;}
+#pop_messageClose2{position:absolute; width:65px; height:65px; bottom:5px; right:15px;}
+
+#pop_message_done{width:520px; height:194px; background:url(../../images/message.png) left top no-repeat; position:relative;}
+#pop_message_done p{position:absolute; text-align:center; font-size:20px; font-weight:bold; font-family:"微软雅黑","宋体"; top:70px; left:10px; width:500px; margin:0 auto; color:rgb(238,56,57);}
+#pop_message_doneClose{position:absolute; width:35px; height:35px; top:0px; right:10px;}
+#pop_message_doneClose2{position:absolute; width:65px; height:65px; bottom:5px; right:15px;}
+
+/*组件7：礼物查看弹出层*/
+.giftOverview{width:370px; height:335px; background:url(../../images/biaobaiConfirm.png) -100px 0px no-repeat; position:relative; overflow:hidden;}
+#giftOverview p{text-align:left; border:0;background:none;font-size:10px;color:#221e1f;width:170px; height:160px; position:absolute; left:100px; top:85px; overflow-x:hidden;}
+#giftOverview .giftDis{width:100px; height:89px; background:url(../../images/giftBg.png) left top no-repeat; position:absolute; bottom:10px; left:120px;}
+#giftOverview .giftovClose{width:75px; height:75px; background:url(../../images/giftOvClose.png) left top no-repeat; position:absolute; top:10px; right:20px;}
+#giftOverview .giftDis img{width:50px;position:relative; top:18px; left:0px;}
+#giftOverview .giftov_ajaxLoad{position:absolute; top:130px; left:160px;}
+
+/*组件8：错误页面*/
+#Container_LatgApperror{width:380px; height:300px; position:absolute; left:235px; top:200px; overflow:hidden;}
+.errorBg{width:200px; height:200px; background:url(../../images/common/errorBg.png) left top no-repeat; position:absolute; bottom:10px; right:10px;}
+.errorlogo{font-size:48px; font-weight:bold; color:#ee3839; position:relative; top:40px; left:58px;}
+.errorInfo{font-size:20px; color:#ee3839; font-weight:bold; position:relative; text-align:center; top:20px; line-height:36px;}

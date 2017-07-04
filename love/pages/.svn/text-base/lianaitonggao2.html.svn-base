@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+
+<link href="../resource/css/screen.css" rel="stylesheet" type="text/css" />
+<link href="../resource/css/pages/pages.css" rel="stylesheet" type="text/css" />
+<link href="../resource/css/pages/page.css" rel="stylesheet" type="text/css"/>
+<!--[if lte IE 6]>
+<link href="../resource/css/common/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+	<script type="text/javascript" src="../resource/js/ie6PngHack.js" ></script>
+	<script type="text/javascript">	DD_belatedPNG.fix('.dianjixiayibu,.box_pageNumb,.gongkaiselected,.tonggaoleibie,.suijiniming,.el_box_nextStep,.anniu,.suijiniming,.zidingyiniming,.pageBtn_center,.rr,.pageBtn_leftCenter');
+	</script>
+	<![endif]-->
+</head>
+
+<body>
+
+
+ <!-- 主容器 Start -->
+	<div class="Container_latgMain bg2">
+     	 <!-- 数字代号 Start -->
+          <div class="el_box_nextStep">
+         	<div class="box_pageNumb">1</div>
+         </div>
+         <!-- 数字代号 End -->
+         
+    	 <!-- 导航 Start -->
+		 <div class="Container_latgNav">
+         	<a id="nav_link_latg" href="http://www.baidu.com" title="恋爱通告"></a>
+            <a id="nav_link_addFriends" href="http://www.baidu.com" title="添加好友"></a>
+            <a id="nav_link_faq" href="http://www.baidu.com" title="常见问题"></a>
+            <a id="nav_link_awards" href="http://www.baidu.com" title="抽奖"></a>
+         </div>
+         <!-- 导航 End -->
+         
+          <!-- 可编辑区域 Start -->
+           <div class="dianjixiayibu"></div>
+           <a href="#" class="pageBtn_leftCenter"></a>
+           <a href="#" class="pageBtn_center" id="friendsChooseJ" onclick="alert(1)"></a>
+          <div class="Container_latgMainArea">
+          	<input type="hidden" value="" id="friendsChooseValue"/>
+            <input type="hidden" value="" id="friendsChooseValueId"/>
+            <b id="friendsChooseName">请选择要发送的好友</b>
+            <div class="tonggaoleibie"></div>
+            <div id="r1" class="gongkaiselected" onclick="checkC('r1')"></div>  
+            <div class="suijiniming" onclick="checkC('r3')"></div>
+            <div class="zidingyiniming" onclick="checkC('r2')"></div>
+            <div class="anniu">          
+              <div id="r2" class="rr" onclick="checkC('r2')"></div>
+              <div id="r3" class="rr" onclick="checkC('r3')"></div>
+            </div>
+          </div>
+          <!-- 可编辑区域 End -->
+    </div>
+    <input type="hidden" id="selectedValue" value="rr1" /><!--存储要发送的通告类型的值【rr1,rr2,rr3】-->
+    
+    <!--好友选择start-->
+    <!--依赖css：page.css-->
+    <div class="hideContainer">
+      <div id="frinedsChoose_Container">
+        <div id="friendsChoose_searchContainer">
+          <input type="text" class="friendsChoose_input" id="friendsChoose"/><!--用于检索字符串的存储-->
+        </div>
+        <div id="idContainer2" class="container2">
+          <div id="idSlider2" class="slider2">
+            <div id="idBar2" class="bar2">
+            </div>
+        </div>
+        <ul id="idContent2" class="content2">
+          <li><a href="javascript:void" class="friendsChoose_link">
+            <img src="../resource/images/lijx/head_fl.png" />
+            <b class="friendsChoose_name">武则天</b><!--放用户名-->
+            <input type="hidden" value="0" class="friendsChoose_id" /><!--value中放用户id-->
+          </a> 
+          </li>
+           <li><a href="javascript:void" class="friendsChoose_link">
+            <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">六则天</b>
+            <input type="hidden" value="1" class="friendsChoose_id" />
+          </a> 
+          </li>
+           <li><a href="javascript:void" class="friendsChoose_link">
+            <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">武则地</b>
+          </a> 
+          </li>
+           <li><a href="javascript:void" class="friendsChoose_link">
+            <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">武天天</b>
+          </a> 
+          </li>
+           <li><a href="javascript:void" class="friendsChoose_link">
+            <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">数天</b>
+          </a> 
+          </li>
+           <li><a href="javascript:void" class="friendsChoose_link">
+            <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">雪村</b>
+          </a> 
+          </li>
+           <li><a href="javascript:void" class="friendsChoose_link">
+            <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">温蒂</b>
+          </a> 
+          </li>
+           <li><a href="javascript:void" class="friendsChoose_link">
+            <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">sara</b>
+          </a> 
+          </li>
+        </ul>
+    </div>
+  </div>
+  <!--好友选择end-->
+</div>
+    <!-- 主容器 End -->
+</body>
+<script type="text/javascript" src="../resource/js/common.js"></script>
+<script type="text/javascript" src="../resource/js/horizon.js"></script>
+<script type="text/javascript" src="../resource/js/Drag.js"></script>
+<script type="text/javascript" src="../resource/js/pop.js"></script>
+<script type="text/javascript">
+hScroll("idBar2").style.height = hScroll("idSlider2").clientHeight * Math.min(hScroll("idContent2").clientHeight / hScroll("idContent2").scrollHeight, 1) - 4 + "px";
+var sld2 = new Slider("idSlider2", "idBar2", { Horizontal: false,
+	MaxValue: hScroll("idContent2").scrollHeight - hScroll("idContent2").clientHeight,
+	onMove: function(){ hScroll("idContent2").scrollTop = this.GetValue(); }
+});
+sld2.WheelBind(hScroll("idContent2"));
+sld2.KeyBind(hScroll("idContent2"));
+
+
+/*
+*功能：筛选好友
+*依赖：pJ.selector
+*
+*/
+/**********************************************************************************/
+var h=pJ.selector.userfulTagChoose('a',/\bfriendsChoose_link\b/);
+for(var i=0,l=h.length;i<l;i++){(function(b){ci=h[b];var name="",id="";var childs=ci.childNodes;for(var is=0,l=childs.length;is<l;is++){if(childs[is].className=="friendsChoose_name")name=childs[is].innerHTML;if(childs[is].className=="friendsChoose_id")id=childs[is].value}ci.onclick=function(){pJ.selector.id("friendsChooseValue").value=name;pJ.selector.id("friendsChooseValueId").value=id;pJ.selector.id("friendsChooseName").innerHTML="发送给：  "+name;centerClose()}})(i)}var Interlace=function(oriArray,even,odd){var a=oriArray,e=even,o=odd;for(var i=0,l=a.length;i<l;i++){ci=a[i];if(i%2==0){ci.className=e}else{ci.className=o}}}
+Interlace(h,"friendsChoose_link friendsChoose_link_od","friendsChoose_link");
+
+/*筛选事件*/
+var search_tip = "输入好友姓名进行筛选";
+$("#friendsChoose").val(search_tip);
+$("#friendsChooseValue").val("");
+$("#friendsChoose").focus(function(){if($(this).val().toString()==search_tip){$(this).val("")}$(this).bind("keyup",function(e){var lineN=0;var q=$(this).attr("value");if(q===""){$('friendsChoose_link').parent().show();return}$(".friendsChoose_name").each(function(){var html=$(this).html();if(html.indexOf(q)>=0){$(this).parent().parent().show();if(lineN%2==0){if(!$(this).parent().hasClass("friendsChoose_link_od"))$(this).parent().addClass("friendsChoose_link_od");lineN++}else{if($(this).parent().hasClass("friendsChoose_link_od"))$(this).parent().removeClass("friendsChoose_link_od");lineN++}}else{$(this).parent().parent().hide()}})})});
+$("#friendsChoose").blur(function(){if($(this).val().toString()==""){$(this).val(search_tip);$(".friendsChoose_name").each(function(){$(this).parent().parent().show();Interlace(h,"friendsChoose_link friendsChoose_link_od","friendsChoose_link")})}$(this).unbind("keyup")});
+var conFriendChoose="";pJ.selector.id("friendsChooseJ").onclick=function(){var content=pJ.selector.id("frinedsChoose_Container");pop(content)};
+</script>
+
+<script type="text/javascript">//选择发送状态
+var radioGroup=[["r1","rr1"],["r2","rr2"],["r3","rr3"]];var sv=pJ.selector.id("selectedValue");var checkC=function(id){var elem=document.getElementById(id);var elemClass=elem.className;if(/\brrselected\b/.test(elemClass)||/\bgongkaiselected\b/.test(elemClass)){}else if(id=="r1"){elem.className="gongkaiselected";for(var i=1,rLength=radioGroup.length;i<rLength;i++){document.getElementById(radioGroup[i][0]).className="rr"}sv.value="rr1"}else{document.getElementById('r1').className="gongkai";var rLength=radioGroup.length;for(var i=1;i<rLength;i++){if(id!==radioGroup[i][0]){var otherElem=document.getElementById(radioGroup[i][0]);otherElem.className="rr"}else{sv.value=radioGroup[i][1]}}elem.className="rr rrselected"}}
+</script>
+
+</html>

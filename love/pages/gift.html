@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>沈联民的测试</title>
+<link href="../resource/css/screen.css" rel="stylesheet" type="text/css" />
+
+
+<!--[if lte IE 6]>
+<link href="../resource/css/common/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+	<script type="text/javascript" src="../resource/js/ie6PngHack.js" ></script>
+	<script type="text/javascript">	DD_belatedPNG.fix('.el_box_nextStep,.box_pageNumb,.pageBtn_leftCenter,.Container_gift,.wrapper_giftPack');
+	</script>
+	<![endif]-->
+<link href="../resource/css/pages/pages_gift.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	 <!-- 主容器 Start -->
+<div class="Container_latgMain bg3">
+     	 <!-- 数字代号 Start -->
+         
+         <div class="el_box_nextStep">
+         	<div class="box_pageNumb">1</div>
+         </div>
+         <!-- 数字代号 End -->
+         
+    	 <!-- 导航 Start -->
+  		 <div class="Container_latgNav">
+         	<a id="nav_link_latg" href="http://www.baidu.com" title="恋爱通告"></a>
+            <a id="nav_link_addFriends" href="http://www.baidu.com" title="添加好友"></a>
+            <a id="nav_link_faq" href="http://www.baidu.com" title="常见问题"></a>
+            <a id="nav_link_awards" href="http://www.baidu.com" title="抽奖"></a>
+     	 </div>
+    	 <!-- 导航 End -->
+         
+      <!-- 可编辑区域 Start -->
+  	  <div class="Container_latgMainArea">
+      		<div class="giftInfo" id="giftInfo">您连续登录了3天，可以抽奖3次。</div>
+          <div class="box_title"></div> 
+          <div class="Container_gift">
+            <div class="flip1 wrapper_tonggaoneirong"><img src="../resource/images/giftPack.png" alt="" width="122" height="118" /></div>
+            <div class="flip2 wrapper_tonggaoneirong"><img src="../resource/images/giftPack.png" alt="" width="122" height="118" /></div>
+            <div class="flip3 wrapper_tonggaoneirong"><img src="../resource/images/giftPack.png" alt="" width="122" height="118" /></div>
+            <div class="flip4 wrapper_tonggaoneirong"><img src="../resource/images/giftPack.png" alt="" width="122" height="118" /></div>
+            <!---清除浮动-->
+            <div class="clear_both"></div>
+            <input type="hidden" id="HideGiftTypeInfo" value="1" />
+            <input type="hidden" id="logDays" value="10" />
+          </div>     
+      </div>
+      <!-- 可编辑区域 End -->
+      
+      <!--按钮 Start-->
+      <a href="#" class="pageBtn_leftCenter"></a>
+      <div class="hideContainer">
+        <div id="pop_message_done">
+          <p>您今天的礼物已经打开完毕！</p>
+            <a href="javascript:;" id="pop_message_doneClose" onclick="centerClose()"></a>
+            <a href="javascript:;" id="pop_message_doneClose2" onclick="centerClose()"></a>
+        </div>
+      </div>
+      <div class="hideContainer">
+      	<div id="noticeCircle" class="noticeCircle">
+          <a id="ltClose" class="noticleCircleClose" onclick="centerClose()"></a>
+          <p>选择礼物出错<br />
+            请重新选择
+          </p>
+        </div>
+      </div>
+      <!--按钮 End-->
+  </div>
+  <!-- 主容器 End -->
+</body>
+
+<script type="text/javascript" src="../resource/js/common.js"></script>
+<script type="text/javascript" src="../resource/js/pop.js"></script>
+<script type="text/javascript" src="../resource/js/jquery.flip.js"></script>
+<script type="text/javascript" src="../resource/js/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript">
+	var adNum = 0;
+	var giftName = '等待加载';//礼物名称
+	var logTime = pJ.selector.id("logDays").value;
+	var giftInfo = $("#HideGiftTypeInfo").attr("value");//从页面隐藏域中获取信息
+	var clickNum = giftInfo;
+	var sP = pJ.selector.id("pop_message_done");
+	var gClose1 = pJ.selector.id("pop_message_doneClose");
+	var gClose12 = pJ.selector.id("pop_message_doneClose2");
+	var giftUrl = '<img src="../resource/images/ajax-loader.gif" alt="等待加载" width="32" height="32" class="ajax_img"/>'; //礼物图片地址
+	(function(){
+		var s = "您连续登录了" + logTime + "天，可以抽奖" + clickNum + "次。";
+		$("#giftInfo").html(s);
+	})();
+	$(function(){
+		$(".flip1").click(function(){
+			if(adNum < clickNum)
+			{
+				$(".flip1").flip({
+				content:giftUrl,
+				direction:'lr',
+				color:"#facbcd",
+				onEnd:function(){
+					$.ajax({
+					 type: "GET",
+					 url: "http://localhost/Dev/PHP/tinyMCE/ccc/ccc.php",
+					 success: function(msg){
+						 giftDIsplay(msg);
+						 $(".flip1").html(giftUrl);
+					 },
+					 error : function(){
+						errorControl(); 
+					}
+				 });
+					$(".flip1").css("background","none");
+					$(".flip1").unbind("click");
+					}
+				});
+				adNum ++;
+			}
+			else
+			{
+				pop(sP);
+			}
+		});
+		
+		$(".flip2").click(function(){
+			if(adNum < clickNum)
+			{
+				$(".flip2").flip({
+				content:giftUrl,//填充内容，可以使html代码
+				direction:'lr',//方向lr,rl,tb,bt
+				color:"#facbcd",//背景颜色
+				//speed:200,//速度控制，默认为500ms
+				onEnd:function(){//翻转结束执行函数
+					$.ajax({
+						 type: "GET",
+						 url: "http://localhost/Dev/PHP/tinyMCE/ccc/ccc.php",
+						 success: function(msg){
+							 giftDIsplay(msg);
+							 $(".flip2").html(giftUrl);
+						 },
+						 error : function(){
+							errorControl(); 
+						}
+					 });
+					$(".flip2").css("background","none");
+					$(".flip2").unbind("click");
+					}
+				});
+				adNum ++;
+			}
+			else
+			{
+				pop(sP);
+			}
+		});
+		
+		$(".flip3").click(function(){
+			if(adNum < clickNum)
+			{
+				$(".flip3").flip({
+				content:giftUrl,
+				direction:'lr',
+				color:"#facbcd",
+				onEnd:function(){
+					$.ajax({
+						 type: "GET",
+						 url: "http://localhost/Dev/PHP/tinyMCE/ccc/ccc.php",
+						 success: function(msg){
+							 giftDIsplay(msg);
+							 $(".flip3").html(giftUrl);
+						 },
+						 error : function(){
+							errorControl(); 
+						}
+					 });
+					$(".flip3").css("background","none");
+					$(".flip3").unbind("click");
+					}
+				});
+				adNum ++;
+			}
+			else
+			{
+				pop(sP);
+			}
+		});
+		
+		
+		$(".flip4").click(function(){
+			if(adNum < clickNum)
+			{
+				$(".flip4").flip({
+				content:giftUrl,
+				direction:'lr',
+				color:"#facbcd",
+				onEnd:function(){
+					$.ajax({
+						 type: "GET",
+						 url: "http://localhost/Dev/PHP/tinyMCE/ccc/ccc.php",
+						 success: function(msg){
+							 giftDIsplay(msg);
+							 $(".flip4").html(giftUrl);
+						 },
+						 error : function(){
+							errorControl(); 
+						}
+					 });
+					$(".flip4").css("background","none");
+					$(".flip4").unbind("click");
+					}
+				});
+				adNum ++;
+			}
+			else
+			{
+				pop(sP);
+			}
+		});
+	});
+	var giftDIsplay = function (ss) {
+
+		getGiftInfo(ss);
+		//判断礼物类型
+		//显示礼物	
+	};
+	
+	//获取图片地址
+	var getGiftInfo = function (type){
+		switch(type){
+			case '0' :
+				giftUrl ='<img src="../resource/images/tonggaoneirong.gif" alt="等待加载" width="32" height="32" class="ajax_img"/>';
+				giftName = "等待加载";
+				break;
+			case '1' :
+				giftUrl = '<img src="../resource/images/tg_public.png" alt="公开通告" width="100" height="100" class="result_img" />';
+				giftName = "公开通告";
+				break;
+			case '2' :
+				giftUrl ='<img src="../resource/images/tg_privateZ.png" alt="自定义匿名通告" width="100" height="64" class="result_imgs"/>';
+				giftName = "自定义匿名通告";
+				break;
+			case '3' :
+				giftUrl ='<img src="../resource/images/tg_privateS.png" alt="随机匿名通告" width="100" height="64" class="result_imgs"/>';
+				giftName = "随机匿名通告";
+				break;
+			case '4' :
+				giftUrl ='<img src="../resource/images/tonggaoneirong.gif" alt="" width="122" height="118" />';
+				giftName = "随机匿名通告";
+				break;
+			case '5' :
+				var sc = "<script type='text/javascript'>errorControl();</script";
+				giftUrl = '<img src="../resource/images/ajax-loader.gif" alt="" width="32" height="32" class="ajax_img"/>' +  sc + ">";
+				giftName = "出错啦";
+				break;
+			default:
+				var sc = "<script type='text/javascript'>errorControl();</script";
+				giftUrl = '<img src="../resource/images/ajax-loader.gif" alt="" width="32" height="32" class="ajax_img"/>' +  sc + ">";
+				giftName = "出错啦";
+				break;
+		}
+	};
+	var errorControl = function (){
+		var noticeCircle = pJ.selector.id('noticeCircle'); 
+		pop(noticeCircle); 
+		setTimeout(function(){location.replace(location.href);}, 1000);
+	};
+	
+</script>
+</html>

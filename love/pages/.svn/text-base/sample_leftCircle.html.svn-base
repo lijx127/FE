@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>沈联民的测试</title>
+<link href="../resource/css/screen.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 6]>
+<link href="../resource/css/common/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+
+<body>
+	 <!-- 主容器 Start -->
+<div class="Container_latgMain bg3">
+     	 <!-- 数字代号 Start -->
+         <div class="el_box_problem" id="el_box">
+         </div>
+         <!-- 数字代号 End -->
+         
+    	 <!-- 导航 Start -->
+  		 <div class="Container_latgNav">
+         	<a id="nav_link_latg" href="http://www.baidu.com" title="恋爱通告"></a>
+            <a id="nav_link_addFriends" href="http://www.baidu.com" title="添加好友"></a>
+            <a id="nav_link_faq" href="http://www.baidu.com" title="常见问题"></a>
+            <a id="nav_link_awards" href="http://www.baidu.com" title="抽奖"></a>
+     	 </div>
+    	 <!-- 导航 End -->
+         
+      <!-- 可编辑区域 Start -->
+      <div class="Container_latgMainArea">
+                
+      </div>
+      <!-- 可编辑区域 End -->
+      
+      <!--按钮 Start-->
+      <a class="pageBtn_left" href="#"></a>
+      <a href="#" class="pageBtn_center"></a>
+      <a href="#" class="pageBtn_right"></a>
+      <a href="#" class="pageBtn_leftCenter"></a>
+      <!--按钮 End-->
+  </div>
+  <!-- 主容器 End -->
+</body>
+<script type="text/javascript" src="../resource/js/common.js"></script>
+<script type="text/javascript">
+pJ.selector.id("el_box").onmouseover = function(){pJ.hover.change(this, "el_box_problem el_box_problem_selected")};
+pJ.selector.id("el_box").onmouseout = function(){pJ.hover.change(this, "el_box_problem")};
+</script>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>滚动</title>
+</head>
+<link href="css/niutuku.css" type="text/css" rel="stylesheet">
+<body>
+<script type="text/javascript" src="js/horizon.js"></script>
+<div id="idContainer" class="container">
+ <div class="slider_left" id="idSliderLeft" style="float:left"></div>
+  <div id="idContent" class="content"  style="float:left">
+    <table cellpadding="0" cellspacing="0">
+      <tr align="center">
+         <td><a href="#"><div><b style="padding:0 0 0 12px;">高乐乐</b><img src="images/head.gif" /><b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#666; position:absolute; left:30px; top:68px;">28</b>
+         <b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#FFF; position:absolute; left:30px; top:65px;">28</b>
+         </div></a></td>
+        <td><a href="#"><div><b style="padding:0 0 0 12px;">高乐乐</b><img src="images/head.gif" /><b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#666; position:absolute; left:30px; top:68px;">28</b>
+         <b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#FFF; position:absolute; left:30px; top:65px;">28</b>
+         </div></a></td>
+         <td><a href="#"><div><b  style="padding:0 0 0 12px;">高乐乐</b><img src="images/head.gif" /><b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#666; position:absolute; left:30px; top:68px;">28</b>
+         <b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#FFF; position:absolute; left:30px; top:65px;">28</b>
+         </div></a></td>
+        <td><a href="#"><div><b  style="padding:0 0 0 12px;">高乐乐</b><img src="images/head.gif" /><b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#666; position:absolute; left:30px; top:68px;">28</b>
+         <b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#FFF; position:absolute; left:30px; top:65px;">28</b>
+         </div></a></td>
+         <td><a href="#"><div><b  style="padding:0 0 0 12px;">高乐乐</b><img src="images/head.gif" /><b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#666; position:absolute; left:30px; top:68px;">28</b>
+         <b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#FFF; position:absolute; left:30px; top:65px;">28</b>
+         </div></a></td>
+        <td><a href="#"><div><b  style="padding:0 0 0 12px;">高乐乐</b><img src="images/head.gif" /><b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#666; position:absolute; left:30px; top:68px;">28</b>
+         <b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#FFF; position:absolute; left:30px; top:65px;">28</b>
+         </div></a></td>
+         <td><a href="#"><div><b  style="padding:0 0 0 12px;">高乐乐</b><img src="images/head.gif" /><b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#666; position:absolute; left:30px; top:68px;">28</b>
+         <b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#FFF; position:absolute; left:30px; top:65px;">28</b>
+         </div></a></td>
+        <td><a href="#"><div><b  style="padding:0 0 0 12px;">高乐乐</b><img src="images/head.gif" /><b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#666; position:absolute; left:30px; top:68px;">28</b>
+         <b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#FFF; position:absolute; left:30px; top:65px;">28</b>
+         </div></a></td>
+         <td><a href="#"><div><b  style="padding:0 0 0 12px;">高乐乐</b><img src="images/head.gif" /><b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#666; position:absolute; left:30px; top:68px;">28</b>
+         <b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#FFF; position:absolute; left:30px; top:65px;">28</b>
+         </div></a></td>
+        <td><a href="#"><div><b  style="padding:0 0 0 12px;">高乐乐</b><img src="images/head.gif" /><b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#666; position:absolute; left:30px; top:68px;">28</b>
+         <b style="font-family:Franklin Gothic Heavy; font-size:28px; color:#FFF; position:absolute; left:30px; top:65px;">28</b>
+         </div></a></td>
+      </tr>
+    </table>
+  </div>
+  <div class="slider_right" id="idSliderRight" style="float:left"></div>
+  <div class="slider" id="idSlider" style="visibility:hidden; margin:-20px;">
+    <div class="bar" id="idBar">
+      <div class="bar_left"></div>
+      <div class="bar_right"></div>
+    </div>
+  </div>
+
+</div>
+<script>
+var sld = new Slider("idSlider", "idBar", {
+	MaxValue: $("idContent").scrollWidth - $("idContent").clientWidth,
+	onMin: function(){ $("idSliderLeft").style.backgroundPosition = "bottom left"; },
+	onMax: function(){ $("idSliderRight").style.backgroundPosition = "bottom right"; },
+	onMid: function(){ $("idSliderLeft").style.backgroundPosition = "top left"; $("idSliderRight").style.backgroundPosition = "top right"; },
+	onMove: function(){ $("idContent").scrollLeft = this.GetValue(); }
+});
+
+sld.SetPercent(.5);
+sld.Ease = true;
+
+$("idSliderLeft").onmouseover = function(){ sld.Run(false); }
+$("idSliderLeft").onmouseout = function(){ sld.Stop(); }
+
+$("idSliderRight").onmouseover = function(){ sld.Run(true); }
+$("idSliderRight").onmouseout = function(){ sld.Stop(); }
+</script>
+</body>
+</html>

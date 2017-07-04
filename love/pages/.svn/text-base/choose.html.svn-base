@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<!--css导入形式用screen导入-->
+<link href="../resource/css/screen.css" rel="stylesheet" type="text/css" />
+<link href="../resource/css/pages/page.css" rel="stylesheet" type="text/css"/>
+<link href="../resource/css/pages/drag.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="../resource/js/horizon.js"></script>
+<!--[if lte IE 6]>
+<link href="../resource/css/common/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+
+<body>
+<div id="frinedsChoose_Container">
+  <div id="friendsChoose_searchContainer">
+  <input type="text" class="friendsChoose_input" id="friendsChoose"/>
+  </div>
+  <div id="idContainer2" class="container2">
+    <div id="idSlider2" class="slider2">
+      <div id="idBar2" class="bar2">
+      </div>
+    </div>
+    <ul id="idContent2" class="content2">
+      <li><a href="javascript:void" class="friendsChoose_link">
+        <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">武则天</b>
+      </a> 
+      </li>
+       <li><a href="javascript:void" class="friendsChoose_link">
+        <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">六则天</b>
+      </a> 
+      </li>
+       <li><a href="javascript:void" class="friendsChoose_link">
+        <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">武则地</b>
+      </a> 
+      </li>
+       <li><a href="javascript:void" class="friendsChoose_link">
+        <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">武天天</b>
+      </a> 
+      </li>
+       <li><a href="javascript:void" class="friendsChoose_link">
+        <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">数天</b>
+      </a> 
+      </li>
+       <li><a href="javascript:void" class="friendsChoose_link">
+        <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">雪村</b>
+      </a> 
+      </li>
+       <li><a href="javascript:void" class="friendsChoose_link">
+        <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">温蒂</b>
+      </a> 
+      </li>
+       <li><a href="javascript:void" class="friendsChoose_link">
+        <img src="../resource/images/lijx/head_fl.png" /><b class="friendsChoose_name">sara</b>
+      </a> 
+      </li>
+      
+      </ul>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="../resource/js/common.js"></script>
+<script type="text/javascript" src="../resource/js/horizon.js"></script>
+<script type="text/javascript" src="../resource/js/Drag.js"></script>
+<script>
+hScroll("idBar2").style.height = hScroll("idSlider2").clientHeight * Math.min(hScroll("idContent2").clientHeight / hScroll("idContent2").scrollHeight, 1) - 4 + "px";
+
+var sld2 = new Slider("idSlider2", "idBar2", { Horizontal: false,
+	MaxValue: hScroll("idContent2").scrollHeight - hScroll("idContent2").clientHeight,
+	onMove: function(){ hScroll("idContent2").scrollTop = this.GetValue(); }
+});
+
+sld2.WheelBind(hScroll("idContent2"));
+sld2.KeyBind(hScroll("idContent2"));
+
+
+/*
+*功能：筛选好友
+*依赖：pJ.selector
+*
+*/
+/**********************************************************************************/
+var h = pJ.selector.userfulTagChoose('a', /\bfriendsChoose_link\b/);
+var Interlace = function(oriArray, even, odd){
+	var a = oriArray, e = even, o = odd;
+	for(var i = 0, l = a.length; i < l; i++)
+	{
+		ci = a[i];
+		if(i % 2 == 0) {ci.className = e;}
+		else{ci.className = o;}
+	}
+}
+
+Interlace(h, "friendsChoose_link friendsChoose_link_od", "friendsChoose_link");
+/*筛选事件*/
+var search_tip = "输入好友姓名进行筛选";
+$("#friendsChoose").val(search_tip);
+$("#friendsChoose").focus(function() {
+	if($(this).val().toString() == search_tip){
+		$(this).val("");
+	}
+	$(this).bind("keyup", function(e){
+		var lineN = 0;
+		var q = $(this).attr("value");
+ 	 	if (q === ""){
+    			$('friendsChoose_link').parent().show();
+    			return;
+  		}
+  		$(".friendsChoose_name").each(function() {
+					var html = $(this).html();
+    			if(html.indexOf(q) >= 0){
+      				$(this).parent().parent().show();
+							if( lineN % 2 == 0) 
+							{
+								if(!$(this).parent().hasClass("friendsChoose_link_od"))
+									$(this).parent().addClass("friendsChoose_link_od");
+								lineN++;
+							}
+							else
+							{
+								if($(this).parent().hasClass("friendsChoose_link_od"))
+									$(this).parent().removeClass("friendsChoose_link_od");
+								lineN++;
+							}
+							
+    			}else{
+      				$(this).parent().parent().hide();
+    			}
+					
+  		});			
+	});
+});
+$("#friendsChoose").blur(function() {
+	if($(this).val().toString() == ""){	
+		$(this).val(search_tip);
+			$(".friendsChoose_name").each(function() {
+      	$(this).parent().parent().show();
+				Interlace(h, "friendsChoose_link friendsChoose_link_od", "friendsChoose_link");
+  		});		 	
+	}
+	$(this).unbind("keyup");
+});
+</script>
+</html>

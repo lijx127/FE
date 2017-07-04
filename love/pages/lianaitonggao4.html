@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+
+<link href="../resource/css/screen.css" rel="stylesheet" type="text/css" />
+<link href="../resource/css/pages/pages.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 6]>
+<link href="../resource/css/common/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+	<script type="text/javascript" src="../resource/js/ie6PngHack.js" ></script>
+	<script type="text/javascript">	DD_belatedPNG.fix('.el_box_problem,.pageBtn_leftCenter,.zhongjianbufen,.huiseliwu,.pageBtn_left,.dianjifasong,.chakanwodetonggaoneirong,.chakanfusongliwu,.biaobaiConfirm_submit,.Textarea_biaobai_update');
+	</script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+
+ <!-- 主容器 Start -->
+	<div class="Container_latgMain bg3">
+     	 <!-- 数字代号 Start -->
+         <div class="el_box_problem">
+         </div>
+         <!-- 数字代号 End -->
+         
+    	 <!-- 导航 Start -->
+		 <div class="Container_latgNav">
+         	<a id="nav_link_latg" href="http://www.baidu.com" title="恋爱通告"></a>
+            <a id="nav_link_addFriends" href="http://www.baidu.com" title="添加好友"></a>
+            <a id="nav_link_faq" href="http://www.baidu.com" title="常见问题"></a>
+            <a id="nav_link_awards" href="http://www.baidu.com" title="抽奖"></a>
+         </div>
+         <!-- 导航 End -->
+         
+          <!-- 可编辑区域 Start -->
+           <div class="dianjifasong"></div>
+           <a href="#" class="pageBtn_leftCenter"></a>
+           <a class="pageBtn_left" href="#"></a>
+          <div class="Container_latgMainArea">
+          	<span class="span_biaobaiConfirm">发送给: 武则天</span>
+            <div class="zhongjianbufen" id="zhongjianbufen">
+            <form>
+                <textarea class="Textarea_biaobai_confirm" disabled="disabled" id="biaobaiConfirm">输入</textarea>
+                <input type="hidden" id="friendsChoose_id" value="" /><!--接受者的id-->
+            </form>
+            </div>
+          </div>
+          <div class="chakanwodetonggaoneirong" id="tgneirong">   
+          </div>
+          <!-- 可编辑区域 End -->
+    </div>
+    <!--通告编辑start-->
+    <div class="hideContainer">
+      <div id="biaobaiConfirm_container">
+        <form>
+          <textarea class="Textarea_biaobai_update" id="Textarea_biaobai_update">塑料袋解放打开浪费</textarea>
+        </form>
+        <a id="biaobaiConfirm_submit" class="biaobaiConfirm_submit" href="javascript:;"></a>
+      </div>
+    </div>
+    <!--通告编辑end-->
+    <!-- 主容器 End -->
+</body>
+<script type="text/javascript" src="../resource/js/common.js"></script>
+<script type="text/javascript" src="../resource/js/pop.js"></script>
+<script type="text/javascript">
+var timer,timer1;var timer2,timer3;var hide=function(){timer1=setTimeout(function(){document.getElementById('tgneirong').className="chakanwodetonggaoneirong"},50)};var display=function(){var timer=setTimeout(function(){document.getElementById('tgneirong').className="chakanwodetonggaoneirong display"},50)}
+
+var zjbf=document.getElementById('zhongjianbufen');zjbf.onmouseover=display;zjbf.onmousemove=display;zjbf.onmouseout=hide;
+<!-- 绿色礼物-->
+<!--var zjbf2 = document.getElementById('lvseliwu');-->
+<!--zjbf2.onmouseover = display2;-->
+<!--zjbf2.onmousemove = display2;-->
+<!--zjbf2.onmouseout = hide2;-->
+var contain=document.getElementById('tgneirong');contain.onmouseover=display;contain.onmousemove=function(){if(!!timer1)clearTimeout(timer1);else{this.className="chakanwodetonggaoneirong display"}};contain.onmouseout=hide;var biaobaiConfirm=pJ.selector.id('biaobaiConfirm');biaobaiConfirm.onmouseover=display;biaobaiConfirm.onmousemove=function(){if(!!timer1)clearTimeout(timer1);else{contain.className="chakanwodetonggaoneirong display"}};
+biaobaiConfirm.onmouseout=hide;var biaobaiConfirm_container=pJ.selector.id('biaobaiConfirm_container');var Textarea_biaobai_update=pJ.selector.id('Textarea_biaobai_update');var biaobaiConfirm_submit=pJ.selector.id("biaobaiConfirm_submit");pJ.selector.id('zhongjianbufen').onclick=function(){pop(biaobaiConfirm_container);Textarea_biaobai_update.value=biaobaiConfirm.value};biaobaiConfirm_submit.onclick=function(){var biaobaiContent=Textarea_biaobai_update.value;biaobaiConfirm.value=biaobaiContent;centerClose()};if(/gecko/.test(ua))biaobaiConfirm.disabled="";
+</script>
+</html>

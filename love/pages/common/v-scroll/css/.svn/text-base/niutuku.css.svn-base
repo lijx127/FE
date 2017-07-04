@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none;}
+input,button{margin:0;font-size:12px;vertical-align:middle;}
+body{font-size:12px;font-family:Arial, Helvetica, sans-serif;  text-align:center; margin:0 auto; }
+table{border-collapse:collapse;border-spacing:0;}
+
+.clearfloat{height:0;font-size:1px;clear:both;line-height:0;}
+
+a{color:#333;text-decoration:none;}
+a:hover{color:#ef9b11; text-decoration:none;}
+
+.container{width:500px; overflow:hidden; color:#fff; margin:20px auto; padding:10px 20px; height:120px;}
+
+.content{ overflow:hidden; margin-bottom:10px;width:440px;position:relative;}
+.content div{ width:87px; margin:1px; padding:0px; padding-bottom:0; height:120px; line-height:20px; background: url(file:///C|/Users/Administrator/Desktop/69/69/images/2.gif) 13px 4px no-repeat; padding-top:12px;position:relative;}
+.content div img{border:0;display:block; padding:0 0 0 10px;}
+.content div:hover{background:url(file:///C|/Users/Administrator/Desktop/69/69/images/3.gif) 13px 4px no-repeat; color:#000; text-decoration:none;}
+
+
+.slider{ padding:1px 0; position:relative;background:#0A0A0A; height:15px; border-bottom:1px solid #545454;border-top:1px solid #545454; float:left; width:544px;cursor:pointer; }
+.slider_left{ background:url(file:///C|/Users/Administrator/Desktop/69/69/images/left.gif) no-repeat; height:36px; width:29px; float:left; cursor:pointer; margin-top:50px;background-position:left top;}
+.slider_right{ background:url(file:///C|/Users/Administrator/Desktop/69/69/images/right.gif) no-repeat; height:36px; width:29px; float:left; cursor:pointer; margin-top:50px;{background-position:right top;}
+
+.bar{ height:15px; width:150px; background:url(http://pic002.cnblogs.com/img/cloudgamer/200812/2008122223573480.gif) left top repeat-x;}
+.bar_left, .bar_right{background:url(http://pic002.cnblogs.com/img/cloudgamer/200812/2008122223580168.gif) no-repeat;height:15px; _font-size:0; width:6px; position:absolute; top:0px;}
+.bar_left{background-position:left top;left:-6px;}
+.bar_right{background-position:right top;right:-6px;}
+

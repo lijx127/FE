@@ -1,0 +1,154 @@
+/* CSS Document */
+
+/**---------------------------------------------------------
+*function:站点公用样式表，
+*version:1.0.0.1
+*author:沈联民
+*email:shemlm203@gmail.com
+*date:2011.
+----------------------------------------------------------*/
+
+
+/*--公共设置--*/
+body{
+	font-family:"微软雅黑", "宋体", "黑体";
+}
+/*链接*/
+a{
+	color:#ae4c3d;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+a:focus{outline:none}
+/*--------------------------------------------------------*/
+
+
+/*--主容器--*/
+.Container_latgMain{
+	background:#FFF url(../../images/common/indexBG2.png) center top no-repeat;
+	margin:0 auto;
+	width:800px;
+	height:800px;
+	position:relative;
+}
+.bg1{background:#FFF url(../../images/common/bg01_new.jpg) center top no-repeat;margin:0 auto;}
+.bg2{background:#FFF url(../../images/common/bg02_new.jpg) center top no-repeat;}
+.bg3{background:#FFF url(../../images/common/bg03_new.png) center top no-repeat;}
+/*--------------------------------------------------------*/
+
+/*--导航--*/
+.Container_latgNav{
+	width:402px;
+	height:38px;
+	position:absolute;
+	top:155px;
+	left:230px;
+}
+/*--首页导航下移动--*/
+.Container_latgNav_index{
+	top:185px;
+}
+.Container_latgNav2{
+	width:326px;
+	height:38px;
+	position:absolute;
+	top:155px;
+	left:248px;
+}
+.Container_latgNav a{
+	height:300px;
+	height:38px;
+	float:left;
+	width:auto;
+}
+.Container_latgNav2 a{
+	height:300px;
+	height:38px;
+	float:left;
+	width:auto;
+}
+#nav_link_latg{
+	width:106px;
+	background:url(../../images/common/nav.png) left top no-repeat;
+	background-position:0 0;
+}
+#nav_link_addFriends{
+	width:116px;
+	background:url(../../images/common/nav.png) left top no-repeat;
+	background-position:-106px 0;
+}
+#nav_link_faq{
+	width:102px;
+	background:url(../../images/common/nav.png) left top no-repeat;
+	background-position:-224px 0;
+}
+#nav_link_awards{
+	width:76px;
+	background:url(../../images/common/nav.png) left top no-repeat;
+	background-position:-326px 0;
+}
+/*覆盖效果*/
+#nav_link_latg:hover{
+	background-position:0px -38px;
+}
+#nav_link_addFriends:hover{
+	background-position:-106px -38px;
+}
+#nav_link_faq:hover{
+	background-position:-224px -38px;
+}
+#nav_link_awards:hover{
+	background-position:-326px -38px;
+}
+/*--------------------------------------------------------*/
+
+.wrapper_btn_left{
+	position:absolute;
+	left:302px;
+	bottom:272px;
+	width:100px;
+	height:30px;
+}
+.wrapper_btn_center{
+	position:absolute;
+	left:352px;
+	bottom:323px;
+	width:100px;
+	height:30px;
+}
+.wrapper_btn_right{
+	position:absolute;
+	left:472px;
+	bottom:323px;
+	width:170px;
+	height:30px;
+}
+.wrapper_btn_centerLeft{
+	position:absolute;
+	left:84px;
+	bottom:447px;
+	width:170px;
+	height:30px;
+}
+
+/*--主显示区域--*/
+.Container_latgMainArea{
+	position:absolute;
+	width:532px;
+	height:283px;
+	left:169px;
+	top:201px;
+}
+/*首页中mainarea的top值修改，防止遮挡nav*/
+/*修改人：姚冀锋*/
+.Container_latgMainArea_index{
+	position:absolute;
+	width:532px;
+	height:283px;
+	left:169px;
+	top:225px;
+}
+
+/*--------------------------------------------------------*/

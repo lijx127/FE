@@ -1,0 +1,123 @@
+/* CSS Document */
+
+/*
+*function:页面的小元素集合（注意详加注释）
+*version:1.0.0.0
+*author:沈联民
+*email:shemlm203@gmail.com
+*date:2011.04.25
+----------------------------------------------------------*/
+
+/*每个页面左上角指示的下一步的图标定位*/
+.el_box_nextStep{
+	position:absolute;
+	background:url(../../images/common/circle2.png) no-repeat;
+	width:117px;
+	height:100px;
+	left:57px;
+	top:145px;
+}
+.el_box_problem{
+	position:absolute;
+	background:url(../../images/common/circleabg.png) 0px 0px no-repeat;
+	width:100px;
+	height:100px;
+	left:89px;
+	top:144px;
+}
+.el_box_problem_selected{
+	background:url(../../images/common/circleabg.png) -105px 0px no-repeat;
+}
+.box_pageNumb{
+	position:absolute;
+	left:87px;
+	top:14px;
+	width:21px;
+	height:21px;
+	font-size:16px;
+	font-weight:900;
+	color:#ef3a38;
+	text-align:center;
+}
+
+/*--以下是页面的所有按钮--*/
+a.pageBtn_giftConfirm{
+	background:url(../../images/confirmGift.png) left top no-repeat;
+	position:absolute;
+	width:100px;
+	height:100px;
+	left:560px;
+	top:385px;	
+}
+a.pageBtn_leftCenter{
+	background:url(../../images/gift.png) no-repeat;
+	background-position:-331px -106px;
+	position:absolute;
+	left:45px;
+	top:275px;
+	width:170px;
+	height:33px;
+	z-index:10;
+}
+a.pageBtn_left{
+	background:url(../../images/back.png) left top no-repeat;
+	position:absolute;
+	left:283px;
+	top:499px;
+	width:97px;
+	height:31px;
+}
+a.pageBtn_center{
+	background:url(../../images/chooseContent.png) no-repeat;
+	background-position:0 -169px;
+	position:absolute;
+	left:333px;
+	bottom:319px;
+	width:160px;
+	height:36px;
+	z-index:10;
+}
+a.pageBtn_right{
+	background:url(../../images/common/invention.png) no-repeat;
+	position:absolute;
+	right:169px;
+	bottom:319px;
+	width:207px;
+	height:47px;
+}
+/*位置下移动 右移动*/
+a.pageBtn_right{
+	bottom:-30px;
+	right:80px;
+}
+.ltClose{
+   background-position: -303px -66px;
+    cursor: pointer;
+    height: 40px;
+    left: 326px;
+    position: absolute;
+    top: 48px;
+    width: 20px;
+}
+
+/*结果文字的样式*/
+#resultMessage{position:relative; font-weight:bold; font-size:48px; color:rgb(238, 56, 67); top:80px; left:100px;}
+/*发送确认页面*/
+.Textarea_biaobai_confirm{
+	border:0;
+	background:none;
+	font-size:10px;
+	color:#221e1f;
+	width:120px;
+	_width:100px !important;
+	height:120px;
+	margin-left:10px;
+	_margin-left:10px !important;
+	margin-top:70px;
+	cursor:pointer;
+}
+.span_biaobaiConfirm{position:relative; font-weight:bold; font-size:20px; color:rgb(238, 56, 67); left:100px;}
+.hideContainer{position:absolute; left:-10000px !important;}
+/*发送内容选择页面，ajaxloader*/
+.ajax_loader{left: 53%; position: absolute; top: 40%; display:none;}
+	

@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>JavaScript 滑动条效果</title>
+</head>
+<body>
+<script type="text/javascript" src="js/horizon.js"></script>
+<script type="text/javascript" src="js/Drag.js"></script>
+<style type="text/css">
+.container2{width:261px;background:#fff; border:none; background:url(images/bg.png) left top no-repeat; padding:5px; height:260px;}
+
+.content2{ overflow:hidden;height:220px;width:230px; _float:left; padding:2px; padding-right:0; margin:0; line-height:1.5em; margin-top:12px;}
+
+.slider2{height:220px; width:18px; background-color:#fbcbcb; border:2px solid #fbcbcb; float:right; margin-right:6px;margin-top:12px;}
+.bar2{width:14px; border:2px outset #f67c7c; background-color:#f67c7c; _font-size:0;}
+.content2 img{border:none;}
+</style>
+<div id="idContainer2" class="container2">
+  <div id="idSlider2" class="slider2">
+    <div id="idBar2" class="bar2"></div>
+  </div>
+  <ul id="idContent2" class="content2">
+    <li><a href="http://www.cnblogs.com/cloudgamer/archive/2008/07/21/1247267.html"><img src="images/1.png" /></a> 
+    </li>
+    <li><a href="http://www.cnblogs.com/cloudgamer/archive/2008/07/21/1247267.html"><img src="images/2.png" /></a> 
+    </li>
+    <li><a href="http://www.cnblogs.com/cloudgamer/archive/2008/07/21/1247267.html"><img src="images/3.png" /></a> 
+    </li>
+    <li><a href="http://www.cnblogs.com/cloudgamer/archive/2008/07/21/1247267.html"><img src="images/4.png" /></a> 
+    </li>
+    <li><a href="http://www.cnblogs.com/cloudgamer/archive/2008/07/21/1247267.html"><img src="images/5.png" /></a> 
+    </li>
+    <li><a href="http://www.cnblogs.com/cloudgamer/archive/2008/07/21/1247267.html"><img src="images/1.png" /></a> 
+    </li>
+    <li><a href="http://www.cnblogs.com/cloudgamer/archive/2008/07/21/1247267.html"><img src="images/2.png" /></a> 
+    </li>
+    <li><a href="http://www.cnblogs.com/cloudgamer/archive/2008/07/21/1247267.html"><img src="images/3.png" /></a> 
+    </li>
+    <li><a href="http://www.cnblogs.com/cloudgamer/archive/2008/07/21/1247267.html"><img src="images/4.png" /></a> 
+    </li>
+    <li><a href="http://www.cnblogs.com/cloudgamer/archive/2008/07/21/1247267.html"><img src="images/5.png" /></a> 
+    </li>
+    </ul>
+</div>
+<script>
+$("idBar2").style.height = $("idSlider2").clientHeight * Math.min($("idContent2").clientHeight / $("idContent2").scrollHeight, 1) - 4 + "px";
+
+var sld2 = new Slider("idSlider2", "idBar2", { Horizontal: false,
+	MaxValue: $("idContent2").scrollHeight - $("idContent2").clientHeight,
+	onMove: function(){ $("idContent2").scrollTop = this.GetValue(); }
+});
+
+sld2.WheelBind($("idContent2"));
+sld2.KeyBind($("idContent2"));
+</script>
+
+</body>
+</html>

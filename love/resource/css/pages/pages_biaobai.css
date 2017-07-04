@@ -1,0 +1,54 @@
+/* CSS Document */
+/**---------------------------------------------------------
+*function:表白等页的样式
+*version:1.0.0.0
+*author:沈联民
+*email:shemlm203@gmail.com
+*date:2011.04.28
+----------------------------------------------------------*/
+
+.wrapper_gift{
+	width:86px;
+	height:85px;
+	position:absolute;
+	left:65px;
+	top:101px;
+}
+.box_paper_biaobai{
+	height:100%;
+	width:247px;
+	height:288px;
+	background:url(../../images/paper_biaobai.png) no-repeat;
+	float:left;
+	margin-left:140px;
+	_margin-left:55px !important;/*ie6的修正效果*/
+}
+.Textarea_biaobai{
+	border:0;
+	background:none;
+	font-size:12px;
+	color:#221e1f;
+	width:170px;
+	_width:150px !important;
+	height:150px;
+	margin-left:50px;
+	_margin-left:30px !important;
+	margin-top:70px;
+}
+
+.wrapper_qitaBiaobai{
+	float:left;
+	width:140px;
+	height:283px;
+}
+.p_suijibiaobai{
+	margin-top:70px;
+}
+.box_nextStep{
+	margin:auto;
+	background:url(../../images/h_scroll.png) no-repeat;
+	background-position:-61px 0;
+	width:27px;
+	height:34px;
+	margin-top:45px;
+}

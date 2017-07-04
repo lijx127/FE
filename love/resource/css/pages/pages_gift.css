@@ -1,0 +1,55 @@
+/* CSS Document */
+
+/**---------------------------------------------------------
+*function:为礼物页面写的样式
+*version:1.0.0.0
+*author:沈联民
+*email:shemlm203@gmail.com
+*date:2011.04.29
+----------------------------------------------------------*/
+.box_title{
+	height:20px;
+	position:relative;
+	background:url(../../images/gift_title.jpg) center center no-repeat;
+}
+.Container_gift{
+	margin:auto;
+	width:257px;
+}
+.wrapper_tonggaoneirong{
+	float:left;
+	width:122px;
+	height:118px;
+	line-height:118px;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.wrapper_giftPack{
+	float:left;
+	width:122px;
+	height:118px;
+}
+.ajax_img{
+	position:relative;
+	top:45px;	
+	left:0px;
+}
+.result_img{
+	position:relative;
+	top:10px;	
+	left:0px;
+}
+.result_imgs{
+	position:relative;
+	top:30px;	
+	left:0px;
+}
+.giftInfo{
+	height:40px;
+	line-height:40px;
+	font-size:24px;
+	font-weight:bold;
+	text-align:center;
+	color:#ee3839;	
+}

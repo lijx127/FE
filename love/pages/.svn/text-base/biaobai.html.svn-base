@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>表白</title>
+<link href="../resource/css/base/base.css" rel="stylesheet" type="text/css" />
+<link href="../resource/css/common/global.css" rel="stylesheet" type="text/css" />
+<link href="../resource/css/common/elements.css" rel="stylesheet" type="text/css" />
+<link href="../resource/css/common/fonts.css" rel="stylesheet" type="text/css" />
+<link href="../resource/css/pages/pages_biaobai.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 6]>
+<link href="../resource/css/common/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<!--[if IE 6]>
+	<script type="text/javascript" src="../resource/js/ie6PngHack.js" ></script>
+	<script type="text/javascript">	DD_belatedPNG.fix('.el_box_nextStep,.pageBtn_leftCenter,.wrapper_gift,.box_paper_biaobai,.p_suijibiaobai,.box_nextStep,.wrapper_qitaBiaobai,.pageBtn_left,.wrapper_gift_image');
+	</script>
+	<![endif]-->
+</head>
+
+<body>
+	 <!-- 主容器 Start -->
+	 <div class="Container_latgMain bg3">
+     	 <!-- 数字代号 Start -->
+         <div class="el_box_nextStep">
+         	<div class="box_pageNumb">1</div>
+         </div>
+         <!-- 数字代号 End -->
+         
+    	 <!-- 导航 Start -->
+	   <div class="Container_latgNav">
+         	<a id="nav_link_latg" href="http://www.baidu.com" title="恋爱通告"></a>
+            <a id="nav_link_addFriends" href="http://www.baidu.com" title="添加好友"></a>
+            <a id="nav_link_faq" href="http://www.baidu.com" title="常见问题"></a>
+            <a id="nav_link_awards" href="http://www.baidu.com" title="抽奖"></a>
+	   </div>
+   		  <!-- 导航 End -->
+         
+      <!-- 可编辑区域 Start -->
+      <div class="Container_latgMainArea">
+      		<div class="wrapper_gift"><img src="../resource/images/gift_green.png" width="86" height="85" class="wrapper_gift_image" /></div>
+            <div class="box_paper_biaobai">
+            	<textarea class="Textarea_biaobai">输入</textarea>
+            </div>
+            <div class="wrapper_qitaBiaobai">
+            	<p class="p_suijibiaobai">随机选择其他表白</p>
+                <p class="box_nextStep"></p>
+            </div>
+      </div>
+      <!-- 可编辑区域 End -->
+      
+      <!--按钮 Start-->
+  	  <a href="#" class="pageBtn_leftCenter"></a>
+      <a class="pageBtn_left" href="#"></a>
+      <!--按钮 End-->
+ 	 </div>
+    <!-- 主容器 End -->
+</body>
+</html>
+

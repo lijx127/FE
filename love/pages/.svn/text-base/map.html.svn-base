@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网站地图</title>
+</head>
+
+<body>
+<a href="LATG_welcome.html" title="恋爱通告欢迎页面">欢迎页面</a>
+<a href="LATG_index.html" title="恋爱通告首页">首页</a>
+<a href="LATG_index.html" title="登录奖励页面">登录奖励页面</a>
+<a href="lianaitonggao2.html" title="选择通告类型">选择通告类型</a>
+<a href="LAGT_step2.html" title="登录奖励页面">选择或写表白语</a>
+<a href="lianaitonggao4.html" title="确认通告">确认通告</a>
+<a href="gift.html" title="抽奖">抽奖</a>
+<a href="lianaitonggao6.html" title="抽奖">Q$A</a>
+<a href="twoSlider.html" title="通告信息">我的通告信息</a>
+<a href="LATG_success.html" title="发送通知">发送结果通知</a>
+
+
+</body>
+</html>

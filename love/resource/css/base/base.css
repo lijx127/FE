@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+/**---------------------------------------------------------
+*function:高度重用的基础层，提供通用类
+*version:1.0
+*author:沈联民
+*email:shemlm203@gmail.com
+*date:2010.09.09
+----------------------------------------------------------*/
+
+
+/* css reset (YUI)
+-----------------------------------------------------------*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote th,td{margin:0; padding:0}
+table{ border-collapse:collapse; border-spacing:0}
+fieldset,img{ border:0}
+address,caption,cite,code,dfn,em,strong,th,var,b{font-style:normal; font-weight:normal}
+ol,ul{list-style:none}
+caption,th{ text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0}
+
+
+/* 文字排版
+-----------------------------------------------------------*/
+
+.f10{font-size:10px}
+.f11{font-size:11px}
+.f12{font-size:12px}
+.f13{font-size:13px}
+.f14{font-size:14px}
+.f16{font-size:16px}
+.f18{font-size:18px}
+.f20{font-size:20px}
+.fb{font-weight:bold}
+.fn{font-weight:normal}
+.t2{text-indent:2em}
+.lh100{line-height:100px}
+.lh150{line-height:150%}
+.lh180{line-height:180%}
+.lh200{line-height:200%}
+.unl{text-decoration:underline}
+.no_unl{text-decoration:none}
+.no_ti{text-indent:0em !important;}
+
+/* 定位
+-----------------------------------------------------------*/
+.center{margin-left:auto; margin-right:auto;}
+.tl{text-align:left !important;}
+.tc{text-align:center}
+.tr{text-align:right}
+.ti_1em{text-indent:1em;}
+.ti_0em{text-indent:0em;}
+.clear_both{clear:both;font:0}
+.clear_left{clear:left}
+.clear_right{clear:right}
+.clearfix:after{content:".";display:block; height:0; clear:both; visibility:hidden;} .clearfix{display:inline-block}* html
+.clearfix{height:1%}. Clearfix{display:block}
+.vm{vertical-align:middle}
+.pr{position:relative}
+.pa{position:absolute}
+/*绝对居中，用于固定宽的元素，需在下层定义宽度*/
+.abs-center{position:absolute; left:50%;}
+.abs-right{position:absolute; right:0}
+.hidden{visibility:hidden}
+.none{display:none}
+.float_left{float:left !important;}
+.float_right{float:right !important;}
+
+
+/* 长度高度
+-----------------------------------------------------------*/
+
+.w10{width:10px}
+.w20{width:20px}
+.w30{width:30px !important;}
+.w40{width:40px !important;}
+.w50{width:50px !important;}
+.w60{width:60px !important;}
+.w80{width:80px !important;}
+.w100{width:100px}
+.w150{width:150px !important;}
+.w200{width:200px !important;}
+.w250{width:250px !important;}
+.w300{width:300px !important;}
+.w400{width:400px !important;}
+.w500{width:500px}
+.w500{width:500px}
+.w500{width:500px}
+.w600{width:600px}
+.h100{height:100px}
+.h50{height:50px}
+/* 边距
+-----------------------------------------------------------*/
+
+.no_margin{margin:0}
+.m7{margin:7px}
+.m10{margin:10px}
+.m15{margin:15px}
+.m20{margin:20px}
+.m25{margin:25px}
+.m30{margin:30px}
+.m35{margin:35px}
+.m50{margin:50px}
+/*上边距*/
+.mt0{margin-top:0px}
+.mt5{margin-top:5px}
+.mt10{margin-top:10px}
+.mt15{margin-top:15px}
+.mt20{margin-top:20px}
+.mt25{margin-top:25px}
+.mt50{margin-top:50px}
+.mt100{margin-top:100px}
+/*左边距*/
+.ml5{margin-left:5px !important;}
+.ml10{margin-left:10px !important;}
+.ml12{margin-left:12px}
+.ml15{margin-left:15px}
+.ml20{margin-left:20px !important;}
+.ml25{margin-left:25px}
+.ml30{margin-left:30px!important}
+.ml33{margin-left:33px}
+.ml42{margin-left:42px}
+.ml43{margin-left:43px}
+.ml45{margin-left:45px}
+.ml47{margin-left:47px}
+.ml50{margin-left:50px!important;}
+.ml60{margin-left:60px!important}
+.ml65{margin-left:65px!important}
+.ml70{margin-left:70px}
+.ml80{margin-left:80px}
+.ml100{margin-left:100px !important;}
+.ml132{margin-left:132px}
+.ml150{margin-left:150px !important;}
+.ml200{margin-left:200px}
+.ml250{margin-left:250px !important;}
+.ml300{margin-left:300px !important;}
+.ml400{margin-left:400px !important;}
+.ml450{margin-left:450px}
+.ml500{margin-left:500px}
+.ml600{margin-left:600px}
+/*右边距*/
+.mr5{margin-right:5px}
+.mr10{margin-right:10px}
+.mr15{margin-right:15px}
+.mr20{margin-right:20px !important;}
+.mr25{margin-right:25px}
+.mr30{margin-right:30px !important;}
+.mr50{margin-right:50px}
+.mr100{margin-right:100px}
+.mr150{margin-right:150px}
+.mr200{margin-right:200px}
+.mr300{margin-right:300px}
+/*下边距*/
+.mb10{margin-bottom:10px !important;}
+
+/*颜色*/
+.color_red {color:red;}
+.color_blue{color:blue;}
+.color_green{color:green;}
+.color_orange{color:orange;};
+/*a链接样式*/
+
+
+.div_border_1px_solid_gray{
+	border:1px solid #dddddd;
+}
+
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+
+
+

@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>邀请好友</title>
+<link href="../resource/css/screen.css" type="text/css" rel="stylesheet" />
+<link href="../resource/css/pages/pages.css" rel="stylesheet" type="text/css" />
+<link href="../resource/css/pages/page.css" rel="stylesheet" type="text/css"/>
+<!--[if lte IE 6]>
+<link href="../resource/css/common/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+	<script type="text/javascript" src="../resource/js/ie6PngHack.js" ></script>
+	<script type="text/javascript">	DD_belatedPNG.fix('.friendsChoose_input,.fCop_all,.fCop_anti,.fCop_cancel,.fCop_submit,.noticeCircle,.friendsChoose_invite,.bg3');
+	</script>
+	<![endif]-->
+</head>
+
+<body>
+	 <!-- 主容器 Start -->
+	<div class="Container_latgMain bg3">
+         
+    	 <!-- 导航 Start -->
+		 <div class="Container_latgNav">
+         	<a id="nav_link_latg" href="http://www.baidu.com" title="恋爱通告"></a>
+            <a id="nav_link_addFriends" href="http://www.baidu.com" title="添加好友"></a>
+            <a id="nav_link_faq" href="http://www.baidu.com" title="常见问题"></a>
+            <a id="nav_link_awards" href="http://www.baidu.com" title="抽奖"></a>
+     </div>
+         <!-- 导航 End -->
+<div id="friendsChoose_op" class="friendsChoose_op">
+  <a id="selectAll" class="a_friendsChoose_op fCop_all" href="javascript:;"></a>
+  <a id="fanxuan" class="a_friendsChoose_op fCop_anti" href="javascript:;"></a>
+  <a id="cancel" class="a_friendsChoose_op fCop_cancel" href="javascript:;"></a>
+  <a id="submit" class="a_friendsChoose_op fCop_submit" href="javascript:;"></a>
+</div>
+<div class="friendsChoose_invite" id="friendsChoose_invite">
+	<input type="text" class="friendsChoose_input" id="friendsChoose"/>
+</div>
+<div class="inviteList_container" id="inviteListContainer">
+  <ul>
+  	<li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="123323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">小闪电</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="142323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">小闪电</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="1237623">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">大山点</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="12345323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">超哥</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="12tr23">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">名额</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="1212323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">民歌</span>
+        <input type="hidden" value="" />
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="123323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">小闪电</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="142323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">小闪电</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="1237623">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">大山点</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="12345323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">超哥</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="12tr23">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">名额</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="1212323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">民歌</span>
+        <input type="hidden" value="" />
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="123323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">小闪电</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="142323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">小闪电</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="1237623">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">大山点</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="12345323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">超哥</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="12tr23">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">名额</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="1212323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">民歌</span>
+        <input type="hidden" value="" />
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="123323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">小闪电</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="142323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">小闪电</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="1237623">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">大山点</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="12345323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">超哥</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="12tr23">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">名额</span>
+      </a>
+    </li>
+    <li>
+    	<a href="javascript:;" class="a_inviteList" renrenId="1212323">
+        <img src="../resource/images/lijx/head_fl.png"/>
+        <span class="name_inviteList">民歌</span>
+        <input type="hidden" value="" />
+      </a>
+    </li>
+  </ul>
+</div>
+ <div class="hideContainer">
+  	<form method="post" name="cc" id="cc" action="http://localhost/Dev/PHP/tinyMCE/ccc/ccc.php">
+    	<input type="hidden" id="ccc" name="ccc" value="" />
+    </form>
+  </div>
+  <div class="hideContainer">
+  	<div id="noticeCircle" class="noticeCircle">
+      <a id="ltClose" class="noticleCircleClose"></a>
+      <p>您未选择任何好友<br />
+        请继续选择
+      </p>
+    </div>
+  </div>
+
+    <!-- 主容器 End -->
+</body>
+<script type="text/javascript" src="../resource/js/common.js"></script>
+<script type="text/javascript" src="../resource/js/horizon.js"></script>
+<script type="text/javascript" src="../resource/js/Drag.js"></script>
+<script type="text/javascript" src="../resource/js/pop.js"></script>
+<script type="text/javascript">
+$(".a_inviteList").each(function(){
+	$(this).bind("click", function(){
+		if(!$(this).hasClass("selected")) $(this).addClass("selected");
+		else $(this).removeClass("selected");
+	});	
+});
+$("a").attr("hidefocus", "true");
+
+$("#selectAll").click(function(){
+	$(".a_inviteList").parent().show();
+	$(".a_inviteList").addClass("selected");
+});
+$("#cancel").click(function(){
+	$(".a_inviteList").parent().show();
+	$(".a_inviteList").removeClass("selected");
+});
+
+$("#fanxuan").click(function(){
+	$(".a_inviteList").parent().show();
+		$(".a_inviteList").each(function(){
+			if($(this).hasClass("selected")){
+				$(this).removeClass("selected");
+			}
+			else{
+				$(this).addClass("selected");
+			}
+		});
+});
+
+$("#submit").click(function(){
+	var renrenIdStr = "";
+	$(".a_inviteList").each(function(){
+		if($(this).hasClass("selected"))	renrenIdStr = renrenIdStr + $(this).attr("renrenId")+",";
+	});
+	
+	if(renrenIdStr != null){
+		var loc = renrenIdStr.lastIndexOf(',');
+		renrenIdStr = renrenIdStr.substr(0, loc);
+	}
+	pJ.selector.id("ccc").value = renrenIdStr;
+	if(renrenIdStr == "") 
+	{
+		var noticeCircle = pJ.selector.id("noticeCircle");
+		var ltClose = pJ.selector.id("ltClose");
+		pop(noticeCircle);
+		ltClose.onclick = function(){centerClose();};
+		return;
+	}
+	$("#cc").submit();
+	
+});
+</script>
+<script type="text/javascript">
+/*
+*功能：筛选好友
+*依赖：pJ.selector
+*
+*/
+/**********************************************************************************/
+/*筛选事件*/
+var search_tip = "输入好友姓名进行筛选";
+$("#friendsChoose").val(search_tip);
+$("#friendsChooseValue").val("");
+$("#friendsChoose").focus(
+	function(){if($(this).val().toString()==search_tip){$(this).val("")}
+	$(".a_inviteList").removeClass("selected");
+	
+	
+	$(this).bind("keyup",function(e){
+		var q=$(this).attr("value");
+		if(q==="")
+		{
+			$('.a_inviteList').parent().show();return
+		}
+		$(".name_inviteList").each(
+			function()
+			{
+				var html=$(this).html();
+				if(html.indexOf(q)>=0)
+				{
+					$(this).parent().parent().show();
+				}
+				else
+				{
+					$(this).parent().parent().hide();
+				}
+			});//each End
+	}); //bind End
+});//focus End
+$("#friendsChoose").blur(function(){if($(this).val().toString()==""){$(this).val(search_tip);$(".name_inviteList").each(function(){$(this).parent().parent().show();})}$(this).unbind("keyup")});
+var conFriendChoose="";
+
+</script>
+</html>

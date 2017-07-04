@@ -1,0 +1,32 @@
+/* CSS Document */
+
+/**---------------------------------------------------------
+*function:为全站公共部分进行的IE6修正样式
+*version:1.0.0.0
+*author:沈联民
+*email:shemlm203@gmail.com
+*date:2011.04.25
+----------------------------------------------------------*/
+
+/*--导航部分--*/
+#nav_link_latg{
+	width:106px;
+	background:url(../../images/common/nav_ie6.png) left top no-repeat;
+	background-position:0 0;
+}
+#nav_link_addFriends{
+	width:116px;
+	background:url(../../images/common/nav_ie6.png) left top no-repeat;
+	background-position:-106px 0;
+}
+#nav_link_faq{
+	width:102px;
+	background:url(../../images/common/nav_ie6.png) left top no-repeat;
+	background-position:-224px 0;
+}
+#nav_link_awards{
+	width:76px;
+	background:url(../../images/common/nav_ie6.png) left top no-repeat;
+	background-position:-326px 0;
+}
+/*----------------------------------------------------------*/

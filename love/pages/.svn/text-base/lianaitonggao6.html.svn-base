@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+
+<link href="../resource/css/screen.css" rel="stylesheet" type="text/css" />
+<link href="../resource/css/pages/pages.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 6]>
+<link href="../resource/css/common/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+	<script type="text/javascript" src="../resource/js/ie6PngHack.js" ></script>
+	<script type="text/javascript">	DD_belatedPNG.fix('.changjianwenti,.qazone,.left-jiantou,.right-jiantou,.woyaotiwen,.wenda,.el_box_problem,.pageBtn_leftCenter');
+	</script>
+	<![endif]-->
+</head>
+
+<body>
+
+
+ <!-- 主容器 Start -->
+	<div class="Container_latgMain bg3">
+     	 <!-- 数字代号 Start -->
+         <div class="el_box_problem">
+         </div>
+         <!-- 数字代号 End -->
+         
+    	 <!-- 导航 Start -->
+    	 <div class="Container_latgNav"> 
+         <a id="nav_link_latg" href="http://www.baidu.com" title="恋爱通告"></a>
+          <a id="nav_link_addFriends" href="http://www.baidu.com" title="添加好友"></a> 
+          <a id="nav_link_faq" href="http://www.baidu.com" title="常见问题"></a>
+           <a id="nav_link_awards" href="http://www.baidu.com" title="抽奖"></a> 
+         </div>
+    	 <!-- 导航 End -->
+         
+          <!-- 可编辑区域 Start -->
+  <div class="changjianwenti"></div>
+          <a href="#" class="pageBtn_leftCenter"></a>
+          <div class="Container_latgMainArea_latg6">
+          <div class="right-jiantou"></div>
+          <div class="wenda">
+          <div class="qazone">
+          <p class="QAstyle">
+          问题：为什么恋爱通告总是登陆不上去？<br />
+          我们的回答：登陆几次就好了~这绝不是RP问题哦
+          </p>
+          <p class="QAstyle">
+          问题：怎么每天抽奖都抽不到好的通告？<br />
+          我们的回答：要坚持努力不懈的登陆，机会就会更多。
+          </p>
+          <p class="QAstyle">
+          问题：商城什么时候上线？<br />
+          我们的回答：过一个月，同学们密切留意我们的公共主页哦。
+          </p>
+          <p class="QAstyle">
+          问题：额外礼物是怎么回事？<br />
+          我们的回答：因此暂时没有开辟商城，因此只能将自己有的恋爱通告当做礼物发给暗恋的人哦。
+          </p>
+         <!-- <p class="QAstyle">
+          问题：有哪些方式能得到恋爱通告呢?
+          我们的回答：可以通过连续登陆或者邀请好友的方式获得通告，当然以后有商城了大家就可以买到啦~
+          </p>-->
+          </div>
+          </div>
+          <div class="left-jiantou"></div>
+          <div class="woyaotiwen"></div>
+          </div>
+          <!-- 可编辑区域 End -->
+    </div>
+    <!-- 主容器 End -->
+</body>
+</html>

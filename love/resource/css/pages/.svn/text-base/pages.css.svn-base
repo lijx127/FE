@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**************************************************
+*pages: lianaitonggao2.html
+*author:tongheng
+*date:2011.4.26
+*email:414922921@qq.com
+***************************************************/
+.dianjigoumai{
+	background:url(../../images/chooseContent.png) 0px 35px;;
+	width:160px;
+	height:35px;
+	top:280px;
+	left:0px;
+	position:absolute;
+	cursor:pointer;
+	}
+.rr{
+	background:url(../../images/tgChoose.png) no-repeat scroll -26px -49px transparent;
+    cursor: pointer;
+    height: 25px;
+    width: 127px;
+	float:left;
+	}
+.rrselected {
+    background:url(../../images/tgChoose.png) no-repeat scroll -152px -48px transparent;
+    cursor: pointer;
+    height: 25px;
+    width: 127px;
+}
+.anniu{
+	position:absolute;
+	top:175px;
+	left:249px;
+	width:254px;
+	}
+
+.tonggaoleibie{
+	background:url(../../images/tgChoose.png) 0px -10px no-repeat;
+	width:160px;
+	height:30px;
+	position:absolute;
+	top:25px;
+	left:170px;
+}
+.gongkai{
+	background:url(../../images/tgChoose.png) 10px -80px no-repeat;	
+	width:120px;
+	height:150px;
+	top:75px;
+	left:50px;
+	position:absolute;
+	cursor:pointer;
+	}
+.gongkaiselected{
+	background:url(../../images/tgChoose.png) -130px -80px no-repeat;	
+	width:120px;
+	height:150px;
+	top:75px;
+	left:50px;
+	position:absolute;
+	cursor:pointer;
+	}
+.suijiniming{
+	background:url(../../images/tgChoose.png) -280px -72px no-repeat;	
+	width:120px;
+	height:168px;
+	top:55px;
+	left:330px;
+	position:absolute;
+	cursor:pointer;
+	}
+.zidingyiniming{
+	background:url(../../images/tgChoose.png) -280px 50px no-repeat;	
+	width:120px;
+	height:168px;
+	top:55px;
+	left:195px;
+	position:absolute;
+	cursor:pointer;
+	}
+.fasonghaoyou{
+	background:url(../../images/chooseContent.png) 0px 90px;;
+	width:160px;
+	height:40px;
+	top:220px;
+	left:150px;
+	position:absolute;
+	cursor:pointer;
+	}
+.dianjixiayibu{ 
+	background:url(../../images/next.png) no-repeat;
+	width:80px;
+	height:60px;
+	margin-top:162px;
+	margin-left:65px;
+	position:absolute;
+	cursor:pointer;
+	}
+/**************************************************
+*pages: lianaitonggao4.html
+*author:tongheng
+*date:2011.4.26
+*email:414922921@qq.com
+***************************************************/
+.dianjihuode{
+	background:url(../../images/viewContent.png) -126px 63px;
+	width:160px;
+	height:35px;
+	top:280px;
+	left:0px;
+	position:absolute;
+	cursor:pointer;
+}
+.dianjifasong{ 
+	background:url(../../images/tgCheck.png) no-repeat;
+	width:80px;
+	height:70px;
+	margin-top:160px;
+	margin-left:105px;
+	position:absolute;
+	cursor:pointer;
+}
+.zhongjianbufen{
+	background:url(../../images/tgCheck.png) 10px -65px no-repeat;	
+	width:230px;
+	height:245px;
+	position:absolute;
+	top:30px;
+	left:110px;
+	cursor:pointer;
+	}
+.fanhuishangyibu{
+	background:url(../../images/back.png) no-repeat;
+	width:120px;
+	height:40px;
+	position:absolute;
+	top:305px;
+	left:135px;
+	}
+.huiseliwu{
+	background:url(../../images/tgCheck.png) -340px -190px no-repeat;
+	width:130px;
+	height:120px;
+	position:absolute;
+	top:155px;
+	left:250px;	
+	z-index:1;
+	cursor:pointer;
+	}
+.lvseliwu{
+	background:url(../../images/tgCheck.png) -216px -190px no-repeat;
+	width:130px;
+	height:120px; 
+	position:absolute;
+	top:155px;
+	left:250px;	
+	z-index:1;
+	cursor:pointer;
+	}
+.chakanwodetonggaoneirong{
+	background:url(../../images/viewContent.png) -220px -10px no-repeat;
+	width:250px;
+	height:80px;
+	position:relative;
+	top:190px;
+	left:400px;
+	z-index:100;
+	display:none;
+}
+.hide{display:none;}
+.display{display:block;}
+.chakanfusongliwu{
+	background:url(../../images/viewContent.png) -220px -95px no-repeat;
+	widows:180px;
+	height:80px;
+	position:relative;
+	top:340px;
+	left:460px;
+	z-index:200;
+	}
+/**************************************************
+*pages: lianaitonggao6.html
+*author:tongheng
+*date:2011.4.26
+*email:414922921@qq.com
+***************************************************/
+.changjianwenti{
+	background:url(../../images/qa.png) -40px -15px no-repeat;
+	width:80px;
+	height:60px;
+	margin-top:165px;
+	margin-left:100px;
+	position:absolute;
+	cursor:pointer;
+	}
+.woyaotiwen{
+	background:url(../../images/qa.png) -30px -235px  no-repeat;
+	width:95px;
+	height:30px;
+	margin-top:290px;
+	margin-left:95px;
+	position:absolute;
+	cursor:pointer;
+}
+.wenda{
+	background:url(../../images/qa.png) -155px 0px no-repeat;
+	width:370px;
+	height:300px;
+	position:absolute;
+	margin-left:90px;
+	margin-top:-25px;
+	}
+.qazone{
+	width:330px;
+	height:400px;
+	margin-top:38px;
+	}
+.QAstyle{
+	font-family:"微软雅黑", "宋体", "黑体";
+	font-size:12px;
+	font-weight:300;
+	color:#A10E15;
+	line-height:20px;
+	margin-top:10px;
+	margin-left:40px;
+	}
+.left-jiantou{
+	background:url(../../images/qa.png) -10px -164px no-repeat;
+	width:40px;
+	height:40px;
+	position:absolute;
+	margin-top:130px;
+	margin-left:60px;
+	}
+.right-jiantou{
+	background:url(../../images/qa.png) -105px -164px no-repeat;
+	width:40px;
+	height:40px;
+	position:absolute;
+	margin-top:130px;
+	margin-left:440px;
+	}
+	/********** lianaitonggao6.html**********/
+.Container_latgMainArea_latg6{
+		  height: 283px;
+    left: 163px;
+    position: absolute;
+    top: 210px;
+    width: 532px;
+}

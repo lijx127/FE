@@ -1,0 +1,76 @@
+/* drag */
+.container2{width:261px; border:none; background:url(../../images/lijx/bg.png) left top no-repeat; padding:5px; height:260px;}
+
+.content2{ overflow:hidden;height:220px;width:230px; _float:left; padding:2px; padding-right:0; margin:0; line-height:1.5em; margin-top:12px;}
+
+.slider2{height:220px; width:18px; background-color:#fbcbcb; border:2px solid #fbcbcb; float:right; margin-right:6px;margin-top:12px;}
+.bar2{width:14px; border:2px outset #f67c7c; background-color:#f67c7c; _font-size:0;}
+.content2 img{border:none;}
+body{font-size:12px;font-family:Arial, Helvetica, sans-serif;  text-align:center; margin:0 auto; }
+table{border-collapse:collapse;border-spacing:0;}
+
+.clearfloat{height:0;font-size:1px;clear:both;line-height:0;}
+
+a{color:#333;text-decoration:none;}
+a:hover{color:#ef9b11; text-decoration:none;}
+
+.container{width:500px; overflow:hidden; color:#fff; margin:150px 0 0 0; padding:10px 20px; height:120px; position:absolute; margin-left:-5px;*margin-left:-270px;}
+
+.containerFirst{width:430px; overflow:hidden; color:#fff; margin:40px 0 0 0; padding:10px 20px; height:220px; position:absolute; margin-left:40px;*margin-left:-219px;}
+.containerSecond{width:360px; overflow:hidden; color:#fff; margin:170px 0 0 0; padding:10px 20px; height:120px; position:absolute; margin-left:110px;*margin-left:-149px;}
+
+.content{ overflow:hidden; margin-bottom:10px;width:413px;position:relative; padding:0px;}
+
+.contentFirst{ overflow:hidden; margin-bottom:10px;width:343px;position:relative; padding:0px;}
+.contentSecond{ overflow:hidden; margin-bottom:10px;width:273px;position:relative; padding:0px;}
+.content div{ width:70px; margin:0px; padding:2px 0px 0px 0px; padding-bottom:0; height:100px; line-height:20px; background:url(../../images/h_scroll.png) left top no-repeat;position:relative;  background-position:-82px -43px; 
+}
+
+.content div img{border:0;display:block; margin-left:6px; *margin-left:-10px; position:absolute; *position:relative;}
+.contentFirst div img,.contentSecond div img{border:0;display:block; margin-left:-10px; margin-top:5px;}
+.content div:hover{background:url(../../images/h_scroll.png) 13px 4px no-repeat; color:#000; text-decoration:none; background-position:0px -43px;}
+
+
+.slider{ padding:1px 0; position:relative;background:#0A0A0A; height:15px; border-bottom:1px solid #545454;border-top:1px solid #545454; float:left; width:544px;cursor:pointer; }
+.slider_left{ background:url(../../images/h_scroll.png) no-repeat; height:36px; width:29px; float:left; cursor:pointer; margin-top:30px;background-position:left top;}
+.slider_right{ background:url(../../images/h_scroll.png) no-repeat; height:36px; width:29px; float:left; cursor:pointer; margin-top:30px; background-position:-62px 0;}
+
+/*横滚动条*/
+
+
+.bg_scroll_open{
+	width:70px; margin:0px; padding:2px 0px 0px 0px; padding-bottom:0; height:100px; line-height:20px; background:url(../../images/h_scroll2.png) no-repeat;position:relative;  background-position:0px -62px;
+}
+.bg_scroll_question_gift{
+	width:70px; margin:0px; padding:2px 0px 0px 0px; padding-bottom:0; height:100px; line-height:20px; background:url(../../images/h_scroll2.png) no-repeat;position:relative;  background-position:-78px -62px;
+}
+.bg_scroll_question_close{
+	width:70px; margin:0px; padding:2px 0px 0px 0px; padding-bottom:0; height:100px; line-height:20px; background:url(../../images/h_scroll2.png) no-repeat;position:relative;  background-position:-160px -62px;
+}
+.bg_scroll_gift{
+	width:70px; margin:0px; padding:2px 0px 0px 0px; padding-bottom:0; height:100px; line-height:20px; background:url(../../images/h_scroll2.png) no-repeat;position:relative;  background-position:-242px -62px;
+}
+.bg_scroll_close{
+	width:70px; margin:0px; padding:2px 0px 0px 0px; padding-bottom:0; height:100px; line-height:20px; background:url(../../images/h_scroll2.png) no-repeat;position:relative;  background-position:-324px -62px;
+}
+
+.bg_tips{
+	background:url(../../images/h_scroll2.png) -153px 0px;
+	position:absolute;
+	width:106px;
+	height:60px;
+	margin-top:20px;
+	margin-left:-25px;
+	z-index:333;
+	visibility:hidden;
+}
+
+.userList_name{
+	margin-left:-10px
+}
+.userList_score{
+	font-family:Franklin Gothic Heavy; font-size:28px; color:#666; position:absolute; left:12px; top:58px;
+}
+.userList_scorebg{
+	font-family:Franklin Gothic Heavy; font-size:28px; color:#FFF; position:absolute; left:12px; top:55px;
+}

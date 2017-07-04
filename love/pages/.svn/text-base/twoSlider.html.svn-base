@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>查看收发通告</title>
+<!--css导入形式用screen导入-->
+<link href="../resource/css/screen.css" rel="stylesheet" type="text/css" />
+<link href="../resource/css/pages/page.css" rel="stylesheet" type="text/css"/>
+<!--[if lte IE 6]>
+<link href="../resource/css/common/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+	<script type="text/javascript" src="../resource/js/ie6PngHack.js" ></script>
+	<script type="text/javascript">	DD_belatedPNG.fix('.renqi,.cloud,.slider_left,.giftOverview,.slider_right,.bg_tips,.srInfo_bg_pp_gklw,.srInfo_bg_gklw,.srInfo_bg_nm,.srInfo_bg_nmlw,.srInfo_bg_pp_nmlw,.srInfo_bg_pp_nm');
+	</script>
+	<![endif]-->
+</head>
+<body>
+	 <!-- 主容器 Start -->
+<div class="Container_latgMain bg3">
+     	 <!-- 数字代号 Start -->
+       <!--  <div class="box_pageNumb">1</div> -->
+      <div class="renqi">
+
+          <div class="reqi_score_bg"><b class="reqi_font">323</b></div>
+          <div class="reqi_score"><b class="reqi_font">323</b></div>
+
+      </div>
+         <!-- 数字代号 End -->
+         
+    	 <!-- 导航 Start -->
+  <div class="Container_latgNav">
+         	<a id="nav_link_latg" href="http://www.baidu.com" title="恋爱通告"></a>
+            <a id="nav_link_addFriends" href="http://www.baidu.com" title="添加好友"></a>
+            <a id="nav_link_faq" href="http://www.baidu.com" title="常见问题"></a>
+            <a id="nav_link_awards" href="http://www.baidu.com" title="抽奖"></a>
+     </div>
+     <!-- 导航 End -->
+         
+      <!-- 可编辑区域 Start -->
+      <div class="Container_latgMainArea"> 
+          
+          <!--滚动条一-->
+          <div id="idContainer" class="containerFirst">
+           <div class="slider_left" id="idSliderLeft" style="float:left"></div>
+            <div id="idContent" class="contentFirst"  style="float:left">
+              <table cellpadding="0" cellspacing="0">
+                <tr align="center">
+                 <td>
+                <a href="javascript:;" class="srInfo" renrenId="123" srTime="2012:12:23 00:00:00" sr="r" renrenName="奥巴马" giftCat = "1" tgId = "456">
+                      <div class="srInfo_bg srInfo_bg_gklw">
+                      <img src="../resource/images/head.gif" class="srInfo_img"/>
+                     </div>
+                   </a>
+                 </td>
+                   <td>
+                  <a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="r" renrenName="小刘" giftCat = "2" tgId = "">
+                        <div class="srInfo_bg srInfo_bg_gk">
+                        <img src="../resource/images/head.gif" class="srInfo_img"/>
+                       </div>
+                     </a>
+                   </td>
+                   <td>
+                  <a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="r" renrenName="小刘" giftCat = "2" tgId = "">
+                        <div class="srInfo_bg srInfo_bg_gk">
+                        <img src="../resource/images/head.gif" class="srInfo_img"/>
+                       </div>
+                     </a>
+                   </td>
+                    <td>
+                    <a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="r" renrenName="小张" giftCat = "1" tgId = "">
+                        <div class="srInfo_bg srInfo_bg_nmlw">
+                        </div>
+                     	</a>
+                  	</td>
+                    <td>
+                    <a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="r" renrenName="本.拉登" giftCat = "1" tgId = "">
+                        <div class="srInfo_bg srInfo_bg_nm">
+                        </div>
+                      </a>
+                    </td>
+                   	<td>
+                    <a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="r" renrenName="萨达姆" giftCat = "1" tgId = "">
+                        <div class="srInfo_bg srInfo_bg_nm">
+                        </div>
+                      </a>
+                    </td>
+                    <td>
+                    <a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="r" renrenName="卡扎菲" giftCat = "1" tgId = "">
+                        <div class="srInfo_bg srInfo_bg_nm">
+                        </div>
+                      </a>
+                    </td>
+                    <td>
+                    <a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="r" renrenName="本.拉登"  giftCat = "1" tgId = "">
+                        <div class="srInfo_bg srInfo_bg_nm">
+                        </div>
+                      </a>
+                    </td>        
+                </tr>
+              </table>
+            </div>
+            <div class="slider_right slider_floatleft" id="idSliderRight"></div>
+            <div class="slider slider_hidden" id="idSlider">
+              <div class="bar" id="idBar">
+                <div class="bar_left"></div>
+                <div class="bar_right"></div>
+              </div>
+            </div>
+          
+          </div>
+          <!--滚动条一结束-->
+           <!--滚动条二-->
+          <div id="idContainerS" class="containerSecond">
+           <div class="slider_left" id="idSliderLeftS" style="float:left"></div>
+            <div id="idContentS" class="contentSecond"  style="float:left">
+              <table cellpadding="0" cellspacing="0">
+                <tr align="center">
+                	<td>
+                    	<a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="s" renrenName="本.拉登"  giftCat = "1" tgId = "">
+                    		<div class="srInfo_bg srInfo_bg_pp_gklw">
+                    <img src="../resource/images/head.gif" class="srInfo_img"/>
+                   </div></a></td>
+                    <td><a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="s" renrenName="本.拉登"  giftCat = "1" tgId = "">
+                    <div class="srInfo_bg srInfo_bg_pp_gk">
+                    <img src="../resource/images/head.gif" class="srInfo_img"/>
+                   </div></a></td>
+                    <td><a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="s" renrenName="本.拉登"  giftCat = "1" tgId = "">
+                    <div class="srInfo_bg srInfo_bg_pp_nmlw">
+                   </div></a></td>
+                    <td><a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="s" renrenName="本.拉登"  giftCat = "1" tgId = "">
+                    <div class="srInfo_bg srInfo_bg_pp_nm">
+                   </div></a></td>
+                  <td><a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="s" renrenName="本.拉登"  giftCat = "1" tgId = "">
+                    <div class="srInfo_bg srInfo_bg_pp_gklw">
+                   </div></a></td>
+                    <td><a href="javascript:;" class="srInfo" renrenId="" srTime="2012:12:23 00:00:00" sr="" renrenName="本.拉登"  giftCat = "0" tgId = "">
+                    <div class="srInfo_bg srInfo_bg_pp_gklw">
+                   </div></a></td>
+                </tr>
+              </table>
+            </div>
+          <div class="slider_right" id="idSliderRightS" style="float:left"></div>
+          <div class="slider" id="idSliderS" style="visibility:hidden; margin:-20px;">
+            <div class="bar" id="idBarS">
+              <div class="bar_left"></div>
+              <div class="bar_right"></div>
+            </div>
+          </div>
+        
+        </div>
+          <!--滚动条结束-->
+          <!--浮云-->
+          <div class="cloud"></div>
+      <div class="bubble hideContainer" id="bubble">
+            <p>慕容闪电赠送于<br />2012：12：23 00:00:00</p>
+          </div>
+          <!--浮云END-->
+          <div class="hideContainer">
+            <div id="noticeCircle" class="noticeCircle">
+              <a id="ltClose" class="noticleCircleClose" onclick="centerClose()"></a>
+              <p>读数据出错<br />
+                请重新查看
+              </p>
+            </div>
+          </div>
+  </div>
+      <!-- 可编辑区域 End -->
+</div>
+    <!-- 主容器 End -->
+</body>
+<script type="text/javascript" src="../resource/js/horizon.js"></script>
+<script type="text/javascript" src="../resource/js/common.js"></script>
+<script type="text/javascript" src="../resource/js/pop.js"></script>
+<script>
+var sld = new Slider("idSlider", "idBar", {
+	MaxValue: hScroll("idContent").scrollWidth - hScroll("idContent").clientWidth,
+	onMove: function(){ hScroll("idContent").scrollLeft = this.GetValue(); }
+});
+
+sld.SetPercent(.0);
+sld.Ease = true;
+
+hScroll("idSliderLeft").onmouseover = function(){ sld.Run(false); }
+hScroll("idSliderLeft").onmouseout = function(){ sld.Stop(); }
+
+hScroll("idSliderRight").onmouseover = function(){ sld.Run(true); }
+hScroll("idSliderRight").onmouseout = function(){ sld.Stop(); }
+
+var sldS = new Slider("idSliderS", "idBarS", {
+	MaxValue: hScroll("idContentS").scrollWidth - hScroll("idContentS").clientWidth,
+	onMove: function(){ hScroll("idContentS").scrollLeft = this.GetValue(); }
+});
+
+sldS.SetPercent(.0);
+sldS.Ease = true;
+
+hScroll("idSliderLeftS").onmouseover = function(){ sldS.Run(false); }
+hScroll("idSliderLeftS").onmouseout = function(){ sldS.Stop(); }
+
+hScroll("idSliderRightS").onmouseover = function(){ sldS.Run(true); }
+hScroll("idSliderRightS").onmouseout = function(){ sldS.Stop(); }
+</script>
+<!--鼠标移动到图像上的提示-->
+<script language="javascript">
+function myVisible (nameP) 
+{
+	document.getElementById(nameP).style.visibility = "visible";
+	document.getElementById(nameP).style.zIndex = "10";
+}
+function myHidden (nameP) 
+{
+	document.getElementById(nameP).style.visibility = "hidden";
+	document.getElementById(nameP).style.zIndex = "-1";
+}
+</script>
+<script type="text/javascript">
+/*为每个信息框注册事件，鼠标滑过的时候浮出气泡*/
+/*浮出气泡的过程中接收3个参数:renrenName(人人帐号名字，如：萨达姆), srTime（接受礼物或者发送礼物的时间）,sr(s是发送，s是接收)*/
+/*点击事件，接收3个参数giftCat, renrenId, tgId*/
+/*giftCat：礼物的类型，接收1、2、3如此的类型用于前台显示，默认是空*/
+/*renrenId:发送ajax的时候用于取renrenId标识的人的通告*/
+/*tgId：发送ajax的时候和renrenId一起使用，获取通告内容，并返回，js抓取通告内容用于前台显示，string类型即可*/
+
+$(".srInfo").each(function(){
+	$(this).bind("mouseover", function(){
+		var container = $(this);
+		var leftO = $(this).offset().left;
+		var topO = $(this).offset().top;	
+		var heigth = $(this).outerHeight();
+		var width = $(this).outerWidth();
+		var scrollLeft = $(this).scrollLeft();
+		var scrollTop = $(this).scrollTop();
+		topO = topO - $("#bubble").outerHeight(true);
+		leftO = leftO - width/2;
+		var renrenName = $(this).attr("renrenName") || "";
+		var srTime = $(this).attr("srTime") || "";
+		var sr = $(this).attr("sr") || "";
+		var srInfo = "";
+		if(sr == "s"){
+			srInfo = "赠送给 " + renrenName + " <br />" + srTime;	
+		}
+		else if(sr == "r")
+		{
+			srInfo = renrenName + " 赠送于" + " <br />" + srTime;	
+		}
+		else
+		{
+			srInfo = "... ...信息获取中";
+		}
+		$("#bubble").find("p").html(srInfo);
+		$("#bubble").removeClass("hideContainer");
+		$("#bubble").offset({top:topO, left:leftO});
+	
+	}).bind("mouseout", function () {
+		$("#bubble").addClass("hideContainer");
+	}
+	).bind("click", function(){
+		var popS = '<div id="giftOverview" class="giftOverview"><img src="../resource/images/ajax-loader.gif" class="giftov_ajaxLoad"/><a class="giftovClose" href="javascript:;"></a></div>';
+  	pop(popS);
+		$(".giftovClose").click(function () {centerClose()});
+		var renrenId = $(this).attr("renrenId");
+		var tgId = $(this).attr("tgId");
+		//判断礼物类型
+		var giftCat = "";
+		switch($(this).attr("giftCat")){
+			case '1' :
+					giftCat = '<div class="giftDis"><img src="../resource/images/tg_public.png" /></div>';
+					break;
+			case '2' :
+					giftCat = '<div class="giftDis"><img src="../resource/images/tg_privateZ.png" /></div>';
+					break;
+			case '3' :
+					giftCat = '<div class="giftDis"><img src="../resource/images/tg_privateS.png" /></div>';
+					break;
+				default:
+					giftCat = "";
+					break;
+		};
+		
+		/*ajax接收发送内容*/
+		$.ajax({
+						 type: "POST",
+						 data: "renrenId=" + renrenId +"&tgId=" + tgId, //传递renrenId和tgId
+						 url: "http://localhost/Dev/PHP/tinyMCE/ccc/ccc.php",
+						 success: function(msg){
+							 //保存内容
+							 var content = msg;
+							 var innerContent = "<p>" + msg + '</p>' + giftCat + '<a class="giftovClose" href="javascript:;"></a>';
+							$("#giftOverview").html(innerContent);
+							$(".giftovClose").click(function () {centerClose()});
+						 },
+						 error : function(){
+							errorControl(); 
+						}
+					 });
+	});
+});
+	var errorControl = function (){
+		var noticeCircle = pJ.selector.id('noticeCircle'); 
+		setTimeout(function(){centerClose();},1000);
+		setTimeout(function(){pop(noticeCircle); },2000);
+		setTimeout(function(){location.replace(location.href);}, 3500);
+	};
+
+</script>
+</html>
+
