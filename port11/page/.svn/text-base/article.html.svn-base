@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>index</title>
+<link href="../resource/css/screen.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<div id="wrapperAll">
+	<div id="wrapper_header">
+  	<div id="wrapper_swf"></div>
+    <div id="wrapper_nav">
+    	<!--导航一级标题Start-->
+    	<ul class="ul_firstNav">
+            <li class="li_firstNav"><a class="link_firstNav currentNav" href="javascript:;">&nbsp;&nbsp;&nbsp;首页</a></li>
+            <li class="li_firstNav"><a class="link_firstNav" href="javascript:;">学校概况</a></li>
+            <li class="li_firstNav"><a class="link_firstNav" href="javascript:;">学校机构</a></li>
+            <li class="li_firstNav"><a class="link_firstNav" href="javascript:;">教师风采</a></li>
+            <li class="li_firstNav"><a class="link_firstNav" href="javascript:;">教育研究</a></li>
+            <li class="li_firstNav"><a class="link_firstNav" href="javascript:;">书香校园</a></li>
+            <li class="li_firstNav"><a class="link_firstNav" href="javascript:;">教学管理</a></li>
+            <li class="li_firstNav"><a class="link_firstNav" href="javascript:;">德育校园</a></li>
+            <li class="li_firstNav"><a class="link_firstNav" href="javascript:;">校友中心</a></li>
+            <li class="li_firstNav"><a class="link_firstNav" href="javascript:;">资源中心</a></li>
+      </ul>
+      <!--导航一级标题End-->
+      
+      <!--导航二级标题Start-->
+      <div id="wrapper_secondNav" class="color3968b2">
+      	<!--学校概况Start-->
+        <ul class="ul_secondNav ul_nav_school">
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学校状况</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学生生活</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">校园风景</a></li>
+        </ul>
+        <!--学校概况End-->
+        <!--学校机构Start-->
+        <ul class="ul_secondNav ul_nav_schoolM">
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学校状况</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学生生活</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">校园风景</a></li>
+        </ul>
+        <!--学校机构End--
+        <!--教师风采Start-->
+        <ul class="ul_secondNav ul_nav_teacher">
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学校状况</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学生生活</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">校园风景</a></li>
+        </ul>
+        <!--教师风采End-->
+        <!--教育研究Start-->
+        <ul class="ul_secondNav ul_nav_edu">
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学校状况</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学生生活</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">校园风景</a></li>
+        </ul>
+        <!--教育研究End-->
+        <!--书香校园Start-->
+        <ul class="ul_secondNav ul_nav_book">
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学校状况</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学生生活</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">校园风景</a></li>
+        </ul>
+        <!--书香校园End-->
+        <!--教学管理Start-->
+        <ul class="ul_secondNav ul_nav_teachMan">
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学校状况</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学生生活</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">校园风景</a></li>
+        </ul>
+        <!--教学管理End-->
+        <!--德育校园Start-->
+        <ul class="ul_secondNav ul_nav_deyu">
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学校状况</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学生生活</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">校园风景</a></li>
+        </ul>
+        <!--德育校园End-->
+        <!--校友中心Start-->
+        <ul class="ul_secondNav ul_nav_schoolMates">
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学校状况</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学生生活</a></li>
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">校园风景</a></li>
+        </ul>
+        <!--校友中心End-->
+         <!--资源中心Start-->
+        <ul class="ul_secondNav ul_nav_resource">
+          <li class="li_secondNav"><a class="link_secondNav" href="javascript:;">学校状况</a></li>
+        </ul>
+        <!--资源中心lijialiEnd-->
+      </div>
+      <!--导航二级标题End-->
+      
+    </div>
+  </div>
+  
+      <!--内容外围Start-->
+    <div id="wrapper_contentSecond">
+    
+    	<!--左侧内容外围Start-->
+        <div id="wrapper_contentSecondLeft">
+        
+        	<ul class="ul_leftList ul_leftList_second">
+                <li><a href="javascript:;">学校荣誉</a></li>
+                <li><a href="javascript:;">党务工作</a></li>
+                <li><a href="javascript:;">行政管理</a></li>
+                <li><a href="javascript:;">校务公开</a></li>
+                <li><a href="javascript:;">办事指南</a></li>
+                <li><a href="javascript:;">资源库</a></li>
+        	</ul>
+            
+            <div class="bg_search_second">
+            	<div class="title_search">搜<span class="color4c77ba">索</span></div>
+                <form action="" method="get">
+                	<input class="input_search_second" type="text" />
+                    <select class="select_search" name="">
+                    	<option>全站搜索</option>
+                        <option>全文搜索</option>
+                        <option>没有搜索</option>
+                    </select>
+                    <input class="but_search" value="" type="submit" />
+                </form>
+            </div>
+        </div>
+        <!--左侧内容外围End-->
+        
+        <!--右侧内容外围Start-->
+        <div id="wrapper_contentSecondRight">
+        	<h4 class="h_content"><span class="Title">内容展示</span><span class="Sep">|</span><span class="titleEx">NeiRongZhanShi</span></h4>
+             <div class="now_position">当前位置：<a href="#">首页</a>-&gt;内容展示</div>
+             
+                <div class="wrapper_newsContent">
+                  <h5 class="title_newsDetail">这是一个恐怖的测试这是一个恐怖的测试是一个恐怖的测试测试</h5>
+                  <p class="info_news"><span class="author">作者：买买提.布鲁哈尔.绿精灵</span><span class="from">来源：吉吉林省长春市林省长春市东北师范大学传媒科学学院广播</span><span class="date">时间：[2011-12-24]</span></p>
+                  <!-- 新闻正文start-->
+                  <div class="wrapper_newsText">
+                    <h1 id="title-IDAJWTLK">Chapter 13. JavaScript in Web   Browsers</h1>
+                    <p>The first part of this book described the core JavaScript   language. <a href="jscript5-PART-II.html#jscript5-PART-II">Part   II</a> moves on to JavaScript as used within web browsers,<a name="IDX-CHP-13-1781" id="IDX-CHP-13-1781"></a> commonly called client-side JavaScript.<a href="#jscript5-CHP-13-FN-1">[*]</a><a name="IDX-CHP-13-1782" id="IDX-CHP-13-1782"></a> Most of the examples you've seen so far, while legal   JavaScript code, have no particular context; they are JavaScript fragments that   run in no specified environment. This chapter provides that context. It starts   with an overview of the web browser programming environment. Next, it discusses   how to actually embed JavaScript code within HTML documents, using   &lt;script&gt; tags, HTML event handler attributes, and JavaScript   URLs. These sections on embedding JavaScript are followed by a section that   explains the client-side JavaScript execution model: how and when web browsers   run JavaScript code. Next are sections that cover three important topics in   JavaScript programming: compatibility, accessibility, and security. The chapter   concludes with an short description of web-related embeddings of the JavaScript   language other than client-side JavaScript.</p>
+                    <blockquote>
+                      <p><a name="jscript5-CHP-13-FN-1" id="jscript5-CHP-13-FN-1">[*]</a> The term   client-side JavaScript is left over from the days   when JavaScript was used in only two places: web browsers (clients) and web   servers. As JavaScript is adopted as a scripting language in more and more   environments, the term client-side makes less and   less sense because it doesn't specify the client side of what. Nevertheless, I'll continue to use the term in   this book.</p>
+                    </blockquote>
+                    <p>When JavaScript is embedded in a web browser, the browser   exposes a powerful and diverse set of capabilities and allows them to be   scripted. The chapters that follow <a href="#jscript5-CHP-13">Chapter 13</a> each focus on one major area of   client-side JavaScript functionality:</p>
+                    <ul>
+                      <li>
+                        <p><a href="jscript5-CHP-14.html#jscript5-CHP-14">Chapter 14</a>, Scripting Browser Windows, explains how JavaScript can   script web browser windows by, for example, opening and closing windows,   displaying dialog boxes, causing windows to load specified URLs, or causing   windows to go back or forward in their browsing history. This chapter also   covers other, miscellaneous features of client-side JavaScript that happen to be   associated with the Window object in client-side JavaScript.</p>
+                      </li>
+                      <li>
+                        <p><a href="jscript5-CHP-15.html#jscript5-CHP-15">Chapter 15</a>, Scripting Documents, explains how JavaScript can   interact with the document content displayed within a web browser window and how   it can find, insert, delete, or alter content within a document.</p>
+                      </li>
+                      <li>
+                        <p><a href="jscript5-CHP-16.html#jscript5-CHP-16">Chapter 16</a>, Cascading Style Sheets and Dynamic HTML, covers the   interaction of JavaScript and CSS and shows how JavaScript code can alter the   presentation of a document by scripting CSS styles, classes, and stylesheets.   One particularly potent result of combining scripting with CSS is Dynamic HTML   (or DHTML) in which HTML content can be hidden and shown, moved, and even   animated.</p>
+                      </li>
+                      <li>
+                        <p><a href="jscript5-CHP-17.html#jscript5-CHP-17">Chapter 17</a>, Events and Event Handling, explains events and event   handling and shows how JavaScript adds interactivity to a web page by allowing   it to respond to a user's input.</p>
+                      </li>
+                      <li>
+                        <p><a href="jscript5-CHP-18.html#jscript5-CHP-18">Chapter 18</a>, Forms and Form Elements, covers forms within HTML   documents and shows how JavaScript can gather, validate, process, and submit   user input with forms.</p>
+                      </li>
+                      <li>
+                        <p><a href="jscript5-CHP-19.html#jscript5-CHP-19">Chapter 19</a>, Cookies and Client-Side Persistence, shows how   JavaScript scripts can persistently store data using HTTP cookies.</p>
+                      </li>
+                      <li>
+                        <p><a href="jscript5-CHP-20.html#jscript5-CHP-20">Chapter 20</a>, Scripting HTTP, introduces HTTP scripting (commonly   known as Ajax) and demonstrates how JavaScript can communicate with web   servers.</p>
+                      </li>
+                      <li>
+                        <p><a href="jscript5-CHP-21.html#jscript5-CHP-21">Chapter 21</a>, JavaScript and XML, shows how JavaScript can create,   load, parse, transform, query, serialize, and extract information from XML   documents.</p>
+                      </li>
+                      <li>
+                        <p><a href="jscript5-CHP-22.html#jscript5-CHP-22">Chapter 22</a>, Scripted Client-Side Graphics, demonstrates common   JavaScript image-manipulation techniques that can create image rollovers and   animations in web pages. It also demonstrates several techniques for dynamically   drawing vector graphics under JavaScript control.</p>
+                      </li>
+                      <li>
+                        <p><a href="jscript5-CHP-23.html#jscript5-CHP-23">Chapter 23</a>, Scripting Java Applets and Flash Movies, explains how   JavaScript can interact with Java applets and Flash movies embedded in a web   page.</p>
+                      </li>
+                    </ul>
+                    <table style="width:600pt; border:1px solid #000;">
+                      <tr>
+                          <td>sdfsdf</td>
+                        <td>JavaScript image-manipulation techniques that can create image rollovers and   animations in web pages</td>
+                        <td>sdfsdf</td>
+                        <td>JavaScript image-manipulation techniques that can create image rollovers and   animations in web pages</td>
+                      </tr>
+                      <tr>
+                          <td>sdfsdf</td>
+                        <td>JavaScript image-manipulation techniques that can create image rollovers and   animations in web pages</td>
+                        <td>sdfsdf</td>
+                        <td>JavaScript image-manipulation techniques that can create image rollovers and   animations in web pages</td>
+                      </tr>
+                      <tr>
+                          <td>sdfsdf</td>
+                        <td>JavaScript image-manipulation techniques that can create image rollovers and   animations in web pages</td>
+                        <td>sdfsdf</td>
+                        <td>JavaScript image-manipulation techniques that can create image rollovers and   animations in web pages</td>
+                      </tr>
+                      <tr>
+                          <td>sdfsdf</td>
+                        <td>JavaScript image-manipulation techniques that can create image rollovers and   animations in web pages</td>
+                        <td>sdfsdf</td>
+                        <td>JavaScript image-manipulation techniques that can create image rollovers and   animations in web pages</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="clearBoth"></div>
+                      <!-- 新闻正文end-->
+                  <div class="preArticle link_reArticle"><a href="javascript:;">上一篇：我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲</a></div>
+                  <div class="nextArticle link_reArticle"><a href="javascript:;">下一篇：我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲我的父亲</a></div>
+                </div>             
+             
+        </div>
+        <!--右侧内容外围End-->
+        
+        <div class="clearBoth"></div>
+    </div>
+    <!--内容外围End-->
+  
+  <div class="clearBoth"></div>
+  <div id="wrapper_footer">
+  	<div class="wrapper_contentFooter">
+            <div>Copyright@2004-2008&nbsp;&nbsp;&nbsp;&nbsp;合肥市第十一中学<a style="color:#dbd7d7;margin-left:10px;" href="javascript:;">后台管理</a></div>
+            <div>地址：安徽省合肥市凤阳路470号&nbsp;&nbsp;&nbsp;&nbsp;邮编：230041</div>
+            <div>联系电话：0551-4232159&nbsp;&nbsp;&nbsp;&nbsp;Email:admin@hfsyz.com</div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="../resource/js/jquery-1.6.1.js"></script>
+<script src="../resource/js/port.js"></script>
+<script type="text/javascript">
+	navInit(9);
+	cutStrings(".from","23");
+</script>
+</html>

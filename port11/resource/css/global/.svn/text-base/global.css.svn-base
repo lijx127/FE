@@ -1,0 +1,22 @@
+body{
+	font:12px/1.5 Arial, sans-serif;	
+	background:#FFF;
+}
+.clearBoth{
+	clear:both;	
+}
+.colorRed{
+	color:#ff0000;
+}
+.color6c6f70{
+	color:#6c6f70;
+}
+.color3968b2{
+	background-color:#3968b2;
+}
+.color4c77ba{
+	color:#4c77ba;
+}
+.colorff0000{
+	color:#ff0000;
+}

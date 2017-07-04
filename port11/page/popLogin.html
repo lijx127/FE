@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>popLogin</title>
+<link href="../resource/css/screen.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<div class="wrapper_popLogin">
+    <form id="myform" action="${website}schoolFellow/opt/logindeal.action"  method="post"  >
+    
+      <p  class="p_wrongPassword">
+          <span style="color: red">输入的登录名或密码错误！</span>
+      </p>
+      <div class="label_login">用户名：<input type="text" name="username" class="input_login"></div>
+      <div class="label_login">密&nbsp;&nbsp;码：<input type="password" name="password" class="password_login"></div>
+      <div class="wrapper_loginBut">
+          <input class="but_popLogin" type="submit" value="登录" id="submit" /> 
+          <input class="but_popLogin" type="button"  value="注册" id="return_b" dataC="${website}schoolFellow/opt/toRegisterSchoolFellow.action"/>
+          <input class="but_popLogin" type="button"  value="忘记密码" id="forget_b" dataC="${website}schoolFellow/opt/toForgetPassword.action"/>
+      </div>
+    </form>
+</div>
+</body>
+</html>

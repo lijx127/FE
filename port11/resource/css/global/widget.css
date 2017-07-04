@@ -1,0 +1,1687 @@
+/* CSS Document */
+@charset "UTF-8";
+
+/*******************************  导航栏容器 start  ********************************/
+.ul_firstNav{
+	margin-left:6px;	
+	overflow:hidden;
+	zoom:1;
+}
+/*导航栏一级标题*/
+.li_firstNav{
+	float:left;
+	width:98px;
+	text-align:center;
+}
+.li_firstNav a:link, .li_firstNav a:visited, .li_firstNav a:hover, .li_firstNav a:active{
+	font-family:"黑体";
+	font-size:18px;
+	color:#fff;	
+	height:44px;
+	line-height:44px;
+	text-align:center;
+}
+.currentNav{
+	color:#e9744b !important;
+}
+/*二级导航容器*/
+#wrapper_secondNav{
+	height:24px;
+	width:100%;	
+	overflow:hidden;
+	zoom:1;
+}
+/*二级菜单列表容器*/
+.ul_secondNav{
+ position:absolute;
+ top:30px;
+ padding-top:15px;
+ display:none;
+}
+.li_secondNav{
+	float:left;
+	text-align:center;
+}
+.li_secondNav a:link, .li_secondNav a:visited, .li_secondNav a:hover, .li_secondNav a:active{
+	font-family:"黑体";
+	font-size:12px;
+	color:#fff;	
+	height:24px;
+	line-height:24px;
+	text-align:center;	
+	padding:5px;
+}
+/*学校概况*/
+.ul_nav_school{
+	left:110px;	
+}
+.ul_nav_schoolM{
+	left:207px;	
+}
+.ul_nav_teacher{
+	left:305px;	
+}
+.ul_nav_edu{
+	left:290px;
+}
+.ul_nav_book{
+	left:505px;
+}
+.ul_nav_teachMan{
+	left:602px;
+}
+.ul_nav_deyu{
+	left:610px;
+}
+.ul_nav_schoolMates{
+	left:795px;
+}
+.ul_nav_resource{
+	left:765px;
+	z-index:2;
+}
+/*******************************  导航栏容器 End  **********************************/
+/*******************************  登录 Start  **********************************/
+.input_name{
+	height:17px;
+	width:160px;
+	position:absolute;
+	background:#FFF;
+	left:73px;
+	top:68px;
+}
+.input_pass{
+	height:17px;
+	width:160px;
+	position:absolute;
+	background:#FFF;
+	left:73px;
+	top:103px;
+}
+.but_reg{
+	position:absolute;
+	left:130px;
+	top:140px;
+	width:57px;
+	height:28px;
+	background:none;
+	border:0px;
+	cursor:pointer;
+}
+.but_login{
+	position:absolute;
+	left:207px;
+	top:140px;
+	width:57px;
+	height:28px;
+	background:none;
+	border:0px;
+	cursor:pointer;
+}
+/*******************************  登录 End  **********************************/
+/*******************************  左侧面板video start  **********************************/
+.title_video{
+	background:url(../../image/index/title_video.jpg) left top no-repeat;
+	height:50px;
+	width:194px;
+	position:absolute;
+	left:-7px;
+	top:0px;
+}
+.schoolVideo{
+	font-family:"黑体";
+	font-size:16px;
+	color:#000;
+	position:absolute;
+	left:81px;
+	top:20px;
+}
+.bg_video{
+	background:url(../../image/index/bg_video_temp.jpg) left top no-repeat;
+	width:280px;
+	height:223px;
+	position:absolute;
+	top:53px;
+}
+.bg_headerMail{
+	background:url(../../image/index/bg_headerMail.jpg) left top no-repeat;
+	width:283px;
+	height:81px;
+	position:absolute;
+	left:0px;
+	top:0xp;
+}
+.name_headerMail{
+	position:absolute;
+	left:96px;
+	top:21px;
+	font-family:"黑体";
+	font-size:24px;
+	color:#000;
+}
+.ul_leftList{
+	width:284px;
+	position:absolute;
+	top:90px;
+}
+.ul_leftList li{
+	width:284px;
+	height:47px;
+	background:url(../../image/index/bg_leftList.jpg) left top no-repeat;
+	margin-bottom:4px;
+	position:relative;
+}
+.ul_leftList li a{
+	font-family:"黑体";
+	font-size:16px;
+	position:absolute;
+	left:169px;
+	top:14px;
+	color:#000;
+}
+.wrapper_star{
+	border:2px solid #d2d2d2;
+	width:274px;
+	height:200px;
+	position:absolute;
+	left:0px;
+	top:403px;
+}
+.star{
+	background:url(../../image/index/star.jpg) left top no-repeat;
+	width:72px;
+	height:69px;
+	position:absolute;
+	left:-3px;
+	top:-10px;
+}
+.title_star{
+	font-family:"黑体";
+	font-size:16px;
+	color:#000;
+	position:absolute;
+	left:76px;
+	top:25px;
+	cursor:pointer;
+}
+.img_star{
+	height:131px;
+	width:117px;
+	position:absolute;
+	left:14px;
+	top:58px;
+}
+.content_star{
+	position:absolute;
+	left:143px;
+	top:67px;
+	width:120px;
+	height:112px;
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#000;
+}
+.wrapper_friendLink{
+	border:2px solid #d2d2d2;
+	width:274px;
+	height:185px;
+	position:absolute;
+	left:0px;
+	top:614px;
+}
+.bg_title_friendLink{
+	height:51px;
+	width:51px;
+	position:absolute;
+	left:12px;
+	top:12px;
+	background:url(../../image/index/title_friendLink.jpg) left top no-repeat;
+}
+
+.wrapper_select_friendLink{
+	position:absolute;
+	top:64px;
+	left:59px;
+}
+.select_friendLink{
+	margin-bottom:15px;
+	width:169px;
+	height:20px;
+	border:1px solid #5f6a72;
+	background:#d2d2d2;
+	text-align:center;
+}
+.select_friendLink option{
+	text-align:center;
+	background:#d2d2d2;
+}
+/*******************************  左侧面板video End  **********************************/
+
+/*******************************  校园新闻 Start  **********************************/
+.bg_schoolNews{
+	background:url(../../image/index/border_schoolNews.gif) left top no-repeat;
+	width:516px;
+	height:229px;
+	position:absolute;
+}
+.bg_notices{
+	background:url(../../image/index/border_notices.gif) left top no-repeat;
+	width:179px;
+	height:231px;
+	position:absolute;
+	left:520px;
+	top:0px;
+}
+/***************滚动图片Start*************/
+#wrapper_scrollPhoto{
+	height:186px;
+	width:200px;
+	position:absolute;
+	top:14px;
+	left:14px;
+	background:#d7d7d7;
+	overflow:hidden;
+}
+.bg_scrollPhoto{
+	background:url(../../image/index/bg_scrollPhoto.jpg) left top no-repeat;
+}
+.titlePic{
+	width:204px;
+	text-align:center;
+	height:20px;
+	line-height:20px;
+	color:#9fb31a;
+	text-decoration:underline;
+	white-space:nowrap; 
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 
+	overflow:hidden;
+	display:block;
+}
+.wrapper_picNews{
+	display:none;
+}
+.titlePic_s{
+	display:block;
+}
+.title_scrollPhotos{
+	width:204px;
+	text-align:center;
+	font-size:10px;
+	color:#a2a2a2;
+	position:absolute;
+	left:17px;
+	top:178px;
+}
+.more_title_schoolNews{
+	display:block;
+	margin-left:573px;
+	margin-top:9px;
+	width:30px;
+	height:11px;
+}
+.photo_scroll {
+	POSITION: relative; WIDTH: 235px; HEIGHT: 165px;
+	background:url(../../image/index/bg_border_photo.jpg.jpg) left top no-repeat;
+	z-index:0;
+}
+.photo_scroll img{
+	cursor:pointer;
+	position:relative;
+}
+.jsNav {
+	background:url(../../image/index/but_scrollPhoto.jpg) no-repeat;
+}
+.prevBtn {
+	background:url(../../image/index/jsNav.jpg) no-repeat;
+}
+.nextBtn {
+	background:url(../../image/index/jsNav.jpg) no-repeat;
+}
+.imgSelected {
+	background:url(../../image/index/but_photo.gif);
+}
+.jsNav {
+	POSITION:absolute;
+	WIDTH: 180px; 
+	height:29px; 
+	BOTTOM:-20px; 
+	FONT-FAMILY: Arial, Helvetica, sans-serif; 
+	left:50px; 
+	FONT-WEIGHT: bold;
+	padding-left:6px;
+	padding-top:5px;
+}
+#prev{
+	display:block;
+	height:16px;
+	width:26px;
+	margin-right:27px;
+}
+#next{
+	display:block;
+	height:16px;
+	width:26px;
+	position:absolute;
+	right:0px;
+}
+.jsNav a {
+	display:block;
+	TEXT-ALIGN:center; 
+	LINE-HEIGHT:20px; 
+	WIDTH:23px; 
+	margin-right:4px;
+	height:20px;
+	FLOAT:left; 
+	padding-top:2px;
+	color:#FFF;
+	background:url(../../image/index/but_photo.gif) 0px 0px no-repeat;
+}
+.imgSelected {
+	background-position:0px -22px !important; 
+	font-weight:bold;
+}
+.img_scroll{
+	height:148px;
+	width:200px;
+}
+.img_scroll_hidden{
+	display:none;
+	height:148px;
+	width:200px;
+}
+/***************滚动图片End*************/
+.titleSchoolNews{
+	width:258px;
+	border-bottom:1px solid #cacaca;
+	height:24px;
+	position:absolute;
+	left:230px;
+	top:8px;
+}
+.schoolNews{
+	font-family:"黑体";
+	font-size:16px;
+	color:#000;
+	position:absolute;
+	left:35px;
+}
+.moreSchoolNews{
+	font-family:"黑体";
+	color:#61bfcd;
+	font-size:11px;
+	position:absolute;
+	left:217px;
+	top:8px;
+}
+.ul_campusNews{
+	height: 200px;
+	left: 0px;
+	position: absolute;
+	top: 52px;
+	width: 400px;
+}
+.li_campusNews{
+	background:url(../../image/index/listImg.gif) no-repeat scroll 0px 7px transparent;
+	color: rgb(158,158,158);
+	font-size: 12px;
+	height: 22px;
+	line-height: 22px;
+	*height: 20px;
+	*line-height: 20px;
+	padding-left: 18px;
+	position: relative;
+}
+.link_campusNews{
+	color: #585858;
+	font-size: 12px;
+	overflow: hidden;
+	white-space:nowrap; 
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 
+	overflow:hidden;
+	display:block;
+	width:13em;
+}
+.link_campusNews:hover{
+	color:#2b68af;
+}
+.dateList_campusNews{
+	left: 200px;
+	position: absolute;
+	top: 0;
+	color:#585858;
+}
+
+.ul_notice{
+	height: 132px;
+	left: 17px;
+	position: absolute;
+	top: 70px;
+	width: 133px;
+	overflow:hidden;
+}
+.li_notice{
+	background:url(../../image/index/listImg.gif) no-repeat scroll 0px 6px transparent;
+	color: rgb(51,54,58);
+	font-size: 12px;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 8px;
+	position: relative;
+}
+.link_notice{
+	color: rgb(51,54,58);
+	display: block;
+	font-size: 12px;
+	white-space: nowrap;
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 
+	overflow:hidden;
+	display:block;
+	width:10em;
+}
+.li_notice a:hover{
+	color:#2b68af;
+}
+.title_notice{
+	position:absolute;
+	left:64px;
+	top:24px;
+	font-family:"黑体";
+	font-size:16px;
+	color:#000;
+}
+/******************************* 校园新闻 End  **********************************/
+/******************************* 教育研究等 Start  **********************************/
+.wrapperBlocks{
+	background:url(../../image/index/borderBlocks.png) left top no-repeat;
+	width:697px;
+	height:208px;
+	position:absolute;
+}
+.wrapperBlocksFirst{
+	top:234px;
+	left:0px;
+}
+.wrapperBlocksSecond{
+	top:629px;
+	left:0px;
+}
+.wrapperBlocksThird{
+	top:845px;
+	left:0px;
+}
+.wrapperBlocksForth{
+	top:1064px;
+	left:0px;
+}
+.titleBlocksFirst{
+	position:absolute;
+	left:44px;
+	top:13px;
+	font-family:"黑体";
+	font-size:16px;
+	color:#000;	
+}
+.titleBlocksSecond{
+	position:absolute;
+	left:394px;
+	top:13px;
+	font-family:"黑体";
+	font-size:16px;
+	color:#000;
+}
+	
+.moreBlocks{
+	font-family:"黑体";
+	color:#6c6f70;
+	font-size:11px;
+	position:absolute;
+	left:300px;
+	top:17px;
+}
+.moreBlocksSecond{
+	left:645px;
+}
+.ul_blocks{
+	height: 133px;
+	left: 15px;
+	position: absolute;
+	top: 55px;
+	width: 320px;
+}
+.li_blocks{
+	background:url(../../image/index/listImg.gif) no-repeat scroll 0px -67px transparent;
+	color: #585858;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+	*height: 22px;
+	*line-height: 22px;
+	padding-left: 16px;
+	position: relative;
+}
+.li_blocks_low{
+	background:url(../../image/index/listImg.gif) no-repeat scroll 0px -71px transparent;
+	color: #585858;
+	font-size: 12px;
+	height: 18px;
+	line-height: 18px;
+	*height: 16px;
+	*line-height: 16px;
+	padding-left: 16px;
+	position: relative;
+}
+.link_blocks{
+	color: #585858;
+	display: block;
+	font-size: 12px;
+	width: 18em;
+	white-space:nowrap; 
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 
+	overflow:hidden;
+	display:block;
+}
+.link_blocks:hover{
+	color:#2b68af;
+}
+.dateList_blocks{
+	left: 240px;
+	position: absolute;
+	top: 0;
+}
+.ul_blocksSecond{
+	left:370px;
+}
+.img_blocks{
+	height:61px;
+	width:85px;
+	position:absolute;
+	left:9px;
+	top:43px;
+}
+.img_blocksS{
+	left:369px;
+}
+.ul_teacher{
+	margin-top:55px;
+}
+.info_imgRight{
+	position:absolute;
+	width:200px;
+	height:55px;
+	left:116px;
+	top:47px;
+	overflow:hidden;
+	font-size:12px;
+	color:#585858;
+}
+.link_info_imgRight{
+	color:#585858;
+	cursor:pointer;
+}
+.info_imgRightS{
+	left:475px;
+}
+/******************************* 教育研究等 End  **********************************/
+
+/******************************* 图片中心 Start  **********************************/
+.photoCenter{
+	width:697px;
+	height:133px;
+	position:absolute;
+	left:0px;
+	top:444px;
+	background:url(../../image/index/bg_photoCenter.png) left top no-repeat;
+}
+.wrapperScroll {
+	FONT-SIZE: 12px; 
+	OVERFLOW: hidden;
+	WIDTH: 583px;  
+	ZOOM: 1;
+	position:absolute;
+	left:90px;
+	top:18px;
+}
+.wrapperScroll .pcont {
+	FLOAT: left; 
+	OVERFLOW: hidden; WIDTH: 548px
+}
+.wrapperScroll .ScrCont {
+ 	WIDTH: 32766px; ZOOM: 1
+}
+.wrapperScroll #List1_1 {
+	 FLOAT: left
+}
+.wrapperScroll #List2_1 {
+ 	FLOAT: left
+}
+.wrapperScroll .LeftBotton {
+	BACKGROUND:url(../../image/index/arrowPhoto.jpg) left top no-repeat;
+	FLOAT: left; 
+	WIDTH: 14px; 
+	HEIGHT: 21px;
+	margin-top:40px;
+}
+.wrapperScroll .RightBotton {
+	BACKGROUND:url(../../image/index/arrowPhoto.jpg) left -29px no-repeat;
+	FLOAT: left; 
+	WIDTH: 14px; 
+	HEIGHT: 21px;
+	margin-top:40px;
+}
+.wrapperScroll .pl IMG {
+ DISPLAY: block;
+ MARGIN: 6px auto 1px; 
+ height:87px;
+ width:125px; 
+ border:0px;
+}
+.wrapperScroll .pl {
+  FLOAT: left; 
+  WIDTH: 137px; 
+  height:98px;
+  LINE-HEIGHT: 24px; 
+  TEXT-ALIGN: center; 
+  TEXT-DECORATION: underline;
+  background:url(../../image/index/bg_img.jpg);
+}
+.commu_cont3 {
+ MARGIN: 9px 7px 7px; LINE-HEIGHT: 150%
+}
+.commu_cont3 UL {
+ WIDTH: 188px
+}
+/******************************* 图片中心 End  **********************************/
+/******************************* 搜索 Start  **********************************/
+.bg_search{
+	width:696px;
+	height:30px;
+	position:absolute;
+	left:0px;
+	top:590px;
+	background:url(../../image/index/bg_search.jpg) left top no-repeat;
+}
+.input_search_F{
+	width:108px;
+	height:14px;
+	position:absolute;
+	left:82px;
+	top:4px;
+}
+.input_search_S{
+	width:108px;
+	height:20px;
+	position:absolute;
+	left:144px;
+	top:4px;
+}
+.input_search_T{
+	width:160px;
+	height:14px;
+	position:absolute;
+	left:352px;
+	top:4px;
+}
+.radioSearchF{
+	display:block;
+	position:absolute;
+	left:533px;
+	top:5px;
+	width:15px;
+	height:15px;
+	background:url(../../image/index/radioSearch.jpg) left top no-repeat;
+	cursor:pointer;
+}
+.radioSearchS{
+	display:block;
+	position:absolute;
+	left:590px;
+	top:6px;
+	width:15px;
+	height:15px;
+	background:url(../../image/index/radioSearch.jpg) left top no-repeat;
+	cursor:pointer;
+}
+.radioSearchSelect{
+	background:url(../../image/index/radioSearch.jpg) left -15px no-repeat;
+}
+.input_search{
+	border:none;
+	width:37px;
+	height:15px;
+	position:absolute;
+	left:644px;
+	top:8px;
+	cursor:pointer;
+	background:none;
+}
+/******************************* 搜索 End  **********************************/
+/*******************************  footer Start  **********************************/
+.wrapper_contentFooter{
+	position:absolute;
+	left:0px;
+	top:20px;
+}
+.wrapper_contentFooter div{
+	color:#dbd7d7;
+	font-size:11px;
+	width:1000px;
+	text-align:center;
+}
+/*******************************  footer End  **********************************/
+
+/****************************二级页面Start****************************/
+#wrapper_contentSecond{
+	width:972px;
+	padding:0px 13px;
+	position:relative;
+	background:#fff;
+	padding-top:30px;
+}
+#wrapper_contentSecondLeft{
+	width:284px;
+	float:left;
+}
+#wrapper_contentSecondRight{
+	width:665px;
+	margin-left:18px;
+	float:left;
+	position:relative;
+}
+.ul_leftList_second{
+	position:relative;
+	top:0px;
+	left:0px;
+}
+/*搜索Start*/
+.bg_search_second{
+	background:url(../../image/common/bg_search_second.jpg) left top no-repeat;
+	width:280px;
+	height:187px;
+	margin-top:25px;
+	margin-bottom:10px;
+	position:relative;
+}
+.title_search{
+	color:#000;
+	position:absolute;
+	left:120px;
+	top:32px;
+	font-size:16px;
+	font-family:"黑体";
+}
+.input_search_second{
+	position:absolute;
+	left:9px;
+	top:80px;
+	border:1px solid #5f6a72;
+	width:253px;
+	height:25px;
+	background:#d2d2d2;
+	color:#666;
+}
+.but_search{
+	position:absolute;
+	left:207px;
+	top:138px;
+	width:58px;
+	height:28px;
+	background:none;
+	border:0px;
+	cursor:pointer;
+}
+.select_search{
+	position:absolute;
+	top:138px;
+	left:9px;
+	width:112px;
+	border:1px solid #5f6a72;
+}
+/*搜索End*/
+.now_position{
+	position:relative;
+	top:-63px;
+	float:right;
+}
+.now_position a{
+	color:rgb(0,0,0);
+}
+.h_content{
+	margin-top:18px;
+	vertical-align:baseline;
+	width:90%;	
+	margin-left:25px;
+	background:url(../../image/common/bg_content.jpg) left -92px no-repeat;
+	height:18px;
+	line-height:18px;
+}
+.h_content_sendMessage{
+	margin-top:18px;
+	vertical-align:baseline;
+	width:90%;	
+	margin-left:25px;
+	background:url(../../image/common/bg_content.jpg) left -84px no-repeat;
+	height:26px;
+	line-height:18px;
+}
+.Title_sendMessage{
+	background:url(../../image/common/title_sendMessage.jpg) left top no-repeat;
+	display:block;
+	height:59px;
+	width:156px;
+}
+.h_content .Title{
+	font-size:18px;
+	font-family:"黑体";
+	color:#617d9d;
+	background:#fff;	
+}
+.h_content .Sep{
+	font-size:18px;
+	color:#cbcbcb;
+	background:#fff;	
+	padding-left:2px;
+}
+.h_content .titleEx{
+	font-size:14px;
+	color:#a2a2a2;
+	background:#fff;	
+	padding-left:3px;
+	line-height:21px;
+}
+/****************************二级页面End****************************/
+/****************************留言板End****************************/
+.left_table_reg{
+	text-align:right;
+	font-size:16px;
+	font-family:"黑体";
+}
+.table_reg tr{
+	height:36px;
+	line-height:36px;	
+}
+
+.but_nexStep{
+	background:url(../../image/common/bg_ne.png) left top no-repeat;
+	border:0px solid;
+	width:56px;
+	height:26px;	
+	margin-left:200px;
+	margin-top:50px;
+}
+.but_reSet{
+	background:url(../../image/common/bg_re.png) left top no-repeat;
+	border:0px solid;
+	width:56px;
+	height:26px;
+	margin-left:50px;
+	margin-top:50px;
+}
+.wrapper_messageForm{
+	margin-top:50px;	
+}
+.wrapper_messageForm tr{
+	height:36px;
+	line-height:36px;	
+}
+#sexM{
+	margin-left:20px;	
+}
+.sexC{
+	padding-right:20px;
+	font-size:14px;
+	color:#666;	
+	padding-left:25px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.sex_uncheck{
+	background:url(../../image/common/sexC.png) left 2px no-repeat;	
+}
+.sex_check{
+	background:url(../../image/common/sexUC.png) left 2px no-repeat;
+}
+/*左侧菜单局部块*/
+.wraperLeftMenuItemPage{
+	padding-top:5px;	
+	position:relative;
+	border:2px solid #ccc;
+	width:275px;
+}
+.wraperLeftMenuItemPage .Footer{
+	width:182px;
+	height:9px;
+	background:url(../../image/common/bg_leftMenuPage.jpg) -6px -30px no-repeat;
+	margin-left:6px;
+}
+.wraperLeftMenuItemPage h3{
+	font-size:16px;
+	font-family:"黑体";
+	color:#000;
+	height:40px;
+	line-height:40px;	
+	border-bottom:1px dashed #d8d8d8;
+	width:160px;
+	text-indent:1em;
+}
+.wraperLeftMenuItemPage .ul_h4{
+	padding:20px 0px 30px 0px;	
+}
+.wraperLeftMenuItemPage .ul_h4_sendMessage{
+	padding:20px 0px 30px 0px;	
+	height:140px;
+}
+.li_ul_h4_first{
+	height:63px;
+	width:200px;
+	margin-left:18px;
+	font-family:"黑体";
+	font-size:14px;
+	line-height:25px;
+	margin-bottom:27px;
+}
+
+/****************************留言板End****************************/
+
+/*******************************  空页面 Start  **********************************/
+#wrapperEmptyPage{
+	display:none;
+	background:url(../../image/common/empty.jpg) no-repeat scroll 200px 0px transparent;
+    color: #666666;
+    display: none;
+    font-family: "黑体";
+    font-size: 16px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 500px;
+}
+#wrapperEmptyPage a{
+    color: #7AB360;
+    font-size: 12px;
+    font-weight: bold;
+}
+/*******************************  空页面 End  **********************************/
+/********************************分页Start********************************/
+.page_contentSecongRight{
+	position:absolute;
+	bottom:-7px;
+	left:190px;
+	z-index:5;
+}
+#wraper_pagination{
+	text-align:right;
+}
+/********************************分页End********************************/
+/********************************列表Start********************************/
+.ul_newsList{
+	margin-top:30px;
+	margin-bottom:40px;
+}
+.li_contentSecondRight{
+	background: url(../../image/second_level/dot.gif) no-repeat;
+	color: #000;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 8px;
+	position: relative;
+	margin-left: 23px;
+}
+.link_contentSecondRight{
+	color: #000;
+	display: block;
+	font-size: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 41em;
+}
+.li_contentSecondRight a:hover{
+	color:#ff0000;
+	text-decoration:none;
+}
+.dateList_contentSecondRight{
+	left: 550px;
+	position:absolute;
+	top: 0;
+	display:block;
+	width:64px;
+}
+.dot_contentSecondLeft{
+	height:20px;
+	line-height:20px;
+	text-decoration:none;
+	white-space:nowrap; 
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 
+	overflow:hidden;
+	display:block;
+}
+/********************************列表End********************************/
+/**************新闻详细内容Start**************/
+.wrapper_newsContent{
+	width:95%;
+	min-height:200px;
+	height:auto !important;
+	height:200px;	
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:30px;
+}
+.title_newsDetail{
+	text-align:center;
+	line-height:40px;
+	font-family:"黑体";
+	font-size:16px;	
+	color:#333;
+}
+.info_news{
+	height:24px;
+	line-height:24px;
+	font-size:12px;
+	color:#666;
+	text-align:center;
+	padding:0px 5px;	
+}
+.info_news span{
+	padding:0px 10px;
+}
+.info_news .author{
+	float:left;	
+}
+.info_news .from{
+	float:left;	
+	display:block;
+	height:20px;
+	width:23em;
+	white-space:nowrap; 
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 
+	overflow:hidden;	
+}
+.info_news .date{
+	float:right;	
+}
+.wrapper_newsText{
+	padding-top:10px;	
+	width:100%;
+	overflow:hidden;
+}
+.wrapper_newsText h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.67em 0;
+}
+.wrapper_newsText h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.83em 0;
+}
+.wrapper_newsText h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+.wrapper_newsText h4 {
+    display: block;
+    font-weight: bold;
+    margin: 1.33em 0;
+}
+.wrapper_newsText h5 {
+    display: block;
+    font-size: 0.83em;
+    font-weight: bold;
+    margin: 1.67em 0;
+}
+.wrapper_newsText h6 {
+    display: block;
+    font-size: 0.67em;
+    font-weight: bold;
+    margin: 2.33em 0;
+}
+.preArticle{
+}
+.nextArticle{
+}
+.link_reArticle{
+	margin-top:20px;	
+}
+.link_reArticle a:link{
+	color:#333;
+	text-decoration:none;
+}
+.link_reArticle a:visited{
+	color:#333;
+	text-decoration:none;
+}
+.link_reArticle a:hover{
+	color:#333;
+	text-decoration:underline;
+}
+/**************新闻详细内容End**************/
+/*******************************  校友注册 Start  **********************************/
+.table_reg{
+	margin-left:17px;
+	margin-top:57px;
+	table-layout:fixed;
+	border:none;
+}
+.table_reg tr{
+	height:30px;
+	border:none;
+}
+.table_reg td{
+	border:none;
+	}
+.img_reg_left{
+	width:157px;
+	height:229px;
+	margin-left:34px;
+	margin-top:25px;
+}
+.left_table_reg{
+	width:127px;
+	text-align:right;
+	vertical-align:middle;
+}
+.input_reg{
+	width:180px;
+	height:20px;
+	margin-right:10px;
+}
+.textArea_reg{
+	width:388px;
+	height:142px;
+	resize:none;
+	overflow:auto;
+}
+.but_nexStep{
+	background:url(../../image/common/buttonReg.jpg) left top no-repeat;
+	width:60px;
+	height:27px;
+	color:#fff;
+	border:0px;
+	font-family:"宋体";
+	font-size:11px;
+	font-weight:bold;
+	margin-left:118px;
+	cursor:pointer;
+}
+.but_submit{
+	background:url(../../image/index/submit.jpg) left top no-repeat;
+	width:60px;
+	height:27px;
+	color:#fff;
+	border:0px;
+	font-family:"宋体";
+	font-size:11px;
+	font-weight:bold;
+	margin-left:118px;
+	cursor:pointer;
+}
+.but_reSet{
+	background:url(../../image/common/buttonReg.jpg) left -28px no-repeat;
+	width:60px;
+	height:27px;
+	color:#fff;
+	border:0px;
+	font-family:"宋体";
+	font-size:11px;
+	font-weight:bold;
+	margin-left:50px;
+	cursor:pointer;
+}
+/*******************************  校友注册 End  **********************************/
+
+/*******************************  优秀课例 Start  **********************************/
+.li_contentSecondRight_videoList{
+	color: rgb(0,0,0);
+	font-size: 12px;
+	float: left;
+	height: 133px;
+	margin-left: 8px;
+	overflow: hidden;
+	text-align: center;
+	width: 154px;
+}
+.link_videoList{
+	display:block;
+	height:125px;
+	height:85px;
+}
+.videoName {
+    color: #000;
+    display: block;
+    font-family: "黑体";
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 125px;
+}
+/*******************************  优秀课例 End  **********************************/
+/*******************************  视频播放容器 start  ********************************/
+#wrapperVideoDetail{
+	width:600px;
+	height:500px;
+	margin:0px auto;
+	margin-top:40px;	
+}
+#wrapperObject{
+	width:500px;
+	height:375px;
+	margin:0px auto;
+	overflow:hidden;
+}
+#wrapperObjectInfo{
+	width:500px;
+	margin:0px auto;	
+}
+#wrapperObjectInfo .Title{
+	height:24px;
+	line-height:24px;
+	color:#666;
+	font-family:"黑体";
+	font-size:14px;	
+}
+#wrapperObjectInfo table{
+	margin-bottom:40px;	
+	text-align:left;
+}
+#wrapperObjectInfo td{
+	text-align:left;
+}
+.commeVido{
+	width:12em;
+	white-space:nowrap; 
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 
+	overflow:hidden;
+	display:block;
+}
+.position_help_videoList{
+	height:60px;
+	width:1px;
+}
+/*******************************  视频播放容器 End  **********************************/
+/*******************************  登录成功 Start  **********************************/
+.login_sucessAdmin{
+	background:url(../../image/index/bg_loginSucess.jpg) left top no-repeat;
+	width:284px;
+	height:180px;
+	position:relative;
+}
+.name_admin{
+	position:absolute;
+	left:11px;
+	top:18px;
+	font-family:"黑体";
+	font-size:16px;
+	color:#000;
+}
+.welcome_FirstAdmin{
+	position:absolute;
+	left:23px;
+	top:60px;
+	font-family:"黑体";
+	font-size:20px;
+}
+.welcome_SecondAdmin{
+	position:absolute;
+	left:5px;
+	top:88px;
+	font-family:"黑体";
+	font-size:20px;
+}
+.loginAdmin{
+	position:absolute;
+	left:19px;
+	top:140px;
+	font-family:"黑体";
+	font-size:16px;
+	color:#000;
+}
+.loginOut{
+	position:absolute;
+	left:190px;
+	top:140px;
+	font-family:"黑体";
+	font-size:16px;
+	color:#000;
+}
+/*******************************  登录成功 End  **********************************/
+
+/*******************************  全站搜索 Start  **********************************/
+.wrapper_allsearch{
+	background:url(../../image/second_level/all_search.jpg) no-repeat;
+	width:612px;
+	height:81px;
+	position:relative;
+	margin-left:22px;
+	margin-top:12px;
+}
+.bg_allSearchLeft{
+	background:url(../../image/second_level/searchLeft.jpg) left top no-repeat;
+	width:196px;
+	height:395px;
+	margin-left:68px;
+}
+.ul_allSearch{
+	left: 159px;
+	position: absolute;
+	top: 14px;
+}
+.li_allSearch{
+	float: left;
+	font-family: "黑体";
+	font-size: 13px;
+	line-height: 18px;
+	padding-left: 20px;
+	position: relative;
+	width: 97px;
+}
+.link_search_allWeb {
+	background:url(../../image/second_level/radio.jpg) no-repeat scroll 0px -7px transparent;
+	display:block;
+    height: 23px;
+    left: 0;
+    position: absolute;
+    top: 0px;
+    width: 28px;
+}
+.link_search_allWebSelected {
+	background:url(../../image/second_level/radio.jpg) no-repeat scroll 0px -49px transparent;
+	display:block;
+    height: 23px;
+    left: 0;
+    position: absolute;
+    top: 0px;
+    width: 28px;
+}
+.li_allSearch span{
+	color:rgb(254,254,254);
+	padding-left:20px;
+	font-size:14px;
+}
+.input_allSearch{
+	border: 1px solid rgb(75,207,243);
+	font-size: 14px;
+	height: 25px;
+	left: 143px;
+	position: absolute;
+	top: 44px;
+	width: 370px;
+}
+.but_search_allWeb {
+	height: 27px;
+	left: 531px;
+	position: absolute;
+	top: 44px;
+	width: 47px;
+}
+.but_searchAll{
+	background:url(../../image/second_level/search.jpg) left top no-repeat;
+	width:57px;
+	height:29px;
+	position: absolute;
+	left: 531px;
+	top: 43px;
+	border:0px;
+	cursor:pointer;
+}
+.result_search {
+	float: right;
+	font-family: "黑体";
+	font-size: 14px;
+	margin-top: 16px;
+	padding-right: 38px;
+}
+.color_red{
+	color:red;
+}
+.ul_result_search{
+	margin-left: 27px;
+	margin-top: 50px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	position: relative;
+	z-index: 1;
+}
+.li_result_search{
+	color:rgb(205,64,7);
+	font-size:16px;
+	font-weight:600;
+	padding-bottom:55px;
+	position:relative;
+}
+.date_result{
+	left: 524px;
+	position:relative;
+	top: 0;
+	display:block;
+	width:77px;
+	color:#000;
+	font-size:14px;
+	font-weight:lighter;
+}
+.result_content{
+	font-size:12px;
+	font-weight:lighter;
+	color:#000;
+	line-height:1.9em;
+	position:relative;
+}
+.form_where{
+	position:absolute;
+	display:block;
+	left:2px;
+	width:180px;
+	*margin-top:20px;
+}
+/*******************************  全站搜索 End  **********************************/
+/******************************** 找回密码Start******************************* */
+.content_findPassword{
+	background:#9fceec;
+	position:relative;
+	width:517px;
+	height:198px;
+	margin:auto;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.txt_findPassword{
+	width:255px;
+	height:25px;
+	border:#000 solid 1px;
+	position:absolute;
+	left:61px;
+	top:-5px;
+}
+.txt_findPassword_password{
+	width:255px;
+	height:25px;
+	border:#000 solid 1px;
+	position:absolute;
+	left:61px;
+	top:44px;
+}
+.ul_findPassword{
+	position:absolute;
+	top:50px;
+	left:98px;
+}
+.li_findPassword{
+	height:50px;
+}
+.btn_findPassword{
+	position:absolute;
+	top:150px;
+	left:321px;
+}
+.but_nexStepFind{
+	background:url(../../image/common/bg_neF.png);
+	width:57px;
+	height:27px;
+	border:0px;
+	cursor:pointer;
+}
+.but_resetFind{
+	background:url(../../image/common/bg_reF.png);
+	width:56px;
+	height:26px;
+	border:0px;
+	cursor:pointer;
+}
+/******************************** 找回密码End******************************* */
+/*******************************  校友寄语 End  **********************************/
+.table_schoolMates{
+	margin-left:0px;
+	margin-top:17px;
+	table-layout:fixed;
+}
+.table_schoolMates tr{
+	height:30px;
+	border:none;
+}
+.table_schoolMates tr td{
+	border:none;
+}
+.textArea_SchoolMates{
+	width:560px;
+	height:250px;
+	resize:none;
+	overflow:auto;
+}
+.left_table_schoolMates{
+	width:80px;
+	text-align:right;
+	vertical-align:middle;
+}
+/*******************************  校友寄语 End  **********************************/
+
+/*******************************  异常页面 End  **********************************/
+.wrapper_error{
+	background:url(../../image/common/bg_error.jpg) 302px 96px no-repeat;
+	width:660px;
+	height:480px;
+	position:relative;
+}
+.error_type{
+	width:256px;
+	height:175px;
+	position:absolute;
+	left:20px;
+	top:40px;
+}
+.error_message{
+	position:absolute;
+	left:80px;
+	top:275px;
+	font-family:"黑体";
+	font-size:14px;
+	color:#000;
+}
+/*******************************  异常页面 End  **********************************/
+/*******************************  每周一星 End  **********************************/
+.ul_weekStar{
+	width:677px;
+	padding:36px 0px;
+}
+.ul_weekStar li{
+	height:95px;
+	position:relative;
+	margin-bottom:29px;
+}
+.photoWeekStar{
+	width:90px;
+	height:98px;
+}
+.content_weekStar_list{
+	width:560px;
+	height:105px;
+	position:absolute;
+	left:116px;
+	top:0px;
+	font-size:12px;
+	font-family:"微软雅黑";
+	overflow:hidden;
+	background:url(../../image/common/star.jpg) right top no-repeat;
+}
+.more_weekStarList{
+	color:#4C77BA;
+	position:absolute;
+	left:529px;
+	top:90px;
+	font-size:11px;
+}
+.wrapper_weekStarDetail{
+	width:683px;
+	background:url(../../image/common/bigStar.jpg) right top no-repeat;
+	position:relative;
+	margin-top:53px;
+}
+.span_photoWeekStarDetail{
+	display:block;
+	width:269px;
+	height:295px;
+	border:2px solid #a79454;
+}
+.photoWeekStarDetail{
+	width:269px;
+	height:295px;
+}
+.content_weekStar_Detail{
+	width:380px;
+	height:220px;
+	position:absolute;
+	left:310px;
+	top:50px;
+	font-size:12px;
+	font-family:"微软雅黑";
+	line-height:19px;
+}
+.content_weekStar{
+	font-size:12px;
+	font-family:"微软雅黑";
+	line-height:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+/*******************************  每周一星 End  **********************************/
+/*******************************  弹出层登录 End  **********************************/
+.wrapper_popLogin{
+	width:500px;
+	height:100px;
+	background:#9fceec;
+}
+.label_login{
+	margin-left:125px;
+	margin-bottom:10px;
+}
+.input_login{
+	margin-left:20px;
+}
+.password_login{
+	margin-left:25px;
+}
+.wrapper_loginBut{
+	margin-left:147px;
+	margin-top:20px;
+}
+.p_wrongPassword{
+	position:absolute;
+	left:177px;
+	top:55px;
+}
+.but_popLogin{
+	cursor:pointer;
+}
+/*******************************  弹出层登录 End  **********************************/
