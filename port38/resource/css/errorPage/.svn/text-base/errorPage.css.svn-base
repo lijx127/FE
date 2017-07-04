@@ -1,0 +1,36 @@
+/* CSS Document */
+body{
+	margin:0px;
+	font:12px/1.5 Arial, sans-serif;	
+	padding-top:20px;
+}
+
+#wraper_errorPage{
+	width:920px;
+	position:relative;
+	background:url(../../image/bg_errorPage.jpg) left top no-repeat;
+	height:500px;
+	margin:0 auto;
+	padding:0px;	
+}
+.errorCode{
+	position:absolute;
+	top:130px;
+	left:90px;	
+}
+.errorCodeFoot{
+	position:absolute;
+	bottom:0px;
+	right:10px;	
+}
+.errorInfo{
+	position:absolute;
+	left:560px;
+	top:130px;
+	font-size:16px;
+	font-family:"黑体";
+	line-height:30px;
+	color:#555;
+	width:210px;
+	text-indent:2em;
+}

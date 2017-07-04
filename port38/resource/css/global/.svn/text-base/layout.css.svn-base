@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+#wraperTop{
+	width:920px;
+	position:relative;
+	margin:0 auto;
+}
+#wraper_header{
+	width:920px;
+	height:315px;
+	background:url(../../image/common/bg_header.jpg) 0 0 no-repeat #00ac69;
+	position:relative;
+}
+#wraper_body{
+	width:920px;
+	background:url(../../image/common/bg_bodyIndex.jpg) 0 0 repeat-x #fefbd2;
+	min-height:500px;
+	_height:500px;
+	_height:auto !important;
+}
+#wraper_footer{
+	width:920px;
+	background:url(../../image/common/bg_footer.jpg) 0 0 no-repeat;
+	height:228px;	
+	position:relative;
+}
+.school_name{
+	position:absolute;
+	left:23px;
+	top:86px;
+}
+#wraper_Commonfooter{
+	height:105px;
+	text-align:center;
+	background:url(../../image/common/commonFooter.jpg) 0 0 no-repeat;
+	position:relative;
+}
+#wraper_nav{
+	width:920px;
+	position:absolute;
+	bottom:0px;
+	_bottom:-1px;
+	left:0px;	
+	background:url(../../image/common/bg_headerFoot.jpg) 0 22px repeat-x;
+}
+#wraper_scrollInfoIndex{
+	width:920px;
+	display:block;
+	overflow:hidden;
+	zoom:1;	
+	height:20px;
+}
+#wraper_scrollInfoIndex a{
+	color:#8e908f;
+	text-decoration:none;	
+}
+#wraper_scrollInfoIndex a:hover{
+	color:#8e908f;
+	text-decoration:underline;
+	cursor:pointer;	
+}
+.wraper_commonContent{
+	width:880px;
+	margin:0 auto;
+	position:relative;
+}
+.wraper_commonContent_footer{
+	width:880px;
+	margin:0 auto;
+	position:relative;
+}
+.wraper_commonContent_img{
+	width:880px;
+	margin:0 auto;
+	position:absolute;
+	top:138px;
+}
+.wraper_commonContent_footer li{
+	float:left;
+	margin-top:5px;
+	margin-right:15px;
+	margin-left:15px
+}
+/*******************************  快速入口2容器 start  ********************************/
+#wraper_fastEntList{
+	float:left; width:260px;
+	margin-top:18px;	
+}
+/*******************************  快速入口2容器 End  **********************************/
+
+/*******************************  频道容器 start  ********************************/
+#wraper_channel{
+	background:url(../../image/index/chanell.jpg) 0 0 no-repeat;
+	width:920px;
+	height:305px;
+	z-index:0;
+	margin-top:-15px;	
+	overflow:hidden;
+}
+/*******************************  频道容器 End  **********************************/
+
+/*******************************  名师风采&校园专题 容器 start  ********************************/
+#wraper_tT{margin-top:12px;}
+/*******************************  名师风采&校园专题 容器 End  **********************************/
+
+/*******************************  底部功能块容器 start  ********************************/
+#funcBlock{margin-top:15px;}
+/*******************************  底部功能块容器 End  **********************************/
+
+/*******************************  左侧菜单栏容器 start  ********************************/
+#wraper_leftMenu{
+	float:left;
+	width:200px;
+	background:url(../../image/menu/m05_top.png) 0px 0px no-repeat;
+	_background:url(../../image/menu/m05_top.gif) 0px 0px no-repeat;
+	min-height:400px;
+	_height:400px;
+	_heigth:auto !important;
+}
+.title_leftMenu{
+	font-family:"黑体";
+	font-size:18px;
+	color:#FFF;
+	font-weight:bold;
+	margin-top:51px;
+	display:block;
+	margin-left:16px;
+}
+/*******************************  左侧菜单栏容器 End  **********************************/
+
+/*******************************  右侧内容容器 start  ********************************/
+#wraper_newsBody{
+	background:url(../../image/contentBody/m06.png) 315px -135px no-repeat;
+	_background:url(../../image/contentBody/m06.gif) 315px -135px no-repeat;
+	width:667px;	
+	float:left;
+	min-height:400px;
+	_height:400px;
+	_height:auto !important;
+}
+/*******************************  右侧内容容器 End  **********************************/

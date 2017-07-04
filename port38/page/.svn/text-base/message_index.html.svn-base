@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="../resource/css/screen.css" />
+</head>
+
+<body>
+<div id="wraperTop">
+  <div id="wraper_header">
+    <div id="wraper_search">
+      <label for="input_search">查询关键字：</label>
+      <input type="text" class="input_search" id="input_search" />
+      <a href="javascript:;" class="link_search">GO</a> </div>
+      <a href="javascrpt:;" class="fastNav" id="tChannel">教师频道</a> 
+      <a href="javascrpt:;" class="fastNav" id="sChannel">学生频道</a> 
+      <a href="javascrpt:;" class="fastNav" id="pChannel">家长频道</a>
+      <img src="../resource/image/schoolName.gif" class="school_name" />
+    <div id="wraper_nav">
+      <ul id="ul_nav">
+        <li><a href="javascript:;" class="selected">首页</a></li>
+        <li><a href="javascript:;">学校概况</a></li>
+        <li><a href="javascript:;">新闻中心</a></li>
+        <li><a href="javascript:;">教育教学</a></li>
+        <li><a href="javascript:;">科研课题</a></li>
+        <li><a href="javascript:;">教育资源</a></li>
+        <li><a href="javascript:;">党政建设</a></li>
+        <li class="li_lastLiNav"><a href="javascript:;">德育频道</a></li>
+      </ul>
+    </div>
+    <div class="clearBoth"></div>
+  </div>
+  <div id="wraper_body"> 
+    <!--文字滚动条start-->
+    <div id="wraper_scrollInfoIndex">
+      <marquee id="affiche" align="left" width="880" behavior="scroll" direction="left"  hspace="20" vspace="0" loop="-1" scrollamount="2" scrolldelay="5" onMouseOut="this.start()" onMouseOver="this.stop()">
+      <a>这是一个完整的例子</a>
+      </marquee>
+    </div>
+    <!--文字滚动条end-->
+    
+    <div class="wraper_commonContent"> 
+    
+      <!-- 友情链接start-->
+        <div id="breadTail"> 
+        	<span class="content_bt">
+          	当前位置：<a href="javascript:;" class="link_bt">首页</a><b class="btSep">--></b><a href="javascript:;" class="link_bt currentBt">留言板</a> 
+        	</span>
+        </div>
+          <div id="wraper_title_child_flower">
+          	<h3 class="h_mIitle_more_flower">留言板</h3>        
+          </div>    
+      <div class="wraper_content_mess_top"></div>  
+          <ul class="ul_content_mess">
+          	<li>
+            <img src="../resource/image/menu/temp2.jpg" /><div class="name_content_mess">昵称：小六</div>
+            <div class="title_content_mess">主题：关于新生报到问题<div class="date_content_mess">2011-07-21</div></div>
+            <div class="content_mess">内容：关于新的一年新生报到关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题问题</div>
+            <div class="info_mess">评论（2）|浏览（9）|<a href="javascript:;">回复</a></div>
+            </li>
+            <li>
+            <img src="../resource/image/menu/temp2.jpg" /><div class="name_content_mess">昵称：小六</div>
+            <div class="title_content_mess">主题：关于新生报到问题<div class="date_content_mess">2011-07-21</div></div>
+            <div class="content_mess">内容：关于新的一年新生报到关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题问题</div>
+            <div class="info_mess">评论（2）|浏览（9）|<a href="javascript:;">回复</a></div>
+            </li>
+            <li>
+            <img src="../resource/image/menu/temp2.jpg" /><div class="name_content_mess">昵称：小六</div>
+            <div class="title_content_mess">主题：关于新生报到问题<div class="date_content_mess">2011-07-21</div></div>
+            <div class="content_mess">内容：关于新的一年新生报到关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题问题</div>
+            <div class="info_mess">评论（2）|浏览（9）|<a href="javascript:;">回复</a></div>
+            </li>
+            <li>
+            <img src="../resource/image/menu/temp2.jpg" /><div class="name_content_mess">昵称：小六</div>
+            <div class="title_content_mess">主题：关于新生报到问题<div class="date_content_mess">2011-07-21</div></div>
+            <div class="content_mess">内容：关于新的一年新生报到关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题问题</div>
+            <div class="info_mess">评论（2）|浏览（9）|<a href="javascript:;">回复</a></div>
+            </li>
+            <li>
+            <img src="../resource/image/menu/temp2.jpg" /><div class="name_content_mess">昵称：小六</div>
+            <div class="title_content_mess">主题：关于新生报到问题<div class="date_content_mess">2011-07-21</div></div>
+            <div class="content_mess">内容：关于新的一年新生报到关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题关于新的一年新生报到问题问题</div>
+            <div class="info_mess">评论（2）|浏览（9）|<a href="javascript:;">回复</a></div>
+            </li>
+          </ul>   
+      <div class="wraper_content_mess_bottom"></div>     
+          <div class="bg_cloud_two_mess"></div> 
+                         
+  		  <div class="wraper_commonPage">         	
+          </div>
+        </div>
+      <!-- 友情链接end--> 
+    </div>
+    
+      <div id="wraper_Commonfooter">
+		<p class="info_Commonfooter">广播电视节目制作经营许可证（京）字第828号 甲测资字11002019 京公网安备110000000016号</p>
+  	  </div>
+  </div>
+</div>
+</body>
+</html>

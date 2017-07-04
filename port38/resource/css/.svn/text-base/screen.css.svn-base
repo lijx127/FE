@@ -1,0 +1,7 @@
+/* CSS Document */
+
+@import url("global/reset.css");
+@import url("global/layout.css");
+@import url("global/global.css");
+@import url("global/widget.css");
+@import url("global/element.css");

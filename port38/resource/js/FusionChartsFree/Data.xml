@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<chart caption="Sales Summary" bgColor="fef3bd" subCaption="For the year 2010" numberPrefix="$" sformatNumberScale="1" numberSuffix="ÈË" sNumberPrefix="$" syncAxisLimits="1" rotateValues="1" showSum="0">
+<!-- Data for single series chart -->
+	<set label="1" value="1"/>
+	<set label="2" value="10"/>
+	<set label="3" value="10"/>
+	<set label="4" value="1"/>
+	<set label="5" value="1"/>
+	<set label="6" value="1"/>
+	<set label="7" value="1"/>
+	<set label="8" value="1"/>
+	<set label="9" value="1"/>
+	<set label="10" value="1"/>
+	<set label="11" value="1"/>
+	<set label="12" value="1"/>
+</chart>

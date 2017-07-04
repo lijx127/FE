@@ -1,0 +1,21 @@
+/* CSS Document */
+.clearBoth{clear:both;}
+
+/*页底版权信息*/
+.info_Commonfooter{
+	position:absolute;
+	bottom:0px;
+	width:920px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	left:0px;
+}
+/*背景色*/
+.bgcolor_all{
+	background:#fef3bd;
+}
+/*分页*/
+#wraper_pagination{
+	text-align:center;
+}

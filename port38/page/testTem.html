@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<ul class="ul_newsList" id="ul_newsList">
+</ul>
+<textarea id="template" style="display:none">
+	{#if $T.type == 0}
+    	{#foreach $T.table as record}
+        	<li class="li_ul_newsList">
+                <a href="javascript:;" class="link_newsList">{$T.record.title}</a>
+                <span class="date_newsList"><{$T.record.date}></span>
+            </li>
+        {#/for}
+    {#/if}
+</textarea>
+</body>
+<script type="text/javascript" src="../resource/js/jquery-1.6.1.js"></script>
+<script type="text/javascript" src="../resource/js/j_templates.js"></script>
+<script type="text/javascript">
+var initObject = {
+	type:0,
+	table:[
+	{title:"zhongguo",date:"2010-01-109"},
+	{title:"zhongguo",date:"2010-01-109"},
+	{title:"zhongguo",date:"2010-01-109"}]
+};
+$("#ul_newsList").setTemplateElement("template");						
+			// process the template			
+$("#ul_newsList").processTemplate(initObject);	
+</script>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<chart caption="Sales Summary" bgColor="fef3bd" subCaption="For the year 2010" numberPrefix="$" sformatNumberScale="1" numberSuffix="人" sNumberPrefix="$" syncAxisLimits="1" rotateValues="1" showSum="0">
+<!-- Data for single series chart -->
+	<set label="第一季度" value="232"/>
+	<set label="第二季度" value="339"/>
+	<set label="第三季度" value="411"/>
+	<set label="第四季度" value="3984"/>
+</chart>

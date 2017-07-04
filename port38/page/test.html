@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="../resource/js/jquery-1.6.1.js">
+</script>
+<title>无标题文档</title>
+</head>
+<body>
+<select class="first" name="" size="1">
+  <option>lijix</option>
+</select>
+<select class="second" name="" size="1">
+  <option>hello</option>
+</select>
+<input class="sub" type="submit" value="OK" /> 
+<span class="add"></span>
+<img id="a" src="../../resource/image/eduresource/start.gif" />
+
+<select id="parentTagSel" name="eduResource.tagId" dataType="mustSelected">
+<option value="-1">请选择</option>
+<option value="">sdfds</option>
+<option value="">我记得</option>
+<option value="">水电费及是</option>
+</select>
+<img src="../resource/image/menu/temp2.jpg" />
+<select id="childTagSel" name="eduResource.tagId" dataType="mustSelected">
+<option value="-1">请选择</option>
+<option value="">sdfds</option>
+<option value="">我记得</option>
+<option value="">水电费及是</option>
+</select>
+<img src="../resource/image/menu/percent-temp.jpg" />
+</body>
+<script type="text/javascript">
+	$(".first").bind('click',function(){
+		$(".second").find("option").remove();
+		$(".sub").remove();
+		$(".second").append("<option value='lijx'>李佳欣李佳欣李佳欣</option>");
+		$(".add").append("<input class='sub' type='submit' value='OK' />");
+	});
+	$("#parentTagSel").change(function(){
+			var parentTagId = $(this).val();
+			var parentTagName = $(this).find("option[selected]").text();
+			$("#childTagSel").siblings("img").remove();
+			$("#childTagSel").find("option").remove();
+		});
+
+</script>
+
+</html>

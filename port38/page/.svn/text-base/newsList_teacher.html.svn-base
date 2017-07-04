@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="../resource/css/screen.css" />
+</head>
+
+<body>
+<div id="wraperTop">
+  <div id="wraper_header">
+    <div id="wraper_search">
+      <label for="input_search">查询关键字：</label>
+      <input type="text" class="input_search" id="input_search" />
+      <a href="javascript:;" class="link_search">GO</a> </div>
+      <a href="javascrpt:;" class="fastNav" id="tChannel">教师频道</a> 
+      <a href="javascrpt:;" class="fastNav" id="sChannel">学生频道</a> 
+      <a href="javascrpt:;" class="fastNav" id="pChannel">家长频道</a>
+      <img src="../resource/image/schoolName.gif" class="school_name" />
+    <div id="wraper_nav">
+      <ul id="ul_nav">
+        <li><a href="javascript:;" class="selected">首页</a></li>
+        <li><a href="javascript:;">学校概况</a></li>
+        <li><a href="javascript:;">新闻中心</a></li>
+        <li><a href="javascript:;">教育教学</a></li>
+        <li><a href="javascript:;">科研课题</a></li>
+        <li><a href="javascript:;">教育资源</a></li>
+        <li><a href="javascript:;">党政建设</a></li>
+        <li class="li_lastLiNav"><a href="javascript:;">德育频道</a></li>
+      </ul>
+    </div>
+    <div class="clearBoth"></div>
+  </div>
+  <div id="wraper_body"> 
+    <!--文字滚动条start-->
+    <div id="wraper_scrollInfoIndex">
+      <marquee id="affiche" align="left" width="880" behavior="scroll" direction="left"  hspace="20" vspace="0" loop="-1" scrollamount="2" scrolldelay="5" onMouseOut="this.start()" onMouseOver="this.stop()">
+      <a>这是一个完整的例子</a>
+      </marquee>
+    </div>
+    <!--文字滚动条end-->
+    <div class="wraper_commonContent"> 
+      <!--左侧菜单栏 start-->
+      <div id="wraper_leftMenu">
+      	<span class="title_leftMenu">学校概况</span>
+        <ul class="ul_leftMenu">
+          <li><a href="javascript:;" class="link_leftMenu">师德培养</a></li>
+          <li><a href="javascript:;" class="link_leftMenu">职称评定</a></li>
+          <li><a href="javascript:;" class="link_leftMenu">师资培养</a></li>
+          <li><a href="javascript:;" class="link_leftMenu">名师风采</a></li>
+        </ul>
+        <div class="flower_bottom"></div>
+          <div class="resperson_div_leftMenu"><a href="javascript:;" class="resperson_img"><img /></a>
+          <div class="resperson_name_leftMenu">王某</div>
+          </div>
+      </div>
+      <!--左侧菜单栏 end--> 
+      <!-- 新闻列表start-->
+      <div id="wraper_newsBody">
+        <div id="breadTail"> 
+        	<span class="content_bt">
+          	当前位置：<a href="javascript:;" class="link_bt">首页</a><b class="btSep">--></b><a href="javascript:;" class="link_bt">教师频道</a><b class="btSep">--></b><a href="javascript:;" class="link_bt currentBt">教务组</a> 
+        	</span>
+        </div>
+        <div id="wraper_news">
+          <div id="wraper_title_more">
+          	<h3 class="h_mIitle_more">教务组</h3>
+            <a href="javascript:;" class="link_more">>>more</a>
+          </div>
+          <ul class="ul_newsList_pic">
+          	<li class="li_newsList_pic"><a href="http://www.baidu.com"><img class="img_newsList" src="../resource/image/menu/temp2.jpg" /><span class="name_teacher">美术教研组</span></a></li>
+            <li class="li_newsList_pic"><a href="http://www.baidu.com"><img class="img_newsList" src="" /><span class="name_teacher">美术教研组</span></a></li>
+            <li class="li_newsList_pic"><a href="http://www.baidu.com"><img class="img_newsList" src="../resource/image/menu/temp.jpg" /><span class="name_teacher">美术教研组</span></a></li>
+            <li class="li_newsList_pic"><a href="http://www.baidu.com"><img class="img_newsList" src="../resource/image/menu/temp.jpg" /><span class="name_teacher">美术教研组</span></a></li>
+            <li class="li_newsList_pic"><a href="http://www.baidu.com"><img class="img_newsList" src="../resource/image/menu/temp.jpg" /><span class="name_teacher">美术教研组</span></a></li>
+            <li class="li_newsList_pic"><a href="http://www.baidu.com"><img class="img_newsList" src="../resource/image/menu/temp.jpg" /><span class="name_teacher">美术教研组</span></a></li>
+            <li class="li_newsList_pic"><a href="http://www.baidu.com"><img class="img_newsList" src="../resource/image/menu/temp.jpg" /><span class="name_teacher">美术教研组</span></a></li>
+            <li class="li_newsList_pic"><a href="http://www.baidu.com"><img class="img_newsList" src="../resource/image/menu/temp.jpg" /><span class="name_teacher">美术教研组</span></a></li>
+            <li class="li_newsList_pic"><a href="http://www.baidu.com"><img class="img_newsList" src="../resource/image/menu/temp.jpg" /><span class="name_teacher">美术教研组</span></a></li>
+            <li class="li_newsList_pic"><a href="http://www.baidu.com"><img class="img_newsList" src="../resource/image/menu/temp.jpg" /><span class="name_teacher">美术教研组</span></a></li>
+          </ul>
+          <div class="wraper_commonPage">
+          	
+          </div>
+        </div>
+      </div>
+      <!-- 新闻列表end--> 
+      
+    </div>
+  </div>
+  <div id="wraper_Commonfooter">
+		<p class="info_Commonfooter">广播电视节目制作经营许可证（京）字第828号 甲测资字11002019 京公网安备110000000016号</p>
+  </div>
+</div>
+</body>
+</html>

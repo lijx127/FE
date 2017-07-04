@@ -1,0 +1,161 @@
+#wraper_Commonfooter {
+	background: url("../../image/common/commonFooter.jpg") no-repeat scroll 0 0 transparent;
+	height: 75px;
+	position: relative;
+	text-align: center;
+}
+
+#wraper_body {
+	overflow: hidden;
+}
+.table_friendLink {
+	margin:0;
+	padding:0;
+	font-size:12px;
+	color:#000;
+	width:665px;
+	margin:10px 0px;
+}
+.table_friendLink ul li {
+	width:100px;
+	float:left;
+}
+.table_friendLink ul li {
+	list-style-type:none;
+	width:165px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	float:left;
+	margin-left:1px;
+	margin-bottom:1px;
+	background:#FDFBDF;
+}
+.table_friendLink ul li.biaotou {
+	font-size:14px;
+	font-family:"黑体";
+	border-bottom: 1px solid #999999;
+}
+.table_friendLink ul li.biaotou {
+	background:#FBDE88;
+}
+.resource_list_title {
+	color: ##0030FE;
+	font-family: "黑体";
+	font-size: 16px;
+}
+.star-rating, .star-rating a:hover, .star-rating a:active, .star-rating a:focus, .star-rating .current-rating {
+	background: url(../../image/eduresource/start.gif) left -1000px repeat-x;
+}
+.star-rating {
+	position:relative;
+	width:125px;
+	height:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	background-position: left top;
+	overflow:hidden;
+}
+.star-rating li {
+	display: inline;
+}
+.star-rating span, .star-rating li,.star-rating .current-rating {
+	position:absolute;
+	top:0;
+	left:0;
+	text-indent:-1000em;
+	height:25px;
+	line-height:25px;
+	outline:none;
+	overflow:hidden;
+	border: none;
+}
+.star-rating a:hover, .star-rating a:active, .star-rating a:focus {
+	background-position: left bottom;
+}
+.star-rating a.one-star {
+	width:20%;
+	z-index:6;
+}
+.star-rating a.two-stars {
+	width:40%;
+	z-index:5;
+}
+.star-rating a.three-stars {
+	width:60%;
+	z-index:4;
+}
+.star-rating a.four-stars {
+	width:80%;
+	z-index:3;
+}
+.star-rating a.five-stars {
+	width:100%;
+	z-index:2;
+}
+.star-rating .current-rating {
+	z-index:1;
+	background-position: left center;
+}
+.download-table {
+	border-collapse: collapse;
+	border: 1px solid #828A8F;
+	border-bottom: 1px solid #828A8F;
+	border-left: 1px solid #ADD2DA;
+	font-family: "宋体";
+	font-size: 18px;
+	margin: 0 auto;
+	overflow: hidden;
+	table-layout: fixed;
+	width: 600px;
+}
+.download-table tr {
+	border-bottom: 1px solid #828A8F;
+	border-right: 1px solid #828A8F;
+	height: 25px;
+	text-align: left;
+	vertical-align: middle;
+}
+.lefTD {
+	background-color: #FBDE88;
+	width:94px;
+}
+.rightTD {
+	width:100%;
+}
+.rightTD textarea {
+	width: 480px;
+	height: 118px;
+}
+
+/*相关资源列表*/
+#table_rRelative{
+	border:1px #999 solid;
+	padding-bottom:30px;
+	width:600px;
+	margin: 0 auto;
+	margin-top:20px;
+}
+.r_hTitle{
+	height:30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-family: "黑体";
+	background-color: #FBDE88;
+	border-bottom: 1px #999 solid;
+}
+.r_list{
+	height: 24px;
+	line-height: 24px;
+	border-bottom: dashed #aaa 1px;
+}
+.r_order{
+	height: 24px;
+	line-height: 24px;
+	text-indent: 2em;
+	font-size: 12px;	
+}
+.r_discribe a{
+	text-decoration: none;
+}
