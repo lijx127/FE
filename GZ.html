@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<script>
+//APPSECRET_80:e9066f0813693a4270c3869627c48515
+//https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxf911bbe84645fead&secret=e9066f0813693a4270c3869627c48515
+</script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.post("https://api.weixin.qq.com/cgi-bin/material/add_news?access_token=31_30fO-BpLJSbPtg5-xASGBE4ZM8yNgVWmquJPSiH-wmO43yJg3WBvKMUZI7eyGvfr03VZNtUpcLALBnVgCBgGuh65D4NjwIZMMD7N07iw8sKb-efcCFJ52XLj-xRfJC9g-Q4U08H6RmddxUvgOMEhAHAIGY",
+    {
+		"articles": [{
+		 "title": "测试",
+		"thumb_media_id": "oct2OK9RWEe7XrRGg4ibnEIunWRLH6icq4vZOibEWz7mx1Vn5LrCc5h07uSVE3QrhxunugpFEbpZLHlK5oPMOCNwg",
+		"author": "",
+		//"digest": DIGEST,
+		"show_cover_pic": 1,
+		"content": "视频——测试",
+		//"content_source_url": CONTENT_SOURCE_URL,
+		"need_open_comment":1,
+		"only_fans_can_comment":0
+	},
+		//若新增的是多图文素材，则此处应还有几段articles结构
+	]
+	},
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+  });
+});
+</script>
+</head>
+<body>
+
+<button>向页面发送 HTTP POST 请求，并获得返回的结果</button>
+
+</body>
+</html>
